@@ -1,7 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { poppins } from "@/app/fonts/fonts";
-function BannerService({title,description,imgSrc}) {
+interface BannerServiceProps {
+  title: string;
+  description: string;
+  imgSrc: string;
+}
+function BannerService({ title, description, imgSrc }: BannerServiceProps) {
   return (
     <section className="max-w-screen-lg mx-auto my-24">
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
