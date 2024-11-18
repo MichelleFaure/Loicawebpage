@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "FaWhatsapp",
+    "name": "WhatsApp",
+    "schedule": "Lunes-Viernes: 9:00-18:00h"
+  },
+  {
+    "icon": "BiLogoGmail",
+    "name": "Gmail",
+    "schedule": "Lunes-Viernes: 9:00-18:00h"
+  },
+  {
+    "icon": "FaInstagram",
+    "name": "Instagram",
+    "schedule": "Tiempo de respuesta"
+  }
+]

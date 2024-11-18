@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla...",
+    "headerImg": "/resourses/example.png",
+    "authorImg": "/profiles/profilephoto.png",
+    "author": "Laura Valdés"
+  },
+  {
+    "id": "2",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Descripción del recurso 2",
+    "headerImg": "/resourses/example.png",
+    "authorImg": "/profiles/profilephoto2.png",
+    "author": "Daniela Bustos"
+  },
+  {
+    "id": "3",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla...",
+    "headerImg": "/resourses/example.png",
+    "authorImg": "/profiles/profilephoto.png",
+    "author": "Laura Valdés"
+  },
+  {
+    "id": "4",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla...",
+    "headerImg": "/resourses/example.png",
+    "authorImg": "/profiles/profilephoto2.png",
+    "author": "Daniela Bustos"
+  }
+]

@@ -1,0 +1,76 @@
+"use client";
+import { Footer } from "flowbite-react";
+import { FaLinkedin ,FaInstagram } from "react-icons/fa";
+import Image from "next/image";
+import {poppins} from "@/app/fonts/fonts";
+import Link from "next/link";
+function Footercomp() {
+  return (
+    <div className="bg-lavender-light  ">
+      <Footer
+        container
+        className={`${poppins.className} bg-lavender-light max-w-screen-lg mx-auto shadow-none `}
+      >
+        <div className="w-full ">
+          <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1  ">
+            <div className="grid grid-cols-1  gap-8 sm:mt-4 sm:grid-cols-4 sm:gap-6">
+              <div className="m-auto md:m-0">
+                <Image
+                  src="/layout/footer-logo-loica.png"
+                  alt="logo Centro de Psicología y Sexología Loica"
+                  width={182}
+                  height={144}
+                />
+              </div>
+              <div>
+                <Footer.Title
+                  title="Redes Sociales"
+                  className="text-[#374151]"
+                />
+                <Footer.LinkGroup col className="text-[#374151]">
+                  <Link
+                    href="/servicio1"
+                    className="flex items-center space-x-1 "
+                  >
+                    {" "}
+                    <FaLinkedin />
+                    <span>Linkedin</span>
+                  </Link>
+                  <Link
+                    href="/servicio1"
+                    className="flex items-center space-x-1 "
+                  >
+                    {" "}
+                    <FaInstagram />
+                    <span>Instagram</span>
+                  </Link>
+                </Footer.LinkGroup>
+              </div>
+              <div>
+                <Footer.Title title="Enlaces" className="text-[#374151]" />
+                <Footer.LinkGroup col className="text-[#374151]">
+                  <Footer.Link href="/">Home</Footer.Link>
+                  <Footer.Link href="/nosotras">Nosotras</Footer.Link>
+                  <Footer.Link href="/servicios">Servicios</Footer.Link>
+                  <Footer.Link href="/recursos">Recursos</Footer.Link>
+                  <Footer.Link href="/agenda">Agenda</Footer.Link>
+                </Footer.LinkGroup>
+              </div>
+              <div>
+                <Footer.Title title="Ubicación" className="text-[#374151]" />
+                <Footer.LinkGroup col className="text-[#374151]">
+                  <Footer.Link href="#">
+                    Gral del Canto 112, oficina 204, Providencia, Región
+                    Metropolitana, Chile
+                  </Footer.Link>
+                </Footer.LinkGroup>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Footer>
+    </div>
+  );
+
+}
+export default Footercomp;

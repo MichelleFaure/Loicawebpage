@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Laura Valdés Cruzatt",
+    "degree": "Psicóloga adolescentes y adultos",
+    "imgSrc": "/profiles/profilephoto.png",
+    "description": "Titulada de la Universidad Diego Portales. 7 años de experiencia, trabajo desde la teoría humanista y con enfoque de género. Formación en autismo. Espacio seguro para disidencias y diversidades sexuales",
+    "registration_number": "N° Reg. Superintendencia Salud 454367",
+    "linkedin": "https://www.linkedin.com",
+    "services": [
+      {
+        "id": "1",
+        "title": "Psicoterapia Individual",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": "$ 30.000"
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/8933b2c1-5b90-4f99-b21e-e9b3b3a2f6c6"
+      }
+    ]
+  },
+  {
+    "name": "Daniela Bustos Páez",
+    "degree": "Psicóloga y Sexóloga",
+    "imgSrc": "/profiles/profilephoto2.png",
+    "description": "Titulada de la Universidad Diego Portales. 7 años de experiencia, trabajo desde la teoría humanista y con enfoque de género. Formación en autismo. Espacio seguro para disidencias y diversidades sexuales",
+    "registration_number": "N° Reg. Superintendencia Salud 546278",
+    "linkedin": "https://www.linkedin.com",
+    "services": [
+      {
+        "id": "1",
+        "title": "Psicoterapia Individual",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": "$ 30.000"
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/19f54f58-ede4-4987-8bfa-75777abf4bcf"
+      },
+      {
+        "id": "2",
+        "title": "Psicoterapia Individual - Plan Mensual",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": "$ 120.000"
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/4ae30e6d-da15-48bf-bd7c-3ffca6ddbf26"
+      },
+      {
+        "id": "3",
+        "title": "Psicoterapia de Parejas o Vínculos No Monógamos",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": "$ 30.000"
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "capacity": {
+          "icon": "IoPeopleCircleOutline",
+          "text": "10 personas"
+        },
+        "imgSrc": "/services/serviceImg.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/df47ae6c-a2f5-47c3-8cfc-ce800d4beeab"
+      },
+      {
+        "id": "4",
+        "title": "Psicoterapia de Parejas o Vínculos No Monógamos - Plan Mensual",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": "$ 120.000"
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "capacity": {
+          "icon": "IoPeopleCircleOutline",
+          "text": "10 personas"
+        },
+        "imgSrc": "/services/serviceImg.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/f6d32dcf-924f-400a-a96b-b2d26a83440d"
+      }
+    ]
+  }
+]

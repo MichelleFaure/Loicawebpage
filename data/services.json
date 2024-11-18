@@ -1,0 +1,180 @@
+[
+  {
+    "id": "1",
+    "title": "Psicoterapia Individual",
+    "modalidad": {
+      "icon": "TbFlower",
+      "text": "Online"
+    },
+    "price": {
+      "icon": "HiCurrencyDollar",
+      "text": "$ 30.000"
+    },
+    "time": {
+      "icon": "IoTimeOutline",
+      "text": "60 minutos"
+    },
+    "themes": [
+      "Depresión",
+      "Duelos",
+      "Comunidad LGBTIQA+",
+      "Violencias",
+      "Sexualidad",
+      "Espectro autista",
+      "Ansiedad",
+      "Bipolaridad",
+      "Duelo migratorio",
+      "Déficit de atención",
+      "Hábitos de estudio",
+      "Aborto",
+      "Autoestima",
+      "Autoconocimiento"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "imgSrc":"/services/serviceImg.png"
+  },
+  {
+    "id": "2",
+    "title": "Psicoterapia de Parejas o Vínculos No Monógamos",
+    "modalidad": {
+      "icon": "TbFlower",
+      "text": "Online"
+    },
+    "price": {
+      "icon": "HiCurrencyDollar",
+      "text": "$ 30.000"
+    },
+    "time": {
+      "icon": "IoTimeOutline",
+      "text": "60 minutos"
+    },
+    "themes": [
+      "Depresión",
+      "Duelos",
+      "Comunidad LGBTIQA+",
+      "Violencias",
+      "Sexualidad",
+      "Espectro autista",
+      "Ansiedad",
+      "Bipolaridad",
+      "Duelo migratorio",
+      "Déficit de atención",
+      "Hábitos de estudio",
+      "Aborto",
+      "Autoestima",
+      "Autoconocimiento"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "imgSrc": "/services/serviceImg.png"
+  },
+  {
+    "id": "3",
+    "title": "Psicoterapia Grupal",
+    "modalidad": {
+      "icon": "TbFlower",
+      "text": "Online"
+    },
+    "price": {
+      "icon": "HiCurrencyDollar",
+      "text": "$ 30.000"
+    },
+    "time": {
+      "icon": "IoTimeOutline",
+      "text": "120 minutos"
+    },
+    "capacity": {
+      "icon": "IoPeopleCircleOutline",
+      "text": "10 personas"
+    },
+    "themes": [
+      "Depresión",
+      "Duelos",
+      "Comunidad LGBTIQA+",
+      "Violencias",
+      "Sexualidad",
+      "Espectro autista",
+      "Ansiedad",
+      "Bipolaridad",
+      "Duelo migratorio",
+      "Déficit de atención",
+      "Hábitos de estudio",
+      "Aborto",
+      "Autoestima",
+      "Autoconocimiento"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "imgSrc": "/services/serviceImg.png"
+  },
+  {
+    "id": "4",
+    "title":"Terapia Sexual",
+    "modalidad": {
+      "icon": "TbFlower",
+      "text": "Online"
+    },
+    "price": {
+      "icon": "HiCurrencyDollar",
+      "text": "$ 30.000"
+    },
+    "time": {
+      "icon": "IoTimeOutline",
+      "text": "120 minutos"
+    },
+    "themes": [
+      "Depresión",
+      "Duelos",
+      "Comunidad LGBTIQA+",
+      "Violencias",
+      "Sexualidad",
+      "Espectro autista",
+      "Ansiedad",
+      "Bipolaridad",
+      "Duelo migratorio",
+      "Déficit de atención",
+      "Hábitos de estudio",
+      "Aborto",
+      "Autoestima",
+      "Autoconocimiento"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "imgSrc": "/services/serviceImg.png"
+  },
+  {
+    "id": "5",
+    "title": "Cursos y Talleres",
+    "modalidad": {
+      "icon": "TbFlower",
+      "text": "Online"
+    },
+    "price": {
+      "icon": "HiCurrencyDollar",
+      "text": "$ 30.000"
+    },
+    "time": {
+      "icon": "IoTimeOutline",
+      "text": "60 minutos"
+    },
+    "classType": {
+      "icon": "FaChalkboardUser",
+      "text": "Sincrónicos y Asincrónicos"
+    },
+    "themes": [
+      "Depresión",
+      "Duelos",
+      "Comunidad LGBTIQA+",
+      "Violencias",
+      "Sexualidad",
+      "Espectro autista",
+      "Ansiedad",
+      "Bipolaridad",
+      "Duelo migratorio",
+      "Déficit de atención",
+      "Hábitos de estudio",
+      "Aborto",
+      "Autoestima",
+      "Autoconocimiento"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "imgSrc": "/services/serviceImg.png"
+  }
+]
