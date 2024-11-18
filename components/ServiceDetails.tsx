@@ -4,14 +4,22 @@ import { IoTimeOutline, IoPeopleCircleOutline } from "react-icons/io5";
 import { FaChalkboardUser } from "react-icons/fa6";
 import { poppins } from "@/app/fonts/fonts";
 
-const iconMap: Record<string, JSX.Element> = {
-  TbFlower: <TbFlower />,
-  HiCurrencyDollar: <HiCurrencyDollar />,
-  IoTimeOutline: <IoTimeOutline />,
-  IoPeopleCircleOutline: <IoPeopleCircleOutline />,
-  FaChalkboardUser: <FaChalkboardUser />,
-};
-function ServiceDetails({ modalidad, price, time, capacity, classType }) {
+interface ServiceDetailsProps {
+  modalidad: { icon: string; text: string };
+  price: { icon: string; text: string };
+  time: { icon: string; text: string };
+  capacity?: { icon: string; text: string };
+  classType?: { icon: string; text: string };
+  iconMap: Record<string, JSX.Element>;
+}
+function ServiceDetails({
+  modalidad,
+  price,
+  time,
+  capacity,
+  classType,
+  iconMap,
+}: ServiceDetailsProps) {
   return (
     <section className="max-w-screen-lg mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 my-32 px-8 md:px-0">
       <div
