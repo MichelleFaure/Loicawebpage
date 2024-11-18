@@ -45,7 +45,7 @@ function AgendaCards({ services }: AgendaCardsProps) {
   return (
     <div className="px-8">
       {services.map((service) => (
-        <div className="relative max-w-screen-lg mx-auto md:pr-8 my-16  flex flex-col md:flex-row justify-between items-center flex-wrap border border-lavender rounded-md text-center md:text-start">
+        <div key={service.id} className="relative max-w-screen-lg mx-auto md:pr-8 my-16  flex flex-col md:flex-row justify-between items-center flex-wrap border border-lavender rounded-md text-center md:text-start">
           <Image
             src={service.imgSrc}
             alt=""

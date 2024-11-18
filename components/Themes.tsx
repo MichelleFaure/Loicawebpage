@@ -6,9 +6,9 @@ function Themes({themes}) {
          <h2 className="text-center text-white text-4xl md:text-6xl mb-14">Temáticas que trabajamos</h2>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-screen-lg mx-auto ">
        
-        {themes.map((item) => {
+        {themes.map((item,index) => {
           return (
-            <div
+            <div key={index}
               className={`${poppins.className} bg-lavender-light rounded-full text-sm md:text-xl text-center p-2 flex items-center justify-center  break-words `}
             >
               {item}

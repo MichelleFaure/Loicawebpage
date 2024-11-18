@@ -10,7 +10,7 @@ function Profiles() {
     >
       {abaoutUs.map((profile) => {
         return (
-          <div className="w-[300px] overflow-hidden bg-white shadow-lg rounded-lg">
+          <div key={profile.name} className="w-[300px] overflow-hidden bg-white shadow-lg rounded-lg">
             <div className="relative h-[150px]">
               <div className="relative h-full">
                 <div className="absolute w-[650px] h-[650px] bg-gradient-to-bl from-[#DDDDFA] to-[#9C9CE6] rounded-full top-[-330%] left-1/2 transform -translate-x-1/2 animate-spin-custom opacity-100"></div>

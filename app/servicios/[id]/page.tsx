@@ -3,7 +3,6 @@ import { TbFlower } from "react-icons/tb";
 import { HiCurrencyDollar } from "react-icons/hi";
 import { IoTimeOutline, IoPeopleCircleOutline } from "react-icons/io5";
 import { FaChalkboardUser } from "react-icons/fa6";
-import Image from "next/image";
 import Link from "next/link";
 import { poppins } from "@/app/fonts/fonts";
 import BannerService from "@/components/BannerService";

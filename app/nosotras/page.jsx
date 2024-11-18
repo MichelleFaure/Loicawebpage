@@ -1,5 +1,4 @@
 'use client'
-import { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Profiles from "@/components/Profiles";
 import SubTitle from "@/components/SubTitle";

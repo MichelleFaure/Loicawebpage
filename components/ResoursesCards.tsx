@@ -1,5 +1,3 @@
-import exampleImg from "@/images/resourses/example.png"; 
-import exampleImg2 from "@/images/resourses/example2.png"; 
 import Image from "next/image";
 import { poppins } from "@/app/fonts/fonts";
 import Link from "next/link";
@@ -14,7 +12,7 @@ function ResoursesCards() {
             href={`/recursos/${resource.id}`}
             className="transform transition-transform duration-300 hover:scale-105 hover:translate-y-2"
           >
-            <div className={`shadow-lg max-w-80 ${poppins.className}`}>
+            <div key={resource.id} className={`shadow-lg max-w-80 ${poppins.className}`}>
               <div className="bg-white rounded-lg">
                 <Image
                   src={resource.headerImg}
