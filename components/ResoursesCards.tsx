@@ -9,10 +9,11 @@ function ResoursesCards() {
       {resources.map((resource)=>{
         return (
           <Link
+            key={resource.id}
             href={`/recursos/${resource.id}`}
             className="transform transition-transform duration-300 hover:scale-105 hover:translate-y-2"
           >
-            <div key={resource.id} className={`shadow-lg max-w-80 ${poppins.className}`}>
+            <div className={`shadow-lg max-w-80 ${poppins.className}`}>
               <div className="bg-white rounded-lg">
                 <Image
                   src={resource.headerImg}

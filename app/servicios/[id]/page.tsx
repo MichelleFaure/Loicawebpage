@@ -4,7 +4,6 @@ import { HiCurrencyDollar } from "react-icons/hi";
 import { IoTimeOutline, IoPeopleCircleOutline } from "react-icons/io5";
 import { FaChalkboardUser } from "react-icons/fa6";
 import Link from "next/link";
-import { poppins } from "@/app/fonts/fonts";
 import BannerService from "@/components/BannerService";
 import Themes from "@/components/Themes";
 import ServiceDetails from "@/components/ServiceDetails";
