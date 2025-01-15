@@ -12,7 +12,7 @@ type Service = {
   };
   price: {
     icon: string;
-    text: string;
+    text: string[];
   };
   time: {
     icon: string;
