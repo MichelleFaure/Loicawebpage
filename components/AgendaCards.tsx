@@ -83,8 +83,8 @@ function AgendaCards({ services }: AgendaCardsProps) {
               <div className="text-md">{iconMap[service.price.icon]}</div>
               <div className="font-semibold text-sm">Precio</div>
               <div className="flex flex-col text-start text-xs gap-2 pt-1">
-                {service.price.text.map((item) => {
-                  return <div key={service.id}>{item}</div>;
+                {service.price.text.map((item,index) => {
+                  return <div key={index}>{item}</div>;
                 })}
               </div>
             </div>
