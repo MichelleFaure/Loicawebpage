@@ -84,7 +84,7 @@ function AgendaCards({ services }: AgendaCardsProps) {
               <div className="font-semibold text-sm">Precio</div>
               <div className="flex flex-col text-start text-xs gap-2 pt-1">
                 {service.price.text.map((item) => {
-                  return <div>{item}</div>;
+                  return <div key={service.id}>{item}</div>;
                 })}
               </div>
             </div>

@@ -87,7 +87,7 @@ function ServiceCard({ service }: ServiceCardProps) {
           <div className="font-semibold">Precio</div>
           <div className="flex flex-col text-start text-xs gap-2 pt-1">
             {service.price.text.map((item) => {
-              return <div>{item}</div>;
+              return <div key={service.id}>{item}</div>;
             })}
           </div>
         </div>
