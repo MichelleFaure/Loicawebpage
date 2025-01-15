@@ -24,7 +24,7 @@ type Service = {
   };
   price: {
     icon: string;
-    text: string;
+    text: string[];
   };
   time: {
     icon: string;
@@ -47,7 +47,7 @@ type ServiceCardProps = {
 
 function ServiceCard({ service }: ServiceCardProps) {
   return (
-    <div className="relative max-w-screen-lg mx-auto md:pr-8 my-16  flex flex-col md:flex-row justify-between items-center flex-wrap border border-lavender rounded-md text-center md:text-start">
+    <div className="relative  max-w-screen-lg mx-auto md:pr-8 my-16  flex flex-col md:flex-row justify-between items-center flex-wrap border border-lavender rounded-md text-center md:text-start">
       <Image
         src={service.imgSrc}
         alt=""
@@ -57,34 +57,40 @@ function ServiceCard({ service }: ServiceCardProps) {
       />
       <div className="w-[50px] h-[100px] md:h-[150px]"></div>
       <div className="text-3xl w-56 mb-4 md:mb-0">{service.title}</div>
-      <div className={`${poppins.className} flex flex-col gap-2 mb-4 md:mb-0`}>
-        <div className="flex items-center gap-2 w-32">
+      <div
+        className={`${poppins.className} flex flex-col gap-2 mb-4 md:mb-0 py-4 md:min-w-60`}
+      >
+        <div className="flex items-center gap-2 ">
           <div className="text-xl">{iconMap[service.modalidad.icon]}</div>
-          <div className="font-semibold">Modalidad</div>
-          <div>{service.modalidad.text}</div>
+          <div className="font-semibold ">Modalidad</div>
+          <div className="text-xs">{service.modalidad.text}</div>
         </div>
         <div className="flex items-center gap-2 ">
           <div className="text-xl">{iconMap[service.time.icon]}</div>
           <div className="font-semibold">Tiempo</div>
-          <div>{service.time.text}</div>
+          <div className="text-xs">{service.time.text}</div>
         </div>
-        <div className="flex items-center gap-2 ">
-          <div className="text-xl">{iconMap[service.price.icon]}</div>
-          <div className="font-semibold">Precio</div>
-          <div>{service.price.text}</div>
-        </div>
-        {service.classType && (
-          <div className="flex items-center gap-2 ">
-            <div className="text-xl">{iconMap[service.classType.icon]}</div>
-            <div className="font-semibold">{service.classType.text}</div>
-          </div>
-        )}
         {service.capacity && (
           <div className="flex items-center gap-2 ">
             <div className="text-xl">{iconMap[service.capacity.icon]}</div>
             <div className="font-semibold">{service.capacity.text}</div>
           </div>
         )}
+        {service.classType && (
+          <div className="flex items-center gap-2 ">
+            <div className="text-xl">{iconMap[service.classType.icon]}</div>
+            <div className="font-semibold">{service.classType.text}</div>
+          </div>
+        )}
+        <div className="flex gap-2 ">
+          <div className="text-xl">{iconMap[service.price.icon]}</div>
+          <div className="font-semibold">Precio</div>
+          <div className="flex flex-col text-start text-xs gap-2 pt-1">
+            {service.price.text.map((item) => {
+              return <div>{item}</div>;
+            })}
+          </div>
+        </div>
       </div>
       <Link
         href={`/servicios/${service.id}`}

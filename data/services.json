@@ -8,7 +8,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": "$30.000 (CLP) / $35 (USD) / 35€ (EUR)"
+      "text": ["$30.000 (CLP)","$35 (USD)" ,"35€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
@@ -42,7 +42,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": "$45.000 (CLP) / $50 dólares (USD) / 50€ (EUR)"
+      "text": ["$45.000 (CLP)", "$50 (USD)", "50€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
@@ -75,7 +75,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": " $60.000 (CLP) / $65 (USD) / 65€ (EUR) x persona/mes"
+      "text": ["x persona/mes","$60.000 (CLP)","$65 (USD)" ,"65€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
@@ -102,7 +102,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": " $45.000 (CLP) / $50 (USD) / 50€ (EUR)"
+      "text": ["$45.000 (CLP)","$50 (USD)" ,"50€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
@@ -132,7 +132,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": "$30.000 (CLP) / $35 dólares (USD) / 35 € (EUR)"
+      "text": ["$30.000 (CLP)","$35 (USD)" ,"35€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",

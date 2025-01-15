@@ -23,7 +23,7 @@ type Service = {
   };
   price: {
     icon: string;
-    text: string;
+    text: string[];
   };
   time: {
     icon: string;
@@ -45,7 +45,10 @@ function AgendaCards({ services }: AgendaCardsProps) {
   return (
     <div className="px-8">
       {services.map((service) => (
-        <div key={service.id} className="relative max-w-screen-lg mx-auto md:pr-8 my-16  flex flex-col md:flex-row justify-between items-center flex-wrap border border-lavender rounded-md text-center md:text-start">
+        <div
+          key={service.id}
+          className="relative max-w-screen-lg mx-auto md:pr-8 my-16  flex flex-col md:flex-row justify-between items-center flex-wrap border border-lavender rounded-md text-center md:text-start"
+        >
           <Image
             src={service.imgSrc}
             alt=""
@@ -56,7 +59,7 @@ function AgendaCards({ services }: AgendaCardsProps) {
           <div className="w-[50px] h-[100px] md:h-[150px]"></div>
           <div className="text-2xl w-56 mb-4 md:mb-0">{service.title}</div>
           <div
-            className={`${poppins.className} flex flex-col gap-2 mb-4 md:mb-0`}
+            className={`${poppins.className} flex flex-col gap-2 mb-4 md:mb-0 py-4`}
           >
             <div className="flex items-center gap-2 w-32">
               <div className="text-md">{iconMap[service.modalidad.icon]}</div>
@@ -68,11 +71,6 @@ function AgendaCards({ services }: AgendaCardsProps) {
               <div className="font-semibold text-sm">Tiempo</div>
               <div className="text-sm">{service.time.text}</div>
             </div>
-            <div className="flex items-center gap-2 ">
-              <div className="text-md">{iconMap[service.price.icon]}</div>
-              <div className="font-semibold text-sm">Precio</div>
-              <div className="text-sm">{service.price.text}</div>
-            </div>
             {service.capacity && (
               <div className="flex items-center gap-2 ">
                 <div className="text-md">{iconMap[service.capacity.icon]}</div>
@@ -81,6 +79,15 @@ function AgendaCards({ services }: AgendaCardsProps) {
                 </div>
               </div>
             )}
+            <div className="flex gap-2 ">
+              <div className="text-md">{iconMap[service.price.icon]}</div>
+              <div className="font-semibold text-sm">Precio</div>
+              <div className="flex flex-col text-start text-xs gap-2 pt-1">
+                {service.price.text.map((item) => {
+                  return <div>{item}</div>;
+                })}
+              </div>
+            </div>
           </div>
           <Link
             href={service.link}

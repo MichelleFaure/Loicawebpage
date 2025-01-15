@@ -16,7 +16,7 @@
         },
         "price": {
           "icon": "HiCurrencyDollar",
-          "text": "$ 30.000"
+          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
         },
         "time": {
           "icon": "IoTimeOutline",
@@ -44,7 +44,7 @@
         },
         "price": {
           "icon": "HiCurrencyDollar",
-          "text": "$ 30.000"
+          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
         },
         "time": {
           "icon": "IoTimeOutline",
@@ -62,7 +62,7 @@
         },
         "price": {
           "icon": "HiCurrencyDollar",
-          "text": "$ 120.000"
+          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
         },
         "time": {
           "icon": "IoTimeOutline",
@@ -80,7 +80,7 @@
         },
         "price": {
           "icon": "HiCurrencyDollar",
-          "text": "$ 30.000"
+          "text": ["$45.000 (CLP)", "$50 (USD)", "50€ (EUR)"]
         },
         "time": {
           "icon": "IoTimeOutline",
@@ -88,7 +88,7 @@
         },
         "capacity": {
           "icon": "IoPeopleCircleOutline",
-          "text": "10 personas"
+          "text": "5-10 personas"
         },
         "imgSrc": "/services/serviceImg2.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/df47ae6c-a2f5-47c3-8cfc-ce800d4beeab"
@@ -102,7 +102,7 @@
         },
         "price": {
           "icon": "HiCurrencyDollar",
-          "text": "$ 120.000"
+          "text": ["$45.000 (CLP)", "$50 (USD)", "50€ (EUR)"]
         },
         "time": {
           "icon": "IoTimeOutline",
@@ -110,7 +110,7 @@
         },
         "capacity": {
           "icon": "IoPeopleCircleOutline",
-          "text": "10 personas"
+          "text": "5-10 personas"
         },
         "imgSrc": "/services/serviceImg2.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/f6d32dcf-924f-400a-a96b-b2d26a83440d"
