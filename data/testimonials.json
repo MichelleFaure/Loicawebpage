@@ -1,32 +1,26 @@
 [
   {
-    "name": "persona1",
-    "age": "27 años",
-    "opinion": "Preocupada y atenta al paciente. Genera un ambiente de confianza que facilita las sesiones. Muy responsable en cuanto al horario y fechas agendadas. La terapia me sirvió mucho."
+    "name": "Catalina",
+    "age": "30 años",
+    "terapeuta": "Daniela",
+    "opinion": "Excelente persona y profesional, empática y respetuosa durante las sesiones. Eternamente agradecida de su dedicación y compromiso con el proceso terapéutico, por ser luz en momentos de oscuridad y entregarme herramientas para mejorar mi salud mental."
   },
   {
-    "name": "Rosenda",
-    "age": "56 años",
-    "opinion": "Una muy buena profesional. De muy buen trato, empática, amable. Sentí que podía ser yo misma. No tenía ninguna expectativa cuando tomé las sesiones, ya que había tenido dos psicólogas anteriormente sin un buen resultado. Fue una positiva experiencia y me ayudó a conocerme y aprender a solucionar o cómo sobrellevar algunas cosas."
+    "name": "D.T.",
+    "age": "28 años",
+    "terapeuta": "Laura",
+    "opinion": "Me ha brindado herramientas prácticas para organizar mi día a día sintiéndome más segura y tranquila por la certeza que eso significa. Además, me ha ayudado a resignificar lo que es el disfrute y la importancia de este en nuestra vida. Mi experiencia ha sido reconfortante debido al espacio seguro que construye con una."
   },
   {
-    "name": "Nombre",
-    "age": "xx años",
-    "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;"
+    "name": "Camila M.",
+    "age": "32 años",
+    "terapeuta": "Daniela",
+    "opinion": "Comencé a ir a terapia por un tema puntual y luego se abrieron muchos caminos a situaciones de mejora con mi persona. Agradezco a Daniela la paciencia, el compromiso y la confianza durante cada una de las sesiones y en la totalidad de mi proceso."
   },
   {
-    "name": "Nombre",
-    "age": "xx años",
-    "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;"
-  },
-  {
-    "name": "Nombre",
-    "age": "xx años",
-    "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;"
-  },
-  {
-    "name": "Nombre",
-    "age": "xx años",
-    "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;"
+    "name": "Gabriel C.",
+    "age": "30 años",
+    "terapeuta": " Laura",
+    "opinion": "Excelente profesional, me ha apoyado en momentos cruciales. Estoy muy agradecido por la terapia que hemos llevado adelante, he crecido muchísimo gracias a ella. 10/10 muy recomendada."
   }
 ]

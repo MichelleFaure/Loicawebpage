@@ -10,7 +10,7 @@ function Explore() {
           <p
             className={`${poppins.className} md:pl-2 text-center md:text-start`}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            ¿Buscas mejorar tu bienestar psicógico y sexual?
           </p>
           <h2 className="text-5xl mt-4 mb-8 text-center md:text-start">
             Explora y reserva nuestros servicios
@@ -20,10 +20,10 @@ function Explore() {
               href="/servicios"
               className={`${poppins.className} bg-lavender w-56 md:min-w-28 text-xl p-2 rounded-md text-white transform transition-transform duration-300 hover:scale-105 hover:shadow-md`}
             >
-              Servicios
+              Terapias
             </Link>
             <Link
-              href="/cursos"
+              href="/servicios/5"
               className={`${poppins.className} bg-lavender w-56 md:min-w-28 text-xl p-2 rounded-md text-white transform transition-transform duration-300 hover:scale-105 hover:shadow-md`}
             >
               Cursos

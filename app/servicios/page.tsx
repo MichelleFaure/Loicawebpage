@@ -37,14 +37,13 @@ function ServiciosPage() {
     <section>
       <BannerCoral
         title="SERVICIOS"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+        text="Confía en nuestra experiencia para cuidarte, en nuestro centro encontrarás la guía y el apoyo que necesitas. Contamos con una amplia gama de servicios para atender tus necesidades individuales, de pareja o grupales. Te ofrecemos un acompañamiento profesional, cercano y personalizado para responder a tus necesidades únicas."
       />
       <section className="p-10">
-      {services.map((service) => (
-        <ServiceCard key={service.id} service={service}  />
-      ))}
+        {services.map((service) => (
+          <ServiceCard key={service.id} service={service} />
+        ))}
       </section>
-
     </section>
   );
 }

@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <div className="m-auto ">
       <h2 className="my-24 text-5xl md:text-7xl text-center ">
-        El pobre es pobre porque quiere
+        Tu espacio seguro para sanar
       </h2>
 
       <section className="flex flex-row justify-center mb-24">
@@ -34,22 +34,19 @@ function HomePage() {
             />
           </div>
           <div className="max-w-[350px] p-2">
-            <h3 className="text-2xl font-medium my-4">Lorem ipsum dolor sit</h3>
-            <p className="text-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-              nunc convallis, hendrerit enim quis, pharetra quam.
-            </p>
+            <h3 className="text-3xl font-medium my-4">
+              Permítete sanar en un ambiente de cuidado y comprensión.
+            </h3>
           </div>
         </div>
       </section>
-      <SubTitle text="Lorem ipsum dolor sit"></SubTitle>
+      <SubTitle text="Embárcate en un viaje hacia el bienestar, te acompañaremos en cada paso"></SubTitle>
       <SeccionsHome></SeccionsHome>
-      <SubTitle text="Conoce a nuestro equipo"></SubTitle>
+      <SubTitle text="Nosotras"></SubTitle>
       <Profiles></Profiles>
       <Opinions></Opinions>
       <Explore></Explore>
       <ContacUs></ContacUs>
-      
     </div>
   );
 }

@@ -3,9 +3,9 @@
     "name": "Laura Valdés Cruzatt",
     "degree": "Psicóloga adolescentes y adultos",
     "imgSrc": "/profiles/profilephoto.png",
-    "description": "Titulada de la Universidad Diego Portales. 7 años de experiencia, trabajo desde la teoría humanista y con enfoque de género. Formación en autismo. Espacio seguro para disidencias y diversidades sexuales",
+    "description": "Psicóloga Universidad Diego Portales, Diplomado Teorías de género, desarrollo y políticas públicas, Diplomado Abordaje clínico multidisciplinario en adultos en el espectro autista, Diplomado en sexualidad: un abordaje transdisciplinario. 8 años experiencia / enfoque humanista y de género / Espacio seguro para disidencias y diversidades sexuales ",
     "registration_number": "N° Reg. Superintendencia Salud 454367",
-    "linkedin": "https://www.linkedin.com",
+    "linkedin": "https://www.linkedin.com/in/laura-valdés-cruzatt",
     "services": [
       {
         "id": "1",
@@ -22,18 +22,18 @@
           "icon": "IoTimeOutline",
           "text": "60 minutos"
         },
-        "imgSrc": "/services/serviceImg.png",
+        "imgSrc": "/services/serviceImg1.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/8933b2c1-5b90-4f99-b21e-e9b3b3a2f6c6"
       }
     ]
   },
   {
-    "name": "Daniela Bustos Páez",
-    "degree": "Psicóloga y Sexóloga",
+    "name": "Daniela Belén Bustos Páez",
+    "degree": "Psicóloga y Sexóloga adultos",
     "imgSrc": "/profiles/profilephoto2.png",
-    "description": "Titulada de la Universidad Diego Portales. 7 años de experiencia, trabajo desde la teoría humanista y con enfoque de género. Formación en autismo. Espacio seguro para disidencias y diversidades sexuales",
-    "registration_number": "N° Reg. Superintendencia Salud 546278",
-    "linkedin": "https://www.linkedin.com",
+    "description": "Máster en Ciencias de la Sexología Universidad de Almería. Psicóloga Universidad Diego Portales. Diplomado en Trauma Relacional y Trauma Complejo en Sexualidad. Diplomado Internacional en Sexología Avanzada y Terapia Sexual Especializada. Diplomado en Terapia Feminista. Entrenamiento Clínico en Psicoterapia Gestáltica. 7 años de experiencia / Enfoque integrativo y feminista / Espacio seguro para disidencias y diversidades sexuales",
+    "registration_number": "N° Reg. Superintendencia Salud 514382",
+    "linkedin": "https://www.linkedin.com/in/d-bustospaez",
     "services": [
       {
         "id": "1",
@@ -50,7 +50,7 @@
           "icon": "IoTimeOutline",
           "text": "60 minutos"
         },
-        "imgSrc": "/services/serviceImg.png",
+        "imgSrc": "/services/serviceImg1.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/19f54f58-ede4-4987-8bfa-75777abf4bcf"
       },
       {
@@ -68,7 +68,7 @@
           "icon": "IoTimeOutline",
           "text": "60 minutos"
         },
-        "imgSrc": "/services/serviceImg.png",
+        "imgSrc": "/services/serviceImg1.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/4ae30e6d-da15-48bf-bd7c-3ffca6ddbf26"
       },
       {
@@ -90,7 +90,7 @@
           "icon": "IoPeopleCircleOutline",
           "text": "10 personas"
         },
-        "imgSrc": "/services/serviceImg.png",
+        "imgSrc": "/services/serviceImg2.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/df47ae6c-a2f5-47c3-8cfc-ce800d4beeab"
       },
       {
@@ -112,7 +112,7 @@
           "icon": "IoPeopleCircleOutline",
           "text": "10 personas"
         },
-        "imgSrc": "/services/serviceImg.png",
+        "imgSrc": "/services/serviceImg2.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/f6d32dcf-924f-400a-a96b-b2d26a83440d"
       }
     ]

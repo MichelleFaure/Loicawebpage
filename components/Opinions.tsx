@@ -77,6 +77,7 @@ function Opinions() {
                     {testimony.name}, {testimony.age}
                   </div>
                 </div>
+                <div className="mt-2">Terapeuta: {testimony.terapeuta}</div>
                 <div className={`text-xs mt-4 ${poppins.className}`}>
                   {testimony.opinion}
                 </div>

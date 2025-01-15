@@ -4,11 +4,11 @@
     "title": "Psicoterapia Individual",
     "modalidad": {
       "icon": "TbFlower",
-      "text": "Online"
+      "text": "Online y Presencial"
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": "$ 30.000"
+      "text": "$30.000 (CLP) / $35 (USD) / 35€ (EUR)"
     },
     "time": {
       "icon": "IoTimeOutline",
@@ -17,66 +17,65 @@
     "themes": [
       "Depresión",
       "Duelos",
-      "Comunidad LGBTIQA+",
       "Violencias",
       "Sexualidad",
+      "Trauma",
       "Espectro autista",
       "Ansiedad",
       "Bipolaridad",
       "Duelo migratorio",
       "Déficit de atención",
-      "Hábitos de estudio",
+      "Hábitos",
       "Aborto",
       "Autoestima",
       "Autoconocimiento"
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    "imgSrc":"/services/serviceImg.png"
+    "description": "Te ofrecemos un espacio seguro y confidencial donde podrás explorar tus pensamientos, emociones y experiencias más profundas. Cada persona es única y tu terapia también lo será. Te acompañaremos a descubrir tus fortalezas y trabajaremos para superar distintos obstáculos que te impidan alcanzar tu máximo potencial. Creemos en tu capacidad de crecimiento y te acompañaremos en este viaje hacia una vida más plena y auténtica.",
+    "imgSrc":"/services/serviceImg1.png"
   },
   {
     "id": "2",
-    "title": "Psicoterapia de Parejas o Vínculos No Monógamos",
+    "title": "Psicoterapia de Pareja o Vínculos No Monógamos",
     "modalidad": {
       "icon": "TbFlower",
       "text": "Online"
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": "$ 30.000"
+      "text": "$45.000 (CLP) / $50 dólares (USD) / 50€ (EUR)"
     },
     "time": {
       "icon": "IoTimeOutline",
       "text": "60 minutos"
     },
     "themes": [
-      "Depresión",
-      "Duelos",
-      "Comunidad LGBTIQA+",
-      "Violencias",
+      "Pérdida de la conexión emocional",
+      "Rutina y monotonía",
+      "Problemas de Comunicación",
+      "Conflictos y desacuerdos",
+      "Marentalidad y Paternalidad",
+      "Infidelidad",
       "Sexualidad",
-      "Espectro autista",
-      "Ansiedad",
-      "Bipolaridad",
-      "Duelo migratorio",
-      "Déficit de atención",
-      "Hábitos de estudio",
-      "Aborto",
-      "Autoestima",
-      "Autoconocimiento"
+      "Compromiso",
+      "Confianza",
+      "Deseo",
+      "Tipos de relaciones",
+      "Compersión",
+      "Cambios de vida significativos"
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    "imgSrc": "/services/serviceImg.png"
+    "description": "Les ofrecemos un espacio seguro y confidencial para explorar sus inquietudes, fortalecer la comunicación y construir una relación más sólida y satisfactoria. Ya sea que busquen mejorar su conexión emocional, establecer límites claros o navegar los desafíos de una relación no monógama,  les acompañaremos en este proceso, brindándoles herramientas y estrategias personalizadas para fortalecer su vínculo.",
+    "imgSrc": "/services/serviceImg2.png"
   },
   {
     "id": "3",
-    "title": "Psicoterapia Grupal",
+    "title": " Psicoterapia Grupal",
     "modalidad": {
       "icon": "TbFlower",
       "text": "Online"
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": "$ 30.000"
+      "text": " $60.000 (CLP) / $65 (USD) / 65€ (EUR) x persona/mes"
     },
     "time": {
       "icon": "IoTimeOutline",
@@ -84,26 +83,15 @@
     },
     "capacity": {
       "icon": "IoPeopleCircleOutline",
-      "text": "10 personas"
+      "text": "5-10 personas"
     },
     "themes": [
-      "Depresión",
-      "Duelos",
-      "Comunidad LGBTIQA+",
-      "Violencias",
-      "Sexualidad",
-      "Espectro autista",
-      "Ansiedad",
-      "Bipolaridad",
-      "Duelo migratorio",
-      "Déficit de atención",
-      "Hábitos de estudio",
-      "Aborto",
-      "Autoestima",
-      "Autoconocimiento"
+      "Déficit de atención con o sin hiperactividad",
+      "Trauma Sexual Infantil",
+      "Post aborto"
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    "imgSrc": "/services/serviceImg.png"
+    "description": "En este momento contamos con 3 espacios terapéuticos grupales donde, bajo la guía de una profesional, un grupo de personas se reúne en una temática común para compartir experiencias, emociones y perspectivas. A través de la interacción con otros, los participantes aprenden nuevas formas de pensar y actuar, fortalecen sus relaciones y encuentran apoyo en su proceso de crecimiento personal.",
+    "imgSrc": "/services/serviceImg3.png"
   },
   {
     "id": "4",
@@ -114,67 +102,59 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": "$ 30.000"
-    },
-    "time": {
-      "icon": "IoTimeOutline",
-      "text": "120 minutos"
-    },
-    "themes": [
-      "Depresión",
-      "Duelos",
-      "Comunidad LGBTIQA+",
-      "Violencias",
-      "Sexualidad",
-      "Espectro autista",
-      "Ansiedad",
-      "Bipolaridad",
-      "Duelo migratorio",
-      "Déficit de atención",
-      "Hábitos de estudio",
-      "Aborto",
-      "Autoestima",
-      "Autoconocimiento"
-    ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    "imgSrc": "/services/serviceImg.png"
-  },
-  {
-    "id": "5",
-    "title": "Cursos y Talleres",
-    "modalidad": {
-      "icon": "TbFlower",
-      "text": "Online"
-    },
-    "price": {
-      "icon": "HiCurrencyDollar",
-      "text": "$ 30.000"
+      "text": " $45.000 (CLP) / $50 (USD) / 50€ (EUR)"
     },
     "time": {
       "icon": "IoTimeOutline",
       "text": "60 minutos"
+    },
+    "themes": [
+      "Anorgasmia",
+      "“Disfunción Eréctil",
+      "Eyaculación Precoz",
+      "Eyaculación Retardada",
+      "Dificultades en el deseo",
+      "Vaginismo",
+      "Trauma Sexual",
+      "Sexo Compulsivo",
+      "Dispareunia",
+      "Sexualidades no normativas"
+    ],
+    "description": "Tratamiento especializado de problemas y dificultades que impiden una vivencia satisfactoria de la sexualidad propia y de la relación sexual. Abordamos las disfunciones sexuales que no se deban a una afección médica. Va dirigida a todas las personas o parejas, que quieran mejorar la vivencia de su sexualidad o de sus relaciones sexuales.",
+    "imgSrc": "/services/serviceImg4.png"
+  },
+  {
+    "id": "5",
+    "title": "Consejería Sexual",
+    "modalidad": {
+      "icon": "TbFlower",
+      "text": "Online y Presencial"
+    },
+    "price": {
+      "icon": "HiCurrencyDollar",
+      "text": "$30.000 (CLP) / $35 dólares (USD) / 35 € (EUR)"
+    },
+    "time": {
+      "icon": "IoTimeOutline",
+      "text": "60 min o a convenir"
     },
     "classType": {
       "icon": "FaChalkboardUser",
       "text": "Sincrónicos y Asincrónicos"
     },
     "themes": [
-      "Depresión",
-      "Duelos",
-      "Comunidad LGBTIQA+",
-      "Violencias",
-      "Sexualidad",
-      "Espectro autista",
-      "Ansiedad",
-      "Bipolaridad",
-      "Duelo migratorio",
-      "Déficit de atención",
-      "Hábitos de estudio",
-      "Aborto",
-      "Autoestima",
-      "Autoconocimiento"
+      "Anorgasmia",
+      "Disfunción Eréctil",
+      "Eyaculación Precoz",
+      "Eyaculación Retardada",
+      "Dificultades en el deseo",
+      "Vaginismo",
+      "Trauma Sexual",
+      "Sexo Compulsivo",
+      "Dispareunia",
+      "Sexualidades no normativas"
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    "imgSrc": "/services/serviceImg.png"
+    "description": "Se entrega información, herramientas y sugerencias específicas ante alguna temática ligada a la sexualidad.  Es de carácter breve, de 4 a 5 sesiones y en caso de ser necesario, puede ser la puerta de entrada a una terapia sexológica o derivaciones a diversos especialistas de la salud (matroneria, ginecología, urología, etc) ",
+    "imgSrc": "/services/serviceImg5.png"
   }
 ]

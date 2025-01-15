@@ -28,22 +28,24 @@ function Footercomp() {
                   className="text-[#374151]"
                 />
                 <Footer.LinkGroup col className="text-[#374151]">
-                  <Link
-                    href="/servicio1"
+                  <a
+                    href="https://www.linkedin.com/company/centro-loica-psicologia-y-sexologia"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center space-x-1 "
                   >
-                    {" "}
                     <FaLinkedin />
                     <span>Linkedin</span>
-                  </Link>
-                  <Link
-                    href="/servicio1"
+                  </a>
+                  <a
+                    href="https://www.instagram.com/centro.loica/ "
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center space-x-1 "
                   >
-                    {" "}
                     <FaInstagram />
                     <span>Instagram</span>
-                  </Link>
+                  </a>
                 </Footer.LinkGroup>
               </div>
               <div>

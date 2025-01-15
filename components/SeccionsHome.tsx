@@ -9,8 +9,8 @@ const imgCards = [
   },
   {
     src: "/home/courses.png",
-    title: "Cursos",
-    link: "/cursos",
+    title: "Consejerías",
+    link: "/servicios/5",
   },
   {
     src: "/home/resourses.png",
