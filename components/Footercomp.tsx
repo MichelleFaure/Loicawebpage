@@ -3,7 +3,6 @@ import { Footer } from "flowbite-react";
 import { FaLinkedin ,FaInstagram } from "react-icons/fa";
 import Image from "next/image";
 import {poppins} from "@/app/fonts/fonts";
-import Link from "next/link";
 function Footercomp() {
   return (
     <div className="bg-lavender-light  ">

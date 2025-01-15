@@ -51,7 +51,7 @@ function ContacUs() {
         <div className="flex flex-col gap-8 py-16">
           {rrssData.map((item)=>{
             return (
-              <a
+              <a key={item.name}
                 className="flex items-center gap-4 rounded-lg bg-lavender shadow-md px-8 py-2"
                 href={item.link}
                 target="_blank"
