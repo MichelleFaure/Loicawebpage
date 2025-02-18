@@ -31,8 +31,10 @@ function BannerService({ title, description, imgSrc }: BannerServiceProps) {
             src={imgSrc}
             alt=""
             width={500}
-            height={320}
-            className="md:ml-8"
+            height={500}
+            className="md:ml-8 object-cover rounded-md h-full md:h-[380px] "
+            quality={100}
+            
           />
         </div>
       </div>

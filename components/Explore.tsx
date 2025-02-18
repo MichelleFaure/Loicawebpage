@@ -22,17 +22,12 @@ function Explore() {
             >
               Terapias
             </Link>
+
             <Link
-              href="/servicios/5"
+              href="/cursosytalleres"
               className={`${poppins.className} bg-lavender w-56 md:min-w-28 text-xl p-2 rounded-md text-white transform transition-transform duration-300 hover:scale-105 hover:shadow-md`}
             >
-              Cursos
-            </Link>
-            <Link
-              href="/recursos"
-              className={`${poppins.className} bg-lavender w-56 md:min-w-28 text-xl p-2 rounded-md text-white transform transition-transform duration-300 hover:scale-105 hover:shadow-md`}
-            >
-              Recursos
+              Cursos y Talleres
             </Link>
           </div>
         </div>
@@ -43,6 +38,7 @@ function Explore() {
             width={500}
             height={320}
             className="md:ml-8"
+            quality={100}
           />
         </div>
       </div>

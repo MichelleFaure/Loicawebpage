@@ -21,6 +21,7 @@ function BannerCoral({ title, text }: BannerCoralProps) {
               alt="Imagen de una flor"
               width={610}
               height={333}
+              quality={100}
               className="w-[200px] md:w-[600px]"
             />
           </div>

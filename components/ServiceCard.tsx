@@ -53,7 +53,8 @@ function ServiceCard({ service }: ServiceCardProps) {
         alt=""
         width={120}
         height={120}
-        className="absolute -top-10 md:top-auto md:-left-10"
+        quality={100}
+        className="absolute -top-10 md:top-auto md:-left-10 h-[120px] w-[120px] object-cover rounded-md"
       />
       <div className="w-[50px] h-[100px] md:h-[150px]"></div>
       <div className="text-3xl w-56 mb-4 md:mb-0">{service.title}</div>
@@ -86,7 +87,7 @@ function ServiceCard({ service }: ServiceCardProps) {
           <div className="text-xl">{iconMap[service.price.icon]}</div>
           <div className="font-semibold">Precio</div>
           <div className="flex flex-col text-start text-xs gap-2 pt-1">
-            {service.price.text.map((item,index) => {
+            {service.price.text.map((item, index) => {
               return <div key={index}>{item}</div>;
             })}
           </div>

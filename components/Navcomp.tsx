@@ -23,6 +23,7 @@ const [isDropdownOpen, setIsDropdownOpen] = useState(false);
             alt="logo Centro de Psicología y Sexología Loica"
             width={93.28}
             height={70}
+            quality={100}
           />
         </Navbar.Brand>
         <div className="flex md:order-2">
@@ -38,7 +39,7 @@ const [isDropdownOpen, setIsDropdownOpen] = useState(false);
         </div>
         <Navbar.Collapse className="text-[#374151] ">
           <Navbar.Link className="border-none" href="/">
-            Home
+            Inicio
           </Navbar.Link>
           <Navbar.Link className="border-none" href="/nosotras">
             Nosotras
@@ -71,8 +72,8 @@ const [isDropdownOpen, setIsDropdownOpen] = useState(false);
               </div>
             )}
           </div>
-          <Navbar.Link className="border-none" href="/recursos">
-            Recursos
+          <Navbar.Link className="border-none" href="/cursosytalleres">
+            Cursos y Talleres
           </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>

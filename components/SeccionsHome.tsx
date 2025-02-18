@@ -14,8 +14,8 @@ const imgCards = [
   },
   {
     src: "/home/resourses.png",
-    title: "Recursos",
-    link: "/recursos",
+    title: "Cursos y Talleres",
+    link: "/cursosytalleres",
   },
 ];
 
@@ -29,12 +29,13 @@ function SeccionsHome() {
             key={index}
             className="block relative mx-auto transform transition-transform duration-300 hover:scale-105 hover:translate-y-2"
           >
-            <div className="relative w-full max-w-sm mx-auto">
+            <div className="relative w-full max-w-sm mx-auto h-[300px] md:h-full ">
               <Image
                 src={card.src}
                 alt={`Imagen de ${card.title}`}
                 width={288}
                 height={500}
+                quality={100}
                 className="shadow-xl h-[300px] md:h-full object-cover rounded-md"
               />
               <div className="absolute w-full h-24 bottom-0 bg-bluish-Gray opacity-75 rounded-b-md"></div>

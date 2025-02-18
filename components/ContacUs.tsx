@@ -44,7 +44,7 @@ function ContacUs() {
         <h2 className="text-6xl pt-8 md:p-0">Contacto</h2>
         <p className="pl-2 text-center md:text-start">
           Si tienes alguna duda comunicate con nosotras a través de estos
-          canales. Lunes-Viernes: 9:00-18:00hrs
+          canales.
         </p>
       </div>
       <div>

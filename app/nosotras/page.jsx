@@ -9,13 +9,13 @@ function NosotrasPage() {
   return (
     <section>
       <div
-        className={`max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 py-20 px-8 md:px-0 ${poppins.className}`}
+        className={`max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 py-10 px-8 md:px-0 ${poppins.className}`}
       >
-        <div>
-          <h3 className="text-sm">Un espacio seguro para sanar</h3>
-          <div className="flex flex-col md:flex-row md:items-center my-4">
+        <div className="flex flex-col justify-center mx-auto">
+          <h3 className="text-md">Un espacio seguro para sanar</h3>
+          <div className="flex flex-col my-4 ">
             <h2 className="text-3xl font-light">Loica es</h2>
-            <div className="text-3xl font-bold md:pl-2">
+            <div className="text-3xl font-bold min-w-[340px]">
               <Typewriter
                 words={[
                   "Bienestar",
@@ -38,17 +38,14 @@ function NosotrasPage() {
               />
             </div>
           </div>
-
-          <p className="text-md">
-                Aqui falta un texto que no esta en figma buuuu...
-          </p>
         </div>
         <div className="flex justify-center items-center">
           <Image
             src="/us/usBannerImg.png"
             alt="Imagen banner pagina nosotras de centro de psicologia"
             width={400}
-            height={270}
+            height={400}
+             className="object-cover"
           />
         </div>
       </div>
@@ -74,6 +71,8 @@ function NosotrasPage() {
               alt="Imagen de una flor"
               width={274}
               height={421}
+              quality={100}
+             
             />
           </div>
           <div>
@@ -94,7 +93,7 @@ function NosotrasPage() {
           </div>
         </div>
       </div>
-      <SubTitle text="Lorem ipsum dolor sit"></SubTitle>
+      <SubTitle text="Nuestro Equipo"></SubTitle>
       <Profiles></Profiles>
     </section>
   );

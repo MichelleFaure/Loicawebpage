@@ -19,6 +19,7 @@ function Footercomp() {
                   alt="logo Centro de Psicología y Sexología Loica"
                   width={182}
                   height={144}
+                  quality={100}
                 />
               </div>
               <div>
@@ -53,17 +54,15 @@ function Footercomp() {
                   <Footer.Link href="/">Home</Footer.Link>
                   <Footer.Link href="/nosotras">Nosotras</Footer.Link>
                   <Footer.Link href="/servicios">Servicios</Footer.Link>
-                  <Footer.Link href="/recursos">Recursos</Footer.Link>
+                  <Footer.Link href="/cursosytalleres">Cursos y Talleres</Footer.Link>
                   <Footer.Link href="/agenda">Agenda</Footer.Link>
                 </Footer.LinkGroup>
               </div>
               <div>
                 <Footer.Title title="Ubicación" className="text-[#374151]" />
                 <Footer.LinkGroup col className="text-[#374151]">
-                  <Footer.Link href="#">
-                    Gral del Canto 112, oficina 204, Providencia, Región
-                    Metropolitana, Chile
-                  </Footer.Link>
+                  <div> Santiago, Chile</div>
+                  <div> Almería, España</div>
                 </Footer.LinkGroup>
               </div>
             </div>

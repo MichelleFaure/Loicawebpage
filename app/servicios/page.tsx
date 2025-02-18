@@ -37,7 +37,7 @@ function ServiciosPage() {
     <section>
       <BannerCoral
         title="SERVICIOS"
-        text="Confía en nuestra experiencia para cuidarte, en nuestro centro encontrarás la guía y el apoyo que necesitas. Contamos con una amplia gama de servicios para atender tus necesidades individuales, de pareja o grupales. Te ofrecemos un acompañamiento profesional, cercano y personalizado para responder a tus necesidades únicas."
+        text="Confía en nuestra experiencia para cuidarte, en nuestro centro encontrarás la guía y el apoyo que necesitas. Contamos con una amplia gama de servicios para atender tus necesidades individuales, de pareja o grupales. Te ofrecemos un acompañamiento profesional, cercano y personalizado."
       />
       <section className="p-10">
         {services.map((service) => (

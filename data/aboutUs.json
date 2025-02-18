@@ -9,7 +9,8 @@
     "services": [
       {
         "id": "1",
-        "title": "Psicoterapia Individual",
+        "title": "Sesiones Online",
+        "description":"Se realizan a través de la plataforma Google Meet. Se te enviará un enlace para conectarte a la sesión minutos antes.",
         "modalidad": {
           "icon": "TbFlower",
           "text": "Online"
@@ -22,8 +23,65 @@
           "icon": "IoTimeOutline",
           "text": "60 minutos"
         },
-        "imgSrc": "/services/serviceImg1.png",
+        "imgSrc": "/services/serviceImg6.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/8933b2c1-5b90-4f99-b21e-e9b3b3a2f6c6"
+      },
+      {
+        "id": "2",
+        "title": "Sesiones Presenciales",
+        "description": "Se realizan a través de la plataforma Google Meet. Se te enviará un enlace para conectarte a la sesión minutos antes.",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Presencial"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg7.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/7c44ab17-8835-40d9-947a-e8f5ab5cbef0"
+      },
+      {
+        "id": "3",
+        "title": "Consejería Sexual (online)",
+        "description": "En la consejería se entrega información, herramientas y sugerencias específicas ante alguna temática ligada a la sexualidad. Es de carácter breve, de 4 a 5 sesiones y en caso de ser necesario, puede ser la puerta de entrada a una terapia sexológica o derivaciones a diversos especialistas de la salud (matroneria, ginecología, urología, etc)",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg5.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/35a010a3-b17d-40a7-914f-99259ba9169a"
+      },
+      {
+        "id": "4",
+        "title": "Consejería Sexual (Presencial)",
+        "description": "En la consejería se entrega información, herramientas y sugerencias específicas ante alguna temática ligada a la sexualidad. Es de carácter breve, de 4 a 5 sesiones y en caso de ser necesario, puede ser la puerta de entrada a una terapia sexológica o derivaciones a diversos especialistas de la salud (matroneria, ginecología, urología, etc)",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg5.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/1d0f4f99-b0bd-4358-93e5-a4aa96554d25"
       }
     ]
   },
@@ -37,7 +95,8 @@
     "services": [
       {
         "id": "1",
-        "title": "Psicoterapia Individual",
+        "title": "Psicoterapia Individual - Online",
+        "description": "Cada persona es única y, por eso, tu terapia también lo será. Trabajaremos juntos para identificar tus fortalezas y superar los obstáculos que te impiden alcanzar tu máximo potencial. Creemos firmemente en tu capacidad de crecimiento y te acompañaremos en este camino hacia una vida más plena y auténtica.",
         "modalidad": {
           "icon": "TbFlower",
           "text": "Online"
@@ -53,27 +112,11 @@
         "imgSrc": "/services/serviceImg1.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/19f54f58-ede4-4987-8bfa-75777abf4bcf"
       },
+
       {
         "id": "2",
-        "title": "Psicoterapia Individual - Plan Mensual",
-        "modalidad": {
-          "icon": "TbFlower",
-          "text": "Online"
-        },
-        "price": {
-          "icon": "HiCurrencyDollar",
-          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
-        },
-        "time": {
-          "icon": "IoTimeOutline",
-          "text": "60 minutos"
-        },
-        "imgSrc": "/services/serviceImg1.png",
-        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/4ae30e6d-da15-48bf-bd7c-3ffca6ddbf26"
-      },
-      {
-        "id": "3",
         "title": "Psicoterapia de Parejas o Vínculos No Monógamos",
+        "description":"Ya sea que busquen mejorar su conexión emocional, establecer límites claros o navegar los desafíos de una relación no monógama, les acompañaremos en este proceso, brindándoles herramientas y estrategias personalizadas para fortalecer su vínculo. En un espacio seguro y confidencial para explorar sus inquietudes, fortalecer la comunicación y construir una relación más sólida y satisfactoria.",
         "modalidad": {
           "icon": "TbFlower",
           "text": "Online"
@@ -94,8 +137,9 @@
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/df47ae6c-a2f5-47c3-8cfc-ce800d4beeab"
       },
       {
-        "id": "4",
+        "id": "3",
         "title": "Psicoterapia de Parejas o Vínculos No Monógamos - Plan Mensual",
+        "description":"Tratamiento especializado de problemas y dificultades que impiden una vivencia satisfactoria de la sexualidad propia y de la relación sexual. Abordamos las disfunciones sexuales que no se deban a una afección médica. Va dirigida a todas las personas o parejas, que quieran mejorar la vivencia de su sexualidad o de sus relaciones sexuales.",
         "modalidad": {
           "icon": "TbFlower",
           "text": "Online"
@@ -112,8 +156,8 @@
           "icon": "IoPeopleCircleOutline",
           "text": "5-10 personas"
         },
-        "imgSrc": "/services/serviceImg2.png",
-        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/f6d32dcf-924f-400a-a96b-b2d26a83440d"
+        "imgSrc": "/services/serviceImg4.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/b9227e35-c59f-4f90-82ed-86e69745d38f"
       }
     ]
   }
