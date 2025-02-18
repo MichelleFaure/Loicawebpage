@@ -3,7 +3,7 @@ import AgendaCards from "@/components/AgendaCards";
 import BannerCoral from "@/components/BannerCoral";
 import aboutUs from "@/data/aboutUs.json";
 import Image from "next/image";
-import { Accordion } from "flowbite-react";
+
 function AgendaPage() {
   const lauraServices = aboutUs[0].services;
   const danielaServices = aboutUs[1].services;
