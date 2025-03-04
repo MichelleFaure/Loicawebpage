@@ -21,12 +21,21 @@ function AgendaPage() {
             alt=""
             width={100}
             height={100}
-            className="rounded-full w-[80px] h-[80px] object-cover"
+            className="rounded-full w-[80px] h-[80px] object-cover ms-4 md:ms-0"
           />
           <h2 className="text-xl ">Psicóloga Laura Valdés Cruzatt</h2>
         </div>
 
         <AgendaCards services={lauraServices} />
+        <div className="hidden md:inline absolute top-[500px] -left-[250px] opacity-30 -z-10">
+          <Image
+            src="/layout/bg-img-2.png"
+            alt=""
+            width={600}
+            height={630}
+            quality={100}
+          />
+        </div>
       </div>
       <div className="max-w-screen-lg mx-auto mb-14">
         <div className="flex items-center gap-4  mx-auto mt-16 mb-4">
@@ -35,11 +44,20 @@ function AgendaPage() {
             alt=""
             width={100}
             height={100}
-            className="rounded-full w-[80px] h-[80px] object-cover"
+            className="rounded-full w-[80px] h-[80px] object-cover ms-4 md:ms-0"
           />
           <h2 className="text-xl">Psicóloga Daniela Bustos Páez</h2>
         </div>
         <AgendaCards services={danielaServices} />
+        <div className="hidden md:inline absolute top-[900px] right-0 bottom-0 opacity-30 -z-10  ]">
+          <Image
+            src="/layout/bg-img.png"
+            alt=""
+            width={340}
+            height={500}
+            quality={100}
+          />
+        </div>
       </div>
     </>
   );

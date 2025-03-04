@@ -1,6 +1,7 @@
 import { FaWhatsapp, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { poppins } from "@/app/fonts/fonts";
+import Image from "next/image";
 function ContacUs() {
 
   const phoneNumber = "56957729169"; 
@@ -39,21 +40,21 @@ function ContacUs() {
 
 
   return (
-    <section className="bg-lavender-light max-w-screen-lg m-auto flex justify-around items-center flex-wrap my-24 rounded-md shadow-md">
-      <div className="w-56">
-        <h2 className="text-6xl pt-8 md:p-0">Contacto</h2>
-        <p className="pl-2 text-center md:text-start">
+    <section className="bg-lavender-light relative max-w-screen-lg m-auto px-4 flex justify-around items-center flex-wrap my-24 rounded-md shadow-md">
+      <div className="w-56 z-10">
+        <h2 className="text-6xl pt-8 md:p-0 ">Contacto</h2>
+        <p className="pl-2 text-center md:text-start font-semibold">
           Si tienes alguna duda comunicate con nosotras a través de estos
           canales.
         </p>
       </div>
       <div>
         <div className="flex flex-col gap-8 py-16">
-          {rrssData.map((item)=>{
+          {rrssData.map((item) => {
             return (
               <a
                 key={item.name}
-                className="flex items-center gap-4 rounded-lg bg-lavender shadow-md px-8 py-2 hover:scale-105"
+                className="flex items-center gap-4 z-10 rounded-lg bg-lavender shadow-md px-8 py-2 hover:scale-105"
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -72,8 +73,16 @@ function ContacUs() {
               </a>
             );
           })}
-
         </div>
+      </div>
+      <div className="absolute bottom-0 left-0 opacity-40 ">
+        <Image
+          src="/layout/bg-img-3.png"
+          alt=""
+          width={433}
+          height={500}
+          quality={100}
+        />
       </div>
     </section>
   );

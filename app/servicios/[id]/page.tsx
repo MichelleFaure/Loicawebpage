@@ -7,6 +7,8 @@ import Link from "next/link";
 import BannerService from "@/components/BannerService";
 import Themes from "@/components/Themes";
 import ServiceDetails from "@/components/ServiceDetails";
+import ServiceCta from "@/components/ServiceCta";
+import Help from "@/components/Help";
 
 const iconMap: Record<string, JSX.Element> = {
   TbFlower: <TbFlower />,
@@ -81,6 +83,8 @@ function page({ params }: { params: { id: string } }) {
         classType={service.classType}
         iconMap={iconMap}
       ></ServiceDetails>
+      <ServiceCta></ServiceCta>
+      <Help></Help>
     </>
   );
 }

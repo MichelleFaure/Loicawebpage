@@ -1,5 +1,5 @@
 import { poppins } from "@/app/fonts/fonts";
-
+import Image from "next/image";
 interface ServiceDetailsProps {
   modalidad: { icon: string; text: string };
   price: { icon: string; text: string[] };
@@ -17,63 +17,120 @@ function ServiceDetails({
   iconMap,
 }: ServiceDetailsProps) {
   return (
-    <section className="max-w-screen-lg mx-auto grid grid-cols-2 md:grid-cols-3 gap-8 my-32 px-8 md:px-0">
+    <section className="max-w-screen-lg mx-auto flex flex-wrap justify-center gap-4 my-24">
       <div
-        className={`${poppins.className} rounded-md border border-lavender text-center relative md:px-10 pb-4 my-10`}
+        className={`${poppins.className}  p-6 w-[300px] relative border-sm  bg-soft-Lavender border rounded-md border-lavender `}
       >
-        <div className="flex items-center justify-center rounded-full w-24 h-24 bg-lavender text-7xl absolute left-1/2 -translate-x-1/2 -top-10">
+        <div className="flex items-center justify-center rounded-full w-12 h-12 p-2 text-grey-font bg-off-white-lavender shadow-xl text-7xl">
           {iconMap[modalidad.icon]}
         </div>
-        <div className="h-20"></div>
-        <p className="font-semibold text-xl">Modalidad</p>
-        <p>{modalidad.text}</p>
+
+        <div>
+          <p className="text-lg font-semibold mt-2">Modalidad</p>
+          <p className="text-grey-font text-sm">{modalidad.text}</p>
+        </div>
+
+        <div className="absolute top-0 right-0 opacity-15">
+          <Image
+            src="/services/bgPlantService.png"
+            alt=""
+            width={150}
+            height={150}
+            quality={100}
+          />
+        </div>
       </div>
       <div
-        className={`${poppins.className} rounded-md border border-lavender text-center relative md:px-10 pb-4 my-10`}
+        className={`${poppins.className} p-6 pe-0 w-[300px] relative border-sm  bg-soft-Lavender border rounded-md border-lavender `}
       >
-        <div className="flex items-center justify-center rounded-full w-24 h-24 bg-lavender text-7xl absolute left-1/2 -translate-x-1/2 -top-10">
+        <div className="flex items-center justify-center rounded-full w-12 h-12 p-2 text-grey-font bg-off-white-lavender shadow-xl text-7xl">
           {iconMap[price.icon]}
         </div>
-        <div className="h-20"></div>
-        <p className="font-semibold text-xl">Precio</p>
-        <div className="flex flex-col text-center text-xs gap-2 pt-1">
-          {price.text.map((item, index) => {
-            return <div key={index}>{item}</div>;
-          })}
+        <div>
+          <p className="text-lg font-semibold mt-2">Precio</p>
+          <div className="flex gap-2">
+            {price.text.map((item, index) => {
+              return (
+                <p className="text-grey-font text-sm" key={index}>
+                  {item}
+                </p>
+              );
+            })}
+          </div>
+          <div className="absolute top-0 right-0 opacity-15">
+          <Image
+            src="/services/bgPlantService.png"
+            alt=""
+            width={150}
+            height={150}
+            quality={100}
+          />
         </div>
+        </div>
+        
       </div>
       <div
-        className={`${poppins.className} rounded-md border border-lavender text-center relative md:px-10 pb-4 my-10`}
+        className={`${poppins.className} p-6 w-[300px] relative border-sm  bg-soft-Lavender border rounded-md border-lavender `}
       >
-        <div className="flex items-center justify-center rounded-full w-24 h-24 bg-lavender text-7xl absolute left-1/2 -translate-x-1/2 -top-10">
+        <div className="flex items-center justify-center rounded-full w-12 h-12 p-2 text-grey-font bg-off-white-lavender shadow-xl text-7xl">
           {iconMap[time.icon]}
         </div>
-        <div className="h-20"></div>
-        <p className="font-semibold text-xl">Duración</p>
-        <p>{time.text}</p>
+        <div>
+          <p className="text-lg font-semibold mt-2">Duración</p>
+          <p className="text-grey-font text-sm">{time.text}</p>
+        </div>
+                <div className="absolute top-0 right-0 opacity-15">
+          <Image
+            src="/services/bgPlantService.png"
+            alt=""
+            width={150}
+            height={150}
+            quality={100}
+          />
+        </div>
       </div>
       {classType && (
         <div
-          className={`${poppins.className} rounded-md border border-lavender text-center relative md:px-10 pb-4 my-10`}
+          className={`${poppins.className} p-6 w-[300px] relative border-sm  bg-soft-Lavender border rounded-md border-lavender `}
         >
-          <div className="flex items-center justify-center rounded-full w-24 h-24 bg-lavender text-7xl absolute left-1/2 -translate-x-1/2 -top-10">
+          <div className="flex items-center justify-center rounded-full w-12 h-12 p-2 text-grey-font bg-off-white-lavender shadow-xl text-7xl">
             {iconMap[classType.icon]}
           </div>
-          <div className="h-20"></div>
-          <p className="font-semibold text-xl">Tipo</p>
-          <p>{classType.text}</p>
+          <div>
+            <p className="text-lg font-semibold mt-2">Tipo</p>
+            <p className="text-grey-font text-sm">{classType.text}</p>
+          </div>
+                  <div className="absolute top-0 right-0 opacity-15">
+          <Image
+            src="/services/bgPlantService.png"
+            alt=""
+            width={150}
+            height={150}
+            quality={100}
+          />
+        </div>
         </div>
       )}
       {capacity && (
         <div
-          className={`${poppins.className} rounded-md border border-lavender text-center relative md:px-10 pb-4 my-10`}
+          className={`${poppins.className} p-6 w-[300px] relative border-sm  bg-soft-Lavender border rounded-md border-lavender `}
         >
-          <div className="flex items-center justify-center rounded-full w-24 h-24 bg-lavender text-7xl absolute left-1/2 -translate-x-1/2 -top-10">
+          <div className="flex items-center justify-center rounded-full w-12 h-12 p-2 text-grey-font bg-off-white-lavender shadow-xl text-7xl">
             {iconMap[capacity.icon]}
           </div>
-          <div className="h-20"></div>
-          <p className="font-semibold text-xl">Capacidad</p>
-          <p>{capacity.text}</p>
+          <div>
+            <p className="text-lg font-semibold mt-2">Capacidad</p>
+            <p className="text-grey-font text-sm">{capacity.text}</p>
+          </div>
+                  <div className="absolute top-0 right-0 opacity-15">
+          <Image
+            src="/services/bgPlantService.png"
+            alt=""
+            width={150}
+            height={150}
+            quality={100}
+          />
+        </div>
         </div>
       )}
     </section>

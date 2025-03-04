@@ -6,11 +6,11 @@ import abaoutUs from "@/data/aboutUs.json";
 function Profiles() {
   return (
     <section
-      className={`flex gap-10 flex-wrap justify-center items-center mb-24 ${poppins.className}`}
+      className={`flex gap-10 flex-wrap justify-center relative items-center mb-24 ${poppins.className} `}
     >
       {abaoutUs.map((profile) => {
         return (
-          <div key={profile.name} className="w-[300px] overflow-hidden bg-white shadow-lg rounded-lg">
+          <div key={profile.name} className="w-[310px] sm:w-[400px] overflow-hidden bg-white shadow-lg rounded-lg">
             <div className="relative h-[150px]">
               <div className="relative h-full">
                 <div className="absolute w-[650px] h-[650px] bg-gradient-to-bl from-[#DDDDFA] to-[#9C9CE6] rounded-full top-[-330%] left-1/2 transform -translate-x-1/2 animate-spin-custom opacity-100"></div>
@@ -29,10 +29,10 @@ function Profiles() {
             <div className="text-center p-5 mt-20">
               <h2 className="text-gray-700 font-semibold">{profile.name}</h2>
               <h3 className="text-gray-500 text-sm">{profile.degree}</h3>
-              <p className="text-sm text-gray-500 mt-4 leading-5 min-h-[260px]">
+              <p className="text-sm text-gray-500 mt-4 leading-5 min-h-[230px]">
                 {profile.description}
               </p>
-              <p className="text-xs mt-4 text-gray-500">
+              <p className="text-xs mt-2 text-gray-500">
                 {profile.registration_number}
               </p>
               <a
@@ -52,6 +52,24 @@ function Profiles() {
           </div>
         );
       })}
+      <div className="absolute top-[600px] md:top-[200px] -right-[200px] opacity-30 -z-10">
+        <Image
+          src="/layout/bg-img.png"
+          alt=""
+          width={600}
+          height={630}
+          quality={100}
+        />
+      </div>
+            <div className="absolute -top-[150px] -left-[250px] opacity-30 -z-10">
+        <Image
+          src="/layout/bg-img-2.png"
+          alt=""
+          width={600}
+          height={630}
+          quality={100}
+        />
+      </div>
     </section>
   );
 }

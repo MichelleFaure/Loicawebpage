@@ -37,7 +37,7 @@ function Explore() {
             alt="Imagen explora nuestros servicios"
             width={500}
             height={320}
-            className="md:ml-8"
+            className="md:ml-8 rounded-md shadow-md"
             quality={100}
           />
         </div>

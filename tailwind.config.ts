@@ -12,12 +12,14 @@ const config: Config = {
     extend: {
       colors: {
         "lavender-light": "#C2C2F6",
+        "soft-Lavender": "#EBEFFE",
         lavender: "#9C9CE6",
         "off-white-lavender": "#DDDDFA",
         coral: "#E26D5A",
         "light-coral": "#F9D8CD",
         "slate-blue": "#526188",
         "bluish-Gray": "#8099CF",
+        "grey-font": "#564747",
       },
       animation: {
         "spin-custom": "spin-custom 12s linear infinite",

@@ -13,7 +13,7 @@ function Themes({ themes }: ThemesProps) {
           return (
             <div
               key={index}
-              className={`${poppins.className} bg-lavender-light rounded-full text-sm md:text-xl text-center p-2 flex items-center justify-center  break-words `}
+              className={`${poppins.className} bg-lavender-light rounded-full text-sm  text-center p-2 flex items-center justify-center  break-words `}
             >
               {item}
             </div>

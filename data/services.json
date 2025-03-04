@@ -75,7 +75,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": ["x persona/mes","$60.000 (CLP)","$65 (USD)" ,"65€ (EUR)"]
+      "text": ["$60.000 (CLP)","$65 (USD)" ,"65€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
