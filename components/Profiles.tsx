@@ -52,12 +52,12 @@ function Profiles() {
           </div>
         );
       })}
-      <div className="absolute top-[600px] md:top-[200px] -right-[200px] opacity-30 -z-10">
+      <div className="absolute top-[600px] md:top-[300px] right-0 opacity-30 -z-10">
         <Image
           src="/layout/bg-img.png"
           alt=""
-          width={600}
-          height={630}
+          width={340}
+          height={500}
           quality={100}
         />
       </div>
