@@ -1,34 +1,735 @@
 [
-  {
-    "id": "1",
-    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla...",
-    "headerImg": "/resourses/example.png",
-    "authorImg": "/profiles/profilephoto.png",
-    "author": "Laura Valdés"
-  },
-  {
-    "id": "2",
-    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "description": "Descripción del recurso 2",
-    "headerImg": "/resourses/example.png",
-    "authorImg": "/profiles/profilephoto2.png",
-    "author": "Daniela Bustos"
-  },
-  {
-    "id": "3",
-    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla...",
-    "headerImg": "/resourses/example.png",
-    "authorImg": "/profiles/profilephoto.png",
-    "author": "Laura Valdés"
-  },
-  {
-    "id": "4",
-    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium dolore sed nulla...",
-    "headerImg": "/resourses/example.png",
-    "authorImg": "/profiles/profilephoto2.png",
-    "author": "Daniela Bustos"
-  }
+{
+  "id": "1",
+  "titulo": "Terapia con enfoque humanista ¿qué significa?",
+  "autor": "Por Laura Valdés Cruzatt",
+  "image": "/resourses/art3.png",
+  "autorImage": "/profiles/profilephoto.png",
+  "contenido": [
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Cuando realizamos una búsqueda de psicoterapia cada vez se hace más común que se mencione el enfoque desde el que se realiza la psicoterapia y es posible que no conozcas las diferencias entre ellos y cómo puede influir en la manera en que se trabaja e incluso algunas veces, marcar la pauta de la duración del proceso psicoterapéutico."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Cuando hablamos de “enfoque” nos referimos a la teoría que está a la base del trabajo de psicólogues los cuales tenemos diferentes maneras de ver al ser humano, por qué o cómo surge el sufrimiento o malestar y cómo desde nuestra disciplina se puede trabajar en torno a el. Entre esos enfoques se encuentran, por ejemplo, psicoanálisis, cognitivo conductual, sistémico y humanista de los cuales derivan, como ramas de un árbol, otros varios enfoques o surgen de ellos herramientas específicas."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Conocer y diferenciar los enfoques utilizados en la psicoterapia puede ayudarte a buscar cuál de ellos puede ser más adecuado, cómodo y que te haga más sentido. "
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "En este documento te contaré un poco del enfoque humanista, que es parte de nuestro sello como Centro Loica."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "Orígenes históricos"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "La terapia humanista o con enfoque humanista tiene sus inicios en Estados Unidos como un movimiento posterior a la segunda guerra mundial, que se genera principalmente en el mundo académico con grandes discrepancias a los modelos existentes de la psicología en ese momento: psicoanálisis y conductismo. En las críticas de este movimiento hacia esos modelos estaba la visión de que simplificarían al ser humano, reduciéndolo a conductas y nociones biológicas, como un ser que sólo reacciona a sucesos que le ocurren. El movimiento humanista abogaba por un potencial intrínseco que tendríamos como seres humanos hacia desarrollar nuestro potencial, con una fuerte necesidad de autorealizarnos y trascender, más allá de nuestra biología y nuestra conducta, sin negar dichos conocimientos."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Hacia los años 60, mientras ocurría la Guerra de Vietnam y en pleno apogeo del movimiento hippie y la revolución sexual, lo que inició como un movimiento se posiciona como un tercer modelo de la psicología llamándola “la tercera fuerza”, integrando nuevas visiones y conocimientos en torno al ser humano y también nuevas herramientas y formas de trabajo."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "De sus precursores podemos encontrar a Abraham Maslow, Carl Jung, Erich Fromm, Wilhelm Reich, Fritz Perls y Viktor Frankl, entre otros. "
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "¿Qué es la terapia humanista?"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Si bien no hay un modelo único, ",
+        {
+          "negrita": "se basa en mirar a la persona como única, irrepetible e integral"
+        },
+        ", en la cual “está contenida la sabiduría necesaria para alcanzar el estado de salud óptima” (Kalawski et al. 1996) que fue lo que Rogers llamó “valoración organísmica”. Ello implica la ",
+        {
+          "negrita": " capacidad de desarrollarse, reorganizarse y tender de manera innata a la autorrealización."
+        },
+        " Se consideraba al psicoanálisis como un conocimiento en torno a la “anormalidad” o a la enfermedad, con tratamientos y técnicas orientadas a sanar aquella enfermedad. ",
+        {
+          "negrita": " La mirada de la psicología humanista es potenciar al ser humano más allá de no estar enfermo, integra como meta promover su desarrollo de modo que la persona pueda estar en coherencia consigo mismo."
+        }
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Esta visión del ser humano implicó cambios en la forma que se relaciona terapeuta y paciente, donde inicialmente se buscaba una relación más lejana, jerárquica con quien realiza la terapia, basada en un modelo médico donde cuenta con expertiz y conocimiento acabado del ser humano. La terapia humanista comenzó a reemplazar el concepto de “paciente” por “cliente”, para dejar atrás el carácter “pasivo” de quien consulta volviéndo no parte del proceso sino al centro de la terapia. "
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Por otro lado, se empezó a trabajar más con el cuerpo, el movimiento, la dramatización y también buscando conocer o entender el malestar desde las sensaciones del cuerpo."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "¿Qué puedo esperar de un/a/e terapeuta humanista?"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Si bien desde todos los enfoques teóricos se busca ofrecer un espacio de contención y seguridad, quienes trabajamos desde este enfoque solemos ser más cercanos tanto en la forma de comunicarnos como de relacionarnos con quienes consultan. Es posible que te saludemos con un abrazo, que ofrezcamos algo para beber mientras estamos en sesión, que te preguntemos si necesitas alguna manta cuando hace frío, mayor ventilación cuando hace calor, entre otras cosas."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Nos preocupamos por el cuerpo y cómo este se manifiesta, ayudando a relacionar estos malestares físicos con las emociones guiando a quienes nos consultan hacia un camino de autoconocimiento."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "En ese contexto es posible que haya sesiones donde se invite a quien consulta a realizar experiencias guiadas, de movimiento, de respiración y/o que se sugiera alguna actividad que incluya el movimiento como practicar algún deporte, yoga, pilates, bailar o acudir a grupos de biodanza, entre otros."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "Algo importante que debes saber…"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Desde Loica ",
+        {
+          "negrita": "no creemos que el enfoque humanista en psicoterapia sea “mejor” o más “correcto” que otros enfoques"
+        },
+        ", sino más bien que pueda ser más cómodo o adecuado a cierto tipo de personas, y eso dependerá de la personalidad de cada une y sus necesidades."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Es por ello que nos interesa contar y explicar qué es y qué implica iniciar una terapia psicológica desde este enfoque teórico, también que puedas informarte y conocer otros enfoques terapéuticos para poder decidir la forma de trabajo que se adecúe a tus intereses y necesidades"
+      ]
+    },
+    {
+      "tipo": "bibliografia",
+      "contenido": [
+        "Kalawski, A., Celis, A., & Sepúlveda, P. (1996). La psicoterapia humanista y transpersonal: orígenes y conceptos fundamentales. En A. Celis (Ed.), Humanismo, espiritualidad y psicoterapia (pp. 19-45). Santiago: Transformación."
+      ]
+    }
+  ]
+},
+{
+  "id": "2",
+  "titulo": "Abuso sexual infantil en mujeres: No estás rota",
+  "autor": "Por Daniela Bustos Páez ",
+  "image": "/resourses/art2.png",
+  "autorImage": "/profiles/profilephoto2.png",
+  "contenido": [
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "El abuso sexual infantil es una herida profunda, una injusticia que nunca debió ocurrir. Muchas mujeres que lo vivieron han crecido con la sensación de que algo en ellas está roto, de que su dolor es un peso que deben llevar en silencio. Pero aquí está la verdad: ",
+        {
+          "negrita": " no estás rota."
+        }
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "La violencia que sufriste no te define. Lo que te hicieron no borra tu valor ni tu derecho a una vida plena. Y aunque las cicatrices emocionales pueden estar ahí, también está la posibilidad de sanar, reconstruirte y vivir con libertad."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Sanar del abuso sexual infantil no es solo un proceso personal, sino un acto de resistencia. Es desafiar el silencio, el estigma y la culpa impuesta por una sociedad que muchas veces ha preferido mirar hacia otro lado. Es reclamar el derecho a vivir sin miedo, a confiar, a sentir placer, a ser feliz."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "Las cicatrices invisibles: Cómo el abuso deja huellas en la adultez"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "El abuso puede quedar en el pasado, pero sus efectos suelen manifestarse en la vida adulta de muchas maneras. Y no siempre es fácil identificar la conexión entre lo que ocurrió en la infancia y lo que sentimos hoy. Algunas mujeres lo recuerdan con claridad, mientras que otras tienen memorias fragmentadas o bloqueadas. En ambos casos, el impacto puede aparecer en forma de:"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "💜 Dificultades en la intimidad y la sexualidad: Algunas mujeres sienten miedo al contacto físico o al placer, mientras que otras pueden involucrarse en relaciones impulsivas, buscando inconscientemente reparar lo que les fue arrebatado.",
+        "💜 Relaciones poco saludables: La baja autoestima y la falta de confianza pueden llevar a la dependencia emocional o a la repetición de dinámicas de abuso.",
+        "💜 Ansiedad, depresión y ataques de pánico: Emociones como el miedo, la angustia y la tristeza pueden aparecer sin una causa aparente, cuando en realidad son el eco de un trauma no procesado.",
+        "💜 Autodesprecio y culpa: Muchas sobrevivientes se culpan por lo que vivieron, cuando en realidad la responsabilidad es únicamente del agresor. Esta culpa impuesta puede llevar a la autoexigencia extrema, la autolesión o el abuso de sustancias.",
+        "💜 Sensación de vacío o desconexión con una misma: Algunas mujeres sienten que no pueden confiar en sus emociones, que no tienen un sentido de identidad sólido o que están “desconectadas”."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Lo que es importante recordar es que ",
+        {
+          "negrita": " nada de esto es un defecto personal"
+        },
+        " . Son respuestas emocionales naturales a un trauma que nunca debió ocurrir. Y, lo más importante,",
+        {
+          "negrita": " se pueden transformar"
+        },
+        "."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "El peso de la vergüenza y la culpa: Devolver la responsabilidad a quien corresponde"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Uno de los efectos más dañinos del abuso sexual es la vergüenza. Desde niñas, muchas mujeres han sido enseñadas a creer que la culpa es suya: “¿Por qué no dijiste nada?”, “¿Por qué estabas ahí?”, “Seguro algo hiciste”."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Pero ",
+        {
+          "negrita": " el abuso nunca es culpa de la sobreviviente"
+        },
+        "."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "No importa si eras una niña confiada. No importa si el agresor era un familiar, un maestro, un vecino o alguien en quien confiabas. No importa si nadie te creyó o si te enseñaron a callar. El abuso es un crimen que ocurre porque alguien con más poder decide aprovecharse de la vulnerabilidad de otra persona."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Bass y Davis, en El coraje de sanar, explican que muchas sobrevivientes han sido condicionadas para ver el abuso como algo que deben ocultar, ignorar o minimizar. Pero reconocer lo que pasó y ponerle nombre a la experiencia es el primer paso hacia la sanación. Una de las estrategias más efectivas es cambiar la narrativa interna: en lugar de preguntarnos ",
+        {
+          "negrita": "“¿por qué me pasó esto?”"
+        },
+        ", podemos preguntarnos ",
+        {
+          "negrita": "“¿qué puedo hacer para sanar y vivir en plenitud?”"
+        },
+        "​."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Sanar no significa olvidar. Significa entender que lo que pasó no nos define y que podemos escribir nuestra propia historia"
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "Sanar como acto de resistencia"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Las mujeres hemos sido educadas para callar, para complacer, para minimizar nuestro dolor. Pero sanar es un acto de rebeldía. Es desafiar la vergüenza impuesta y recuperar el poder sobre nuestra vida. Es elegir, cada día, un camino de amor propio y libertad."
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔥 El derecho a existir sin miedo.",
+        "🔥 El derecho a confiar y ser respetadas.",
+        "🔥 El derecho a habitar nuestro cuerpo con orgullo y placer.",
+        "🔥 El derecho a construir relaciones sanas, sin repetir patrones de abuso."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "El proceso de sanación no es lineal ni inmediato. Habrá días de avance y días que se sientan de retroceso. Pero cada paso cuenta. Y algo fundamental es recordar que no estás sola. Hay una comunidad de mujeres que han transitado este camino, que han aprendido a sanar y que hoy viven con más paz, amor propio y fuerza."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "Mujeres que sanan: Recuperando la voz y el cuerpo"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Si algo de lo que has leído resuena contigo, este es tu recordatorio: ",
+        {
+          "negrita": "tienes derecho a sanar."
+        }
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Tienes derecho a pedir ayuda. Tienes derecho a enojarte. Tienes derecho a sentir, a llorar, a cuestionar. Tienes derecho a reconstruirte en tus propios términos."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Porque ",
+        {
+          "negrita": "no estás rota."
+        },
+        "Porque",
+        {
+          "negrita": "el abuso no define quién eres"
+        },". Porque",{
+          "negrita": "puedes sanar y vivir libre."
+        }
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Si sientes que necesitas acompañamiento en este proceso, aquí estamos para caminar contigo. ",
+        {
+          "negrita": "Agenda una sesión y da el primer paso hacia tu recuperación."
+        },
+        " No porque necesites ser “arreglada”, sino porque mereces vivir sin las cadenas que otras personas intentaron imponerte."
+      ]
+    },
+    {
+      "tipo": "bibliografia",
+      "contenido": [
+        "Bass, E., & Davis, L. (1988). El coraje de sanar: una guía para mujeres sobrevivientes de abuso sexual infantil. Harper & Row.","Canales, J. (2015). El cristal roto: Sobreviviendo al abuso sexual en la infancia. México: Ediciones Urano.","Herman, J. L. (1992). Trauma and Recovery: The Aftermath of Violence—From Domestic Abuse to Political Terror. Nueva York: Basic Books."
+      ]
+    }
+  ]
+},
+{
+  "id": "4",
+  "titulo": "Ansiedad: no te define, pero sí te habla",
+  "autor": "Por Daniela Bustos Páez ",
+  "image": "/resourses/art4.png",
+  "autorImage": "/profiles/profilephoto2.png",
+  "contenido": [
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Vivimos en una sociedad que nos exige estar siempre alerta, productivos, resolutivos. Nos dicen que hay que ser fuertes, rápidos, eficientes. Pero ¿a qué costo? La ansiedad no surge en el vacío. Es el resultado de un mundo que nos bombardea con información, presión y expectativas inalcanzables. Si sientes que la ansiedad te domina, no es porque haya algo mal en ti, sino porque estás reaccionando de manera natural a un entorno que nos sobrecarga. Pero aquí viene la parte clave: no es tu culpa, pero sí puedes decidir qué hacer con ello."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "1. No eres tus pensamientos, eres quien los observa"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Una de las trampas más grandes de la ansiedad es creer que todo lo que pasa por tu mente es real. La mayoría de los pensamientos ansiosos son predicciones catastróficas que rara vez se cumplen. Cuando sientas que la ansiedad te atrapa, hazte estas preguntas:"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔹 ¿Esto es un hecho o una suposición?",
+        "🔹 ¿Cuántas veces pensé que algo terrible iba a pasar y al final no ocurrió?",
+        "🔹 ¿Qué es lo peor que puede pasar realmente? ¿Podría manejarlo?"
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "No podemos controlar lo que pensamos, pero sí podemos aprender a no tomarlo todo como una verdad absoluta​."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "2. Respira profundo, porque sí, el sistema está diseñado para agotarte"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "El ritmo que nos imponen es inhumano: jornadas interminables, redes sociales que nos comparan con vidas \"perfectas\", la expectativa de \"poder con todo\". ",
+        {
+          "negrita": "Es normal que estés ansioso en un sistema que no te permite detenerte"
+        },
+        " . Pero aquí está el truco: ",
+        {
+          "negrita": "tú puedes parar."
+        }
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Cuando sientas ansiedad, respira. No como un consejo vacío, sino como un acto de resistencia:"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "1. Inhala profundamente en 4 segundos.",
+        "2. Retén el aire 4 segundos.",
+        "3. Exhala lentamente en 6 u 8 segundos."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Hacerlo activa tu sistema de calma​. Es tu forma de decirle a la ansiedad (y al sistema): “No me vas a vencer”."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "3. La evasión te mantiene atrapado: Enfréntalo a tu ritmo"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "La ansiedad se alimenta de la evitación. Cada vez que postergas, cada vez que esquivas lo que temes, le das más poder. ",
+        {
+          "negrita": "No porque seas débil, sino porque así nos enseñaron a reaccionar: huir en lugar de enfrentar."
+        }
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Empieza poco a poco. ",
+        {
+          "negrita": "No tienes que hacerlo todo hoy, pero sí puedes dar un paso:"
+        }
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔹 Si temes salir de casa, intenta caminar hasta la esquina",
+        "🔹 Si te angustia hablar en público, practica frente al espejo.",
+        "🔹 Si el futuro te aterra, planifica solo el día de mañana."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "La acción, por mínima que sea, es tu herramienta para demostrarle a tu ansiedad que tú tienes el control​."
+      ]
+    },
+
+    {
+      "tipo": "subtitulo",
+      "contenido": "4. Tu cuerpo también necesita que lo cuides"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "No es casualidad que la ansiedad esté disparada cuando dormimos poco, comemos cualquier cosa y vivimos pegados a pantallas. ",
+        {
+          "negrita": "El sistema nos quiere agotados, distraídos, sin energía para cuestionarlo. Pero puedes desafiarlo cuidándote."
+        }
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔹 Muévete: No hace falta un entrenamiento extremo, solo camina, estira, sal a tomar aire.",
+        "🔹 Descansa: Deja el celular lejos antes de dormir. El mundo seguirá ahí mañana",
+        "🔹 Aliméntate bien: No porque \"tengas que\", sino porque mereces sentirte bien."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Cuidarte es un acto revolucionario. No para encajar en estándares, sino para tener la fuerza de sostenerte."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "5. Cambia el discurso interno: No eres frágil, eres humano"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Nos han metido en la cabeza que sentir ansiedad es ser débil. Nos piden que la ocultemos, que sigamos adelante como si nada. Pero ",
+        {
+          "negrita": "la ansiedad no es un fallo, es una señal"
+        },
+        " . Es tu cuerpo pidiéndote que frenes, que revises, que te escuches."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": ["Cuando te hables, hazlo con respeto​:"]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔹 En lugar de \"No puedo con esto\" , prueba con \"Estoy aprendiendo a manejarlo\".",
+        "🔹 En lugar de \"Soy un desastre\" , prueba con \"Estoy haciendo lo mejor que puedo\".",
+        "🔹 En lugar de \"Siempre me pasa lo mismo\" , prueba con \"Cada vez lo manejo mejor\"."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        {
+          "negrita": "La ansiedad no te define. No eres el miedo que sientes, eres la persona que sigue adelante a pesar de él."
+        }
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "6. Tómate el derecho de frenar"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Nos enseñaron que estar ocupados es sinónimo de éxito. Pero ¿de qué sirve el éxito si no puedes disfrutarlo? Descansar no es un lujo, es una necesidad. Haz espacio en tu día para lo que te haga bien:"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔹 Un café sin prisas.",
+        "🔹 Un rato de música sin distracciones.",
+        "🔹 Un momento de silencio para escucharte."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": ["No necesitas ganarte el descanso. Es tu derecho​."]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "7. Aceptar la ansiedad no es rendirse, es transformarla"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "En lugar de pelear contra la ansiedad, ",
+        {
+          "negrita": "acéptala como una emoción más"
+        },
+        " . No significa rendirse, sino ",
+        {
+          "negrita": "dejar de huir y empezar a vivir con ella sin miedo"
+        }
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": ["Cuando la sientas, dile:"]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔹 \"Sé que estás aquí, pero no me defines\".",
+        "🔹 \"No voy a dejar que me paralices\". ",
+        "🔹 \"Voy a seguir adelante, con miedo si hace falta, pero voy a seguir\"."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "La ansiedad solo pierde poder cuando dejas de verla como un enemigo."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "La decisión está en ti"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "El mundo no va a detenerse, el sistema no va a darte un respiro.",
+        {
+          "negrita": " Pero tú sí puedes decidir cómo reaccionar"
+        },
+        " . No tienes que esperar a que la ansiedad desaparezca para vivir. ",
+        {
+          "negrita": " Empieza a vivir, y la ansiedad, poco a poco, se hará más pequeña"
+        },
+        "."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Si sientes que no puedes solo, no significa que seas débil, significa que eres humano. Pedir ayuda, buscar herramientas y hacer cambios no es rendirse.",
+        {
+          "negrita": " Es decidir que mereces estar bien"
+        },
+        "."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "El primer paso está en tus manos. ¿Qué vas a hacer hoy para recuperar tu calma? "
+      ]
+    },
+
+    {
+      "tipo": "bibliografia",
+      "contenido": [
+        "Burns, D. (2003). Adiós, ansiedad. Paidós​",
+        "Nardone, G. (1995). Miedo, pánico, fobias: La terapia breve. Herder​"
+      ]
+    }
+  ]
+},
+{
+  "id": "3",
+  "titulo": "Duelo Migratorio: cuando las raíces están en el aire",
+  "autor": "Por Daniela Bustos Páez ",
+  "image": "/resourses/art3.png",
+  "autorImage": "/profiles/profilephoto2.png",
+  "contenido": [
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Migrar no es solo un cambio de dirección en el mapa. Es dejar atrás un pedazo de vida, decir adiós a los abrazos familiares y empezar desde cero en un lugar donde todo -desde la comida hasta la forma de hablar- puede sentirse ajeno. Y con ello, inevitablemente, llega el duelo migratorio, un proceso emocional que puede ser tan desafiante como emocionante."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "¿Por qué sentimos duelo al migrar?"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Cuando nos vamos a otro país, no solo nos alejamos esencialmente, sino que también enfrentamos pérdidas simbólicas: la cercanía de la familia y amigos, la cultura, la rutina, hasta pequeños detalles como el aroma del pan en la panadería de la esquina. Como dicen los expertos (González Calvo, 2005; Achotegui, 2008), es un ",
+        {
+          "negrita": "duelo parcial y recurrente"
+        },
+        " , porque el país de origen sigue ahí, pero nuestra relación con él cambia."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Dependiendo de las circunstancias, el duelo puede vivirse de distintas maneras:"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔹 Duelo leve: cuando la migración es planificada, con apoyo y buenas condiciones.",
+        "🔹 Duelo complicado: cuando la integración no es fácil y la nostalgia pesa más que la ilusión.",
+        "🔹 Duelo extremo o Síndrome de Ulises: cuando la persona se enfrenta a tanto estrés y soledad que su salud mental se ve afectada."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "Las etapas del duelo migratorio"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Aunque cada historia es única, el proceso suele pasar por distintas fases:"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "1. Euforia inicial: todo es nuevo, hay emoción y adrenalina. ",
+        "2. Choque cultural: aparecen dificultades, barreras y la sensación de no encajar",
+        "3. Adaptación: poco a poco, se encuentran rutinas y espacios propios.",
+        "4. Integración: la persona se siente parte del nuevo lugar sin perder su identidad. "
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Es importante entender que estas etapas no son lineales, a veces damos pasos adelante y luego pareciera que retrocedemos. Y está bien, es parte del proceso"
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "¿Qué hace que el duelo migratorio sea más difícil?"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "No todos lo viven iguales, y algunos factores pueden hacerlo más complicado:"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔹 El motivo de la migración: no es lo mismo mudarse por elección que hacerlo por necesidad o urgencia.",
+        "🔹 Las condiciones del nuevo país: la discriminación, la burocracia o la inestabilidad pueden afectar mucho.",
+        "🔹 La red de apoyo: tener a alguien que nos escuche y nos entienda hace toda la diferencia.",
+        "🔹 Nuestra propia historia personal: la resiliencia, las experiencias pasadas y la salud emocional influyen en cómo nos adaptamos."
+      ]
+    },
+
+    {
+      "tipo": "subtitulo",
+      "contenido": "Cómo enfrentar el duelo migratorio sin perderse en el camino"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Migrar es un cambio gigante, pero hay formas de hacer que duela menos y se transforma en una experiencia enriquecedora:"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "✅Dale espacio a tus emociones. Está bien extrañar, sentir nostalgia o incluso dudar de la decisión. No minimices lo que sientes.",
+        "✅ Busca comunidad. Ya sea con otros migrantes o con gente local, rodearte de personas con quienes comparten es clave.",
+        "✅ Mantén vivo tu vínculo con tu origen. Escuchar música, cocinar platos típicos o hablar con los tuyos te ayudará a sentirte más cerca.",
+        "✅Cuida tu salud mental. Si el duelo se vuelve muy pesado, buscar apoyo profesional es una gran herramienta.",
+        "✅ Construye una identidad híbrida. No tienes que elegir entre tu país de origen y el nuevo, puedes ser de ambos."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "Migrar es transformarse, no perderse"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "El duelo migratorio es real y desafiante, pero no significa que estemos condenados a sufrir. Con el tiempo, muchos descubren que no han perdido un hogar, sino que han ganado otro. La clave está en permitirse sentir, en crear nuevas raíces y, sobre todo, en buscar apoyo cuando el proceso se vuelve difícil. "
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Si sientes que el duelo migratorio te está afectando más de lo esperado, recuerda que no tienes que enfrentarlo solo. En nuestro centro ofrecemos ",
+        {
+          "negrita": "psicoterapia para migrantes"
+        },
+        " , donde te acompañamos en este proceso con comprensión y herramientas para hacerlo más llevadero. ",
+        {
+          "negrita": "Agenda una sesión y date la oportunidad de construir tu bienestar en este nuevo capítulo de tu vida."
+        },
+        ""
+      ]
+    },
+    {
+      "tipo": "bibliografia",
+      "contenido": [
+        "Achotegui, J. (2008). Duelo migratorio extremo: el síndrome del inmigrante con estrés crónico y múltiple (Síndrome de Ulises). Psicopatología y Salud Mental, 11, 15-25.",
+        "González Calvo, V. (2005). El duelo migratorio. Revista de Trabajo Social, 7, 77-97. Universidad Nacional de Colombia."
+      ]
+    }
+  ]
+}
 ]

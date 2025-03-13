@@ -16,29 +16,24 @@ function ResoursesCards() {
             <div className={`shadow-lg max-w-80 ${poppins.className}`}>
               <div className="bg-white rounded-lg">
                 <Image
-                  src={resource.headerImg}
-                  alt={resource.title}
-                  width={300}
-                  height={170}
-                  className="w-full"
+                  src={resource.image}
+                  alt={resource.titulo}
+                  width={320}
+                  height={320}
+                  className="w-full h-[320px] object-cover"
                 />
                 <div className="p-4">
-                  <h4 className="text-lg font-semibold">{resource.title}</h4>
-                  <p className="text-sm mt-4 text-slate-700 min-h-20">
-                    {resource.description}
-                  </p>
-                  <p className="text-sm text-blue-600 hover:text-blue-950">
-                    Leer más →
-                  </p>
-                  <div className="flex items-center mt-8">
+                  <h4 className="text-lg font-semibold">{resource.titulo}</h4>
+                  <div className="flex items-center mt-4">
                     <Image
-                      src={resource.authorImg}
+                      src={resource.autorImage}
                       alt=""
                       width={48}
                       height={48}
+                      quality={100}
                       className="rounded-full h-12 w-12 object-cover"
                     />
-                    <p className="pl-2 text-sm">{resource.author}</p>
+                    <p className="pl-2 text-sm">{resource.autor}</p>
                   </div>
                 </div>
               </div>

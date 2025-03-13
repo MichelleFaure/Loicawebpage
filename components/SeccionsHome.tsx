@@ -9,13 +9,13 @@ const imgCards = [
   },
   {
     src: "/home/courses.png",
-    title: "Consejerías",
-    link: "/servicios/5",
+    title: "Cursos y Talleres",
+    link: "/cursosytalleres",
   },
   {
     src: "/home/resourses.png",
-    title: "Cursos y Talleres",
-    link: "/cursosytalleres",
+    title: "Recursos",
+    link: "/recursos",
   },
 ];
 

@@ -75,6 +75,9 @@ const [isDropdownOpen, setIsDropdownOpen] = useState(false);
           <Navbar.Link className="border-none" href="/cursosytalleres">
             Cursos y Talleres
           </Navbar.Link>
+          <Navbar.Link className="border-none" href="/recursos">
+            Recursos
+          </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </div>
