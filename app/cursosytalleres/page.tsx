@@ -23,8 +23,7 @@ const Page = () => {
           />
           <p className="mt-10">
             Si tú, tu comunidad o institución desean un
-            <strong> taller o curso personalizado</strong> taller o curso
-            personalizado, por favor, <strong>rellena el formulario</strong> a
+            <strong> taller o curso personalizado</strong>, por favor, <strong>rellena el formulario</strong> a
             continuación con los detalles.
           </p>
           <p className="mt-6">
