@@ -1,6 +1,5 @@
 "use client";
 import AgendaCards from "@/components/AgendaCards";
-import BannerCoral from "@/components/BannerCoral";
 import aboutUs from "@/data/aboutUs.json";
 import Image from "next/image";
 

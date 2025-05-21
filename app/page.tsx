@@ -8,8 +8,7 @@ import ContacUs from "@/components/ContacUs";
 import Explore from "@/components/Explore";
 import Link from "next/link";
 import { poppins } from "@/app/fonts/fonts";
-// @ts-ignore
-import { Typewriter } from "react-simple-typewriter";
+import Typewriter from "typewriter-effect";
 
 
 function HomePage() {
@@ -28,24 +27,24 @@ function HomePage() {
               <h2 className="text-6xl font-light mb-8 md:mb-2">Loica es</h2>
               <div className="text-4xl md:text-6xl font-bold min-w-[340px] min-h-[100px]">
                 <Typewriter
-                  words={[
-                    "Bienestar",
-                    "feminista",
-                    "humanista",
-                    "integral",
-                    "acción social",
-                    "libertad",
-                    "acompañamiento",
-                    "crecimiento personal",
-                    "autonomía",
-                    "salud",
-                  ]}
-                  loop={true}
-                  cursor
-                  cursorStyle="|"
-                  typeSpeed={50}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
+                  options={{
+                    strings: [
+                      "Bienestar",
+                      "feminista",
+                      "humanista",
+                      "integral",
+                      "acción social",
+                      "libertad",
+                      "acompañamiento",
+                      "crecimiento personal",
+                      "autonomía",
+                      "salud",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    delay: 50,
+                    deleteSpeed: "natural",
+                  }}
                 />
               </div>
             </div>
