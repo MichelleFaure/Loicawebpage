@@ -11,6 +11,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        "lavender-bg": "#EFEFFF",
         "lavender-light": "#C2C2F6",
         "soft-Lavender": "#EBEFFE",
         lavender: "#9C9CE6",

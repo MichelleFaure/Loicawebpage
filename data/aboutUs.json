@@ -129,10 +129,6 @@
           "icon": "IoTimeOutline",
           "text": "60 minutos"
         },
-        "capacity": {
-          "icon": "IoPeopleCircleOutline",
-          "text": "5-10 personas"
-        },
         "imgSrc": "/services/serviceImg2.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/df47ae6c-a2f5-47c3-8cfc-ce800d4beeab"
       },
@@ -151,10 +147,6 @@
         "time": {
           "icon": "IoTimeOutline",
           "text": "60 minutos"
-        },
-        "capacity": {
-          "icon": "IoPeopleCircleOutline",
-          "text": "5-10 personas"
         },
         "imgSrc": "/services/serviceImg4.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/b9227e35-c59f-4f90-82ed-86e69745d38f"

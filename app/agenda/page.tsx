@@ -10,10 +10,7 @@ function AgendaPage() {
 
   return (
     <>
-      <BannerCoral
-        title="AGENDA"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit tincidunt enim et hendrerit. In ut est lacus. Mauris dapibus metus sem, et tempor orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;"
-      />
+
       <div className="max-w-screen-lg mx-auto">
         <div className="flex items-center gap-4  mx-auto mt-16 mb-4">
           <Image

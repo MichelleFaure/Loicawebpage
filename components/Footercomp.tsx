@@ -17,7 +17,7 @@ function Footercomp() {
                 <Image
                   src="/layout/footer-logo-loica.png"
                   alt="logo Centro de Psicología y Sexología Loica"
-                  width={182}
+                  width={150}
                   height={144}
                   quality={100}
                 />

@@ -21,7 +21,7 @@ const [isDropdownOpen, setIsDropdownOpen] = useState(false);
           <Image
             src="/layout/navbar-logo-loica.png"
             alt="logo Centro de Psicología y Sexología Loica"
-            width={93.28}
+            width={150}
             height={70}
             quality={100}
           />

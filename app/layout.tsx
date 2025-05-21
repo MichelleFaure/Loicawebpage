@@ -28,7 +28,7 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`${cormorant.className} antialiased bg-off-white-lavender`}
+        className={`${cormorant.className} antialiased lavender-bg`}
       >
         <Navcomp></Navcomp>
         <main>{children}</main>

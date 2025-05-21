@@ -1,5 +1,4 @@
 'use client'
-import { Typewriter } from "react-simple-typewriter";
 import Profiles from "@/components/Profiles";
 import SubTitle from "@/components/SubTitle";
 import Image from "next/image";
@@ -8,47 +7,7 @@ import { poppins } from "../fonts/fonts";
 function NosotrasPage() {
   return (
     <section>
-      <div
-        className={`max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 py-10 px-8 md:px-0 ${poppins.className}`}
-      >
-        <div className="flex flex-col justify-center mx-auto">
-          <h3 className="text-md">Un espacio seguro para sanar</h3>
-          <div className="flex flex-col my-4 ">
-            <h2 className="text-3xl font-light">Loica es</h2>
-            <div className="text-3xl font-bold min-w-[340px]">
-              <Typewriter
-                words={[
-                  "Bienestar",
-                  "feminista",
-                  "humanista",
-                  "integral",
-                  "acción social",
-                  "libertad",
-                  "acompañamiento",
-                  "crecimiento personal",
-                  "autonomía",
-                  "salud",
-                ]}
-                loop={true}
-                cursor
-                cursorStyle="|"
-                typeSpeed={50}
-                deleteSpeed={50}
-                delaySpeed={1000}
-              />
-            </div>
-          </div>
-        </div>
-        <div className="flex justify-center items-center">
-          <Image
-            src="/us/usBannerImg.png"
-            alt="Imagen banner pagina nosotras de centro de psicologia"
-            width={400}
-            height={400}
-             className="object-cover"
-          />
-        </div>
-      </div>
+
       <div className="bg-bluish-Gray w-full py-20 px-10">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-screen-lg mx-auto">
           <div>
