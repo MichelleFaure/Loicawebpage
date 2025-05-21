@@ -17,7 +17,7 @@ function HomePage() {
       <section
         className={`text-white text-xl font-light text-center md:text-left   ${poppins.className}`}
       >
-        <div className="bg-[url(/home/banner.jpg)] bg-no-repeat  bg-cover bg-center md:ps-52 h-[600px] flex flex-col justify-center">
+        <div className="bg-[url(/home/bannerImg.jpg)] bg-no-repeat  bg-cover bg-center md:ps-52 h-[600px] flex flex-col justify-center">
           <p className="text-2xl py-4 font-medium">
             Tu espacio seguro para sanar
           </p>
