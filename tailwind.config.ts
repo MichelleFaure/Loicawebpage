@@ -13,7 +13,7 @@ const config: Config = {
       colors: {
         "lavender-bg": "#EFEFFF",
         "lavender-light": "#C2C2F6",
-        "soft-Lavender": "#EBEFFE",
+        "soft-Lavender": "#DEE5FF",
         lavender: "#9C9CE6",
         "off-white-lavender": "#DDDDFA",
         coral: "#E26D5A",
