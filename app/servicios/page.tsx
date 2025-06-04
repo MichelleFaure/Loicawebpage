@@ -38,7 +38,7 @@ function ServiciosPage() {
     <section className="relative">
       <BannerCoral
         title="SERVICIOS"
-        text="Confía en nuestra experiencia para cuidarte, en nuestro centro encontrarás la guía y el apoyo que necesitas. Contamos con una amplia gama de servicios para atender tus necesidades individuales, de pareja o grupales. Te ofrecemos un acompañamiento profesional, cercano y personalizado."
+        text="En Loica creemos en una psicoterapia cercana, cuidadosa y profundamente humana. Ofrecemos un acompañamiento profesional que respeta tus tiempos, tu historia y tus necesidades. Trabajamos desde una mirada inclusiva, con compromiso ético y con la certeza de que el proceso terapéutico puede ser un camino hacia una vida más libre y consciente."
       />
       <section className="flex flex-wrap justify-center gap-10 py-24 max-w-screen-lg mx-auto">
         {services.map((service) => (
@@ -61,7 +61,6 @@ function ServiciosPage() {
           width={600}
           height={630}
           quality={100}
-          
         />
       </div>
     </section>

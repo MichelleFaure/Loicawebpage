@@ -10,7 +10,7 @@ function Explore() {
           <p
             className={`${poppins.className} md:pl-2 text-center md:text-start`}
           >
-            ¿Buscas mejorar tu bienestar psicógico y sexual?
+            ¿Buscas mejorar tu bienestar psicológico y sexual?
           </p>
           <h2 className="text-5xl mt-4 mb-8 text-center md:text-start">
             Explora y reserva nuestros servicios

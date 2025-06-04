@@ -9,77 +9,80 @@ import Explore from "@/components/Explore";
 import Link from "next/link";
 import { poppins } from "@/app/fonts/fonts";
 import Typewriter from "typewriter-effect";
+import Isapres from "@/components/Isapres";
 
 
 function HomePage() {
   return (
-    <div className="m-auto ">
-      <section
-        className={`text-white text-xl font-light text-center md:text-left   ${poppins.className}`}
-      >
-        <div className="bg-[url(/home/bannerImg.jpg)] bg-no-repeat  bg-cover bg-center md:ps-52 h-[600px] flex flex-col justify-center">
-          <p className="text-2xl py-4 font-medium">
-            Tu espacio seguro para sanar
-          </p>
+    <>
+      <section>
+        <div className="bg-[url(/home/bannerImg.jpg)] relative bg-no-repeat  bg-cover bg-center md:ps-52 h-[600px] flex flex-col justify-center">
+          <div
+            className={`${poppins.className} px-8 z-10 max-w-screen-lg text-white text-xl font-light text-center md:text-left `}
+          >
+            <p className="text-2xl py-4 font-medium z-10">
+              Un refugio para sanar, sin juicios ni prisa.
+            </p>
 
-          <div className="flex flex-col justify-center">
-            <div className="flex flex-col my-4 ">
-              <h2 className="text-6xl font-light mb-8 md:mb-2">Loica es</h2>
-              <div className="text-4xl md:text-6xl font-bold min-w-[340px] min-h-[100px]">
-                <Typewriter
-                  options={{
-                    strings: [
-                      "Bienestar",
-                      "feminista",
-                      "humanista",
-                      "integral",
-                      "acción social",
-                      "libertad",
-                      "acompañamiento",
-                      "crecimiento personal",
-                      "autonomía",
-                      "salud",
-                    ],
-                    autoStart: true,
-                    loop: true,
-                    delay: 50,
-                    deleteSpeed: "natural",
-                  }}
-                />
+            <div className="flex flex-col justify-center z-10">
+              <div className="flex flex-col my-4 ">
+                <h2 className="text-6xl font-light mb-8 md:mb-2">Loica es</h2>
+                <div className="text-4xl md:text-6xl font-bold min-w-[340px] min-h-[100px]">
+                  <Typewriter
+                    options={{
+                      strings: [
+                        "feminista",
+                        "humanista",
+                        "ética",
+                        "refugio",
+                        "compromiso social",
+                        "libertad",
+                        "transformadora",
+                        "autonomía",
+                        "comunidad",
+                        "ternura",
+                        "escucha",
+                        "reparación",
+                      ],
+                      autoStart: true,
+                      loop: true,
+                      delay: 50,
+                      deleteSpeed: "natural",
+                    }}
+                  />
+                </div>
+              </div>
+            </div>
+            <p className="py-4 z-10">
+              Aquí el cuidado es forma de lucha; y sanar, un acto de dignidad.
+            </p>
+            <div>
+              <div className="flex items-center  mx-auto md:mx-0 md:justify-between flex-col gap-4 md:flex-row max-w-md text-center">
+                <Link
+                  href="/agenda"
+                  className="z-10 bg-lavender w-56 md:min-w-28 text-xl p-2 rounded-full transform transition-transform duration-300 hover:scale-105 hover:shadow-md"
+                >
+                  AGENDA
+                </Link>
               </div>
             </div>
           </div>
-          <p className="py-4">
-            Te brindamos un ambiente de cuidado y comprensión.
-          </p>
-          <div>
-            <div className="flex items-center mx-auto md:mx-0 md:justify-between flex-col gap-4 md:flex-row max-w-md text-center">
-              <Link
-                href="/agenda"
-                className={`${poppins.className} bg-lavender w-56 md:min-w-28 text-xl p-2 rounded-full transform transition-transform duration-300 hover:scale-105 hover:shadow-md`}
-              >
-                AGENDA
-              </Link>
 
-              <Link
-                href="/servicios"
-                className={`${poppins.className} bg-light-coral w-56 md:min-w-28 text-xl p-2 rounded-full transform transition-transform duration-300 hover:scale-105 hover:shadow-md`}
-              >
-                SERVICIOS
-              </Link>
-            </div>
-          </div>
+          <div className="absolute bg-slate-900 h-[500px] w-[700px] opacity-20 rounded-lg"></div>
         </div>
       </section>
 
-      <SubTitle text="Embárcate en un viaje hacia el bienestar, te acompañaremos en cada paso"></SubTitle>
+      <SubTitle text="Caminemos a tu ritmo, hacia una vida con sentido y goce"></SubTitle>
       <SeccionsHome></SeccionsHome>
+      
       <SubTitle text="Nosotras"></SubTitle>
       <Profiles></Profiles>
+      <Isapres></Isapres>
       <Opinions></Opinions>
       <Explore></Explore>
       <ContacUs></ContacUs>
-    </div>
+      
+    </>
   );
 }
 export default HomePage;

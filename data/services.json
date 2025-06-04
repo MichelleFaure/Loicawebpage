@@ -30,7 +30,7 @@
       "Autoestima",
       "Autoconocimiento"
     ],
-    "description": "Te ofrecemos un espacio seguro y confidencial donde podrás explorar tus pensamientos, emociones y experiencias más profundas. Cada persona es única y tu terapia también lo será. Te acompañaremos a descubrir tus fortalezas y trabajaremos para superar distintos obstáculos que te impidan alcanzar tu máximo potencial. Creemos en tu capacidad de crecimiento y te acompañaremos en este viaje hacia una vida más plena y auténtica.",
+    "description": "Un espacio confidencial y seguro donde explorar tu mundo interno con cuidado. Te acompañamos a mirar tus emociones, deseos, heridas y fortalezas desde una escucha activa, sin juicio y con herramientas terapéuticas ajustadas a tu historia.",
     "imgSrc":"/services/serviceImg1.png"
   },
   {
@@ -63,7 +63,7 @@
       "Compersión",
       "Cambios de vida significativos"
     ],
-    "description": "Les ofrecemos un espacio seguro y confidencial para explorar sus inquietudes, fortalecer la comunicación y construir una relación más sólida y satisfactoria. Ya sea que busquen mejorar su conexión emocional, establecer límites claros o navegar los desafíos de una relación no monógama,  les acompañaremos en este proceso, brindándoles herramientas y estrategias personalizadas para fortalecer su vínculo.",
+    "description": "Un lugar para detenerse y conversar sobre los vínculos. Ya sea que estén buscando fortalecer la comunicación, establecer acuerdos o atravesar una crisis, ofrecemos acompañamiento sensible, informado y respetuoso de las diversas formas de relacionarse.",
     "imgSrc": "/services/serviceImg2.png"
   },
   {
@@ -90,7 +90,7 @@
       "Trauma Sexual Infantil",
       "Post aborto"
     ],
-    "description": "En este momento contamos con 3 espacios terapéuticos grupales donde, bajo la guía de una profesional, un grupo de personas se reúne en una temática común para compartir experiencias, emociones y perspectivas. A través de la interacción con otros, los participantes aprenden nuevas formas de pensar y actuar, fortalecen sus relaciones y encuentran apoyo en su proceso de crecimiento personal.",
+    "description": "Contamos con grupos terapéuticos guiados por profesionales, pensados como espacios seguros para compartir experiencias, nombrar lo que duele, encontrar sostén colectivo y descubrir otras formas de habitarnos.",
     "imgSrc": "/services/serviceImg3.png"
   },
   {
@@ -120,7 +120,7 @@
       "Dispareunia",
       "Sexualidades no normativas"
     ],
-    "description": "Tratamiento especializado de problemas y dificultades que impiden una vivencia satisfactoria de la sexualidad propia y de la relación sexual. Abordamos las disfunciones sexuales que no se deban a una afección médica. Va dirigida a todas las personas o parejas, que quieran mejorar la vivencia de su sexualidad o de sus relaciones sexuales.",
+    "description": "Espacio especializado para abordar dificultades que afectan la vivencia del deseo, el placer o la sexualidad compartida. Acompañamos desde una mirada integral, sin patologizar, con respeto por cada historia y cada cuerpo.",
     "imgSrc": "/services/serviceImg4.png"
   },
   {
@@ -150,7 +150,7 @@
       "Dispareunia",
       "Sexualidades no normativas"
     ],
-    "description": "Se entrega información, herramientas y sugerencias específicas ante alguna temática ligada a la sexualidad.  Es de carácter breve, de 4 a 5 sesiones y en caso de ser necesario, puede ser la puerta de entrada a una terapia sexológica o derivaciones a diversos especialistas de la salud (matroneria, ginecología, urología, etc) ",
+    "description": "Orientación breve (4 a 5 sesiones) centrada en temáticas específicas ligadas a la sexualidad. Puede ser la puerta de entrada a un proceso terapéutico, a un acompañamiento puntual con enfoque sexológico o a una derivación con otres especialistas de la salud como matronería, ginecología, urología o kinesiología.",
     "imgSrc": "/services/serviceImg5.png"
   }
 ]

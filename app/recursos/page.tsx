@@ -6,7 +6,10 @@ function RecursosPage() {
     <section>
       <BannerCoral
         title="RECURSOS DIGITALES"
-        text="Este es un espacio seguro para hablar de psicología y sexualidad con naturalidad, sin tabúes ni prejuicios. Donde podrás aprender, cuestionar y compartir. Aquí encontrarás consejos, herramientas prácticas y reflexiones para mejorar tu bienestar emocional y sexual."
+        text="Este es un espacio pensado para que hablar de psicología y sexualidad deje de ser tabú. Un lugar donde puedas aprender, cuestionar y compartir desde la libertad, la curiosidad y el autocuidado.
+Aquí encontrarás reflexiones, herramientas y contenidos para acompañarte en tu bienestar emocional, sexual y relacional.
+
+"
       ></BannerCoral>
       <ResoursesCards></ResoursesCards>
     </section>

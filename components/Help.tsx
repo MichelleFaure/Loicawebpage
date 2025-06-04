@@ -10,13 +10,12 @@ const Help = () => {
   return (
     <div className="max-w-screen-lg bg-coral rounded-md shadow-md mx-auto my-20 p-4  flex flex-col justify-center  ">
       <div className="text-white  md:text-lg  pt-10 px-6 md:px-28">
-        Si necesitas ayuda con otro tipo problema psicológico distinto a los
-        mencionados, puedes consultarnos sin compromisos. Estaremos encantadas
-        de atenderte y asesorarte sobre el mejor tipo de intervención
-        psicológica para tu caso.
+        Si lo que te está movilizando no aparece aquí, igual puedes escribirnos.
+        Nos importa escucharte y ayudarte a encontrar el tipo de acompañamiento
+        que más sentido tenga para ti.
       </div>
       <div className="text-white  md:text-lg  py-10 px-6 md:px-28">
-        Envianos tu consulta a nuestro correo:
+        Escríbenos a:
         <span className="text-white text-xl font-bold ps-2">
           loica.consultas@gmail.com
         </span>
@@ -37,7 +36,7 @@ const Help = () => {
           <div
             className={`${poppins.className} font-medium text-xl text-black`}
           >
-            !Contactanos!
+            ¡Contactanos!
           </div>
           <div className="w-[200px] h-[2px] bg-coral my-1"></div>
           <div className={`${poppins.className} text-sm  text-black`}>

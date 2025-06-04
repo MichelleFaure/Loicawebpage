@@ -3,7 +3,6 @@ import { TbFlower } from "react-icons/tb";
 import { HiCurrencyDollar } from "react-icons/hi";
 import { IoTimeOutline, IoPeopleCircleOutline } from "react-icons/io5";
 import { FaChalkboardUser } from "react-icons/fa6";
-import Image from "next/image";
 import Link from "next/link";
 import { poppins } from "@/app/fonts/fonts";
 import { Accordion } from "flowbite-react";
@@ -48,25 +47,15 @@ function AgendaCards({ services }: AgendaCardsProps) {
   return (
     <Accordion
       collapseAll
-      className="max-w-screen-lg mx-auto border-lavender divide-lavender mx-4 md:mx-0"
+      className={`${poppins.className} border-lavender divide-lavender `}
     >
       {services.map((service) => (
         <Accordion.Panel key={service.id}>
-          <Accordion.Title className="bg-lavender-light border-lavender text-black focus:ring-0 focus:outline-none  ">
+          <Accordion.Title className="bg-lavender-light h-[70px] text-sm border-lavender text-grey-font font-normal  focus:ring-0 focus:outline-none  ">
             {service.title}
           </Accordion.Title>
           <Accordion.Content>
-            <div className="mx-auto max-w-5xl  flex flex-col md:flex-row justify-around items-center flex-wrap  rounded-md text-center md:text-start">
-              <Image
-                src={service.imgSrc}
-                alt=""
-                width={120}
-                height={120}
-                quality={100}
-                className=" h-[120px] w-[120px] object-cover rounded-md mb-4 md:mb-0"
-              />
-              
-              <div className={`${poppins.className} text-sm w-56 mb-4 md:mb-0"`} >{service.description}</div>
+            <div className="mx-auto max-w-5xl  flex flex-col justify-around rounded-md ">
               <div
                 className={`${poppins.className} flex flex-col gap-2 mb-4 md:mb-0 py-4`}
               >
@@ -95,7 +84,7 @@ function AgendaCards({ services }: AgendaCardsProps) {
                 <div className="flex gap-2 ">
                   <div className="text-md">{iconMap[service.price.icon]}</div>
                   <div className="font-semibold text-sm">Precio</div>
-                  <div className="flex flex-col text-start text-xs gap-2 pt-1">
+                  <div className="flex text-xs gap-2 pt-1">
                     {service.price.text.map((item, index) => {
                       return <div key={index}>{item}</div>;
                     })}
