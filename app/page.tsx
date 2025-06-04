@@ -68,7 +68,7 @@ function HomePage() {
             </div>
           </div>
 
-          <div className="absolute bg-slate-900 h-[500px] w-[700px] opacity-20 rounded-lg"></div>
+          <div className="absolute bg-slate-900 h-[100%] w-[100%] opacity-20 rounded-lg"></div>
         </div>
       </section>
 
