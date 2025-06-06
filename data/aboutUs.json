@@ -17,7 +17,7 @@
         },
         "price": {
           "icon": "HiCurrencyDollar",
-          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
+          "text": ["$33.000 (CLP)", "$40 (USD)", "40€ (EUR)"]
         },
         "time": {
           "icon": "IoTimeOutline",
@@ -36,7 +36,7 @@
         },
         "price": {
           "icon": "HiCurrencyDollar",
-          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
+          "text": ["$33.000 (CLP)", "$40 (USD)", "40€ (EUR)"]
         },
         "time": {
           "icon": "IoTimeOutline",
@@ -55,7 +55,7 @@
         },
         "price": {
           "icon": "HiCurrencyDollar",
-          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
+          "text": ["$33.000 (CLP)", "$40 (USD)", "40€ (EUR)"]
         },
         "time": {
           "icon": "IoTimeOutline",
@@ -74,7 +74,7 @@
         },
         "price": {
           "icon": "HiCurrencyDollar",
-          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
+          "text": ["$33.000 (CLP)", "$40 (USD)", "40€ (EUR)"]
         },
         "time": {
           "icon": "IoTimeOutline",
@@ -116,7 +116,7 @@
       {
         "id": "2",
         "title": "Psicoterapia de Parejas o Vínculos No Monógamos",
-        "description":"Ya sea que busquen mejorar su conexión emocional, establecer límites claros o navegar los desafíos de una relación no monógama, les acompañaremos en este proceso, brindándoles herramientas y estrategias personalizadas para fortalecer su vínculo. En un espacio seguro y confidencial para explorar sus inquietudes, fortalecer la comunicación y construir una relación más sólida y satisfactoria.",
+        "description": "Ya sea que busquen mejorar su conexión emocional, establecer límites claros o navegar los desafíos de una relación no monógama, les acompañaremos en este proceso, brindándoles herramientas y estrategias personalizadas para fortalecer su vínculo. En un espacio seguro y confidencial para explorar sus inquietudes, fortalecer la comunicación y construir una relación más sólida y satisfactoria.",
         "modalidad": {
           "icon": "TbFlower",
           "text": "Online"
@@ -135,7 +135,7 @@
       {
         "id": "3",
         "title": "Psicoterapia de Parejas o Vínculos No Monógamos - Plan Mensual",
-        "description":"Tratamiento especializado de problemas y dificultades que impiden una vivencia satisfactoria de la sexualidad propia y de la relación sexual. Abordamos las disfunciones sexuales que no se deban a una afección médica. Va dirigida a todas las personas o parejas, que quieran mejorar la vivencia de su sexualidad o de sus relaciones sexuales.",
+        "description": "Tratamiento especializado de problemas y dificultades que impiden una vivencia satisfactoria de la sexualidad propia y de la relación sexual. Abordamos las disfunciones sexuales que no se deban a una afección médica. Va dirigida a todas las personas o parejas, que quieran mejorar la vivencia de su sexualidad o de sus relaciones sexuales.",
         "modalidad": {
           "icon": "TbFlower",
           "text": "Online"
@@ -150,6 +150,63 @@
         },
         "imgSrc": "/services/serviceImg4.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/b9227e35-c59f-4f90-82ed-86e69745d38f"
+      },
+      {
+        "id": "4",
+        "title": "Psicoterapia Grupal Post-aborto",
+        "description": "Este espacio está dirigido a quienes hayan experimentado un aborto, sin importar la causa ni el tiempo transcurrido. El objetivo principal es brindar un entorno de apoyo y contención, donde compartir experiencias y emociones resultan seguros y respetuosos. El grupo requiere un mínimo de 5 participantes y admite hasta un máximo de 10, con dos posibles horarios de asistencia. Sin embargo, si no se alcanza el número mínimo en uno de los turnos, es posible que se ofrezca únicamente el horario que cumpla con el cupo necesario.",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": ["$60.000 (CLP)", "$70 (USD)", "70€ (EUR)"]
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg3.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/9c800add-9dff-47d0-98a4-62a3620b7ffd"
+      },
+      {
+        "id": "5",
+        "title": "Psicoterapia Grupal Duelo Migratorio",
+        "description": "Próximamente",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": ["$60.000 (CLP)", "$70 (USD)", "70€ (EUR)"]
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg3.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/1e390907-9d6c-4a40-b3b4-21dde8554da9"
+      },
+      {
+        "id": "6",
+        "title": "Psicoterapia Grupal Trauma Sexual Infantil",
+        "description": "Próximamente",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": ["$60.000 (CLP)", "$70 (USD)", "70€ (EUR)"]
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg3.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/cbe7163c-0aaf-4ea6-ae39-02ef4bf42def"
       }
     ]
   }
