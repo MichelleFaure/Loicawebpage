@@ -31,7 +31,7 @@ const Page = () => {
           <p className="mt-6">
             Estaremos encantadas de atenderte y ofrecerte el asesoramiento que
             necesites. ¡Tu opinión es muy importante para nosotros!
-          </p>import Company from './../../components/Company';
+          </p>
 
         </div>
 
