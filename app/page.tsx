@@ -15,8 +15,10 @@ import Isapres from "@/components/Isapres";
 function HomePage() {
   return (
     <>
-      <section>
-        <div className="bg-[url(/home/bannerImg.jpg)] relative bg-no-repeat  bg-cover bg-center md:ps-52 h-[600px] flex flex-col justify-center">
+      <section className="relative">
+        <div className="bg-[url(/home/bannerImg.jpg)] bg-no-repeat  bg-cover bg-center md:ps-52 h-[600px] flex flex-col justify-center">
+          <div className="absolute bg-slate-900 top-0 left-0 opacity-20 rounded-lg h-[100%] w-[100%]"></div>
+
           <div
             className={`${poppins.className} px-8 z-10 max-w-screen-lg text-white text-xl font-light text-center md:text-left `}
           >
@@ -68,7 +70,6 @@ function HomePage() {
             </div>
           </div>
 
-          <div className="absolute bg-slate-900  opacity-20 rounded-lg h-[100%] w-[100%]"></div>
         </div>
       </section>
 
