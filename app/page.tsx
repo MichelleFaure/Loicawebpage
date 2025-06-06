@@ -74,14 +74,13 @@ function HomePage() {
 
       <SubTitle text="Caminemos a tu ritmo, hacia una vida con sentido y goce"></SubTitle>
       <SeccionsHome></SeccionsHome>
-      
+
       <SubTitle text="Nosotras"></SubTitle>
       <Profiles></Profiles>
       <Isapres></Isapres>
       <Opinions></Opinions>
       <Explore></Explore>
       <ContacUs></ContacUs>
-      
     </>
   );
 }
