@@ -7,7 +7,7 @@
   },
   {
     "name": "D.T.",
-    "age": "28 años",
+    "age": "09 octubre 2024",
     "terapeuta": "Laura",
     "opinion": "Me ha brindado herramientas prácticas para organizar mi día a día sintiéndome más segura y tranquila por la certeza que eso significa. Además, me ha ayudado a resignificar lo que es el disfrute y la importancia de este en nuestra vida. Mi experiencia ha sido reconfortante debido al espacio seguro que construye con una."
   },
@@ -19,8 +19,40 @@
   },
   {
     "name": "Gabriel C.",
-    "age": "30 años",
+    "age": "07 octubre 2024",
     "terapeuta": " Laura",
     "opinion": "Excelente profesional, me ha apoyado en momentos cruciales. Estoy muy agradecido por la terapia que hemos llevado adelante, he crecido muchísimo gracias a ella. 10/10 muy recomendada."
+  },
+  {
+    "name": "Javiera Navarro",
+    "age": "25 noviembre 2024",
+    "terapeuta": " Daniela ",
+    "opinion": "Daniela es una profesional excepcional. Durante un año de terapia, me acompañó a enfrentar y superar duelos y traumas, facilitando de manera excelente mi proceso personal. Lo que más destaco de Daniela es su capacidad para señalar con precisión esos momentos en los que una puede estar autoengañándose, ayudándote a tomar responsabilidad sobre tus decisiones y emociones de manera consciente."
+  },
+  {
+    "name": "Valeria Becker",
+    "age": "06 febrero 2021",
+    "terapeuta": " Laura",
+    "opinion": "Me ayudó bastante, fue mi primera vez en terapia y fue muy loco por qué fue online pero a pesar de eso resulto súper."
+  },
+  {
+    "name": "Luna A. ",
+    "age": "23 octubre 2024",
+    "terapeuta": " Daniela ",
+    "opinion": "Daniela es una psicóloga profundamente dedicada a sus pacientes. Se destaca por ser comprensiva, pero también por fomentar la reflexión y el autoconocimiento. Además, en ocasiones ofrece su propia perspectiva sobre lo sucedido, lo que resulta en avances significativos, tanto en el crecimiento personal como en las relaciones con los demás."
+  },
+  {
+    "name": "Natalia Carreño ",
+    "age": "02 febrero 2021",
+    "terapeuta": " Laura",
+    "opinion": "Me atendía con Laura, y quiero decir que estuvo en un momento crucial de mi vida. Agradezco lo profesional que fue, pero también y pese a las circunstancias lo cálida que fue en cada una de nuestras terapias. GRACIAS POR ENSEÑARME TANTO LAURA"
+  },
+  {
+    "name": "Ricardo Vásquez",
+    "age": "13 abril 2020",
+    "terapeuta": " Laura",
+    "opinion": "Excelente profesional, da seguridad en contarle las cosas , y ella las explica de maneras super fáciles de entender y con ganas de ir mejorando."
   }
+
+ 
 ]
