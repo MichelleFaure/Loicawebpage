@@ -3,6 +3,7 @@ import { poppins } from "@/app/fonts/fonts";
 import Pilares from "@/components/Pilares";
 import Tematicas from "@/components/Tematicas";
 import CursosCards from "@/components/CursosCards";
+import Company from "@/components/Company";
 
 const Page = () => {
   return (
@@ -30,7 +31,8 @@ const Page = () => {
           <p className="mt-6">
             Estaremos encantadas de atenderte y ofrecerte el asesoramiento que
             necesites. ¡Tu opinión es muy importante para nosotros!
-          </p>
+          </p>import Company from './../../components/Company';
+
         </div>
 
         <div>
@@ -43,6 +45,7 @@ const Page = () => {
           </iframe>
         </div>
       </div>
+      <Company></Company>
       <CursosCards></CursosCards>
     </section>
   );
