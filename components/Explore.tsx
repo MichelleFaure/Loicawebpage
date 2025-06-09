@@ -1,7 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
 import { poppins } from "@/app/fonts/fonts";
-
+import { motion } from "framer-motion";
+const pulseAnimation = {
+  animate: {
+    scale: [1, 1.05, 1],
+    transition: {
+      duration: 1.8,
+      repeat: Infinity,
+      ease: "easeInOut",
+    },
+  },
+};
 function Explore() {
   return (
     <section className="max-w-screen-lg mx-auto my-24">
@@ -16,18 +26,22 @@ function Explore() {
             Explora y reserva nuestros servicios
           </h2>
           <div className="flex items-center mx-auto md:mx-0 md:justify-between flex-col gap-4 md:flex-row max-w-md text-center">
-            <Link
-              href="/servicios"
-              className={`${poppins.className} bg-lavender w-56 md:min-w-28 text-xl p-2 rounded-md text-white transform transition-transform duration-300 hover:scale-105 hover:shadow-md`}
-            >
-              Terapias
+            <Link href="/servicios" legacyBehavior passHref>
+              <motion.a
+                {...pulseAnimation}
+                className={`${poppins.className} bg-lavender w-56 md:min-w-28 text-xl p-2 rounded-md text-white shadow-md text-center block`}
+              >
+                Terapias
+              </motion.a>
             </Link>
 
-            <Link
-              href="/cursosytalleres"
-              className={`${poppins.className} bg-lavender w-56 md:min-w-28 text-xl p-2 rounded-md text-white transform transition-transform duration-300 hover:scale-105 hover:shadow-md`}
-            >
-              Cursos y Talleres
+            <Link href="/cursosytalleres" legacyBehavior passHref>
+              <motion.a
+                {...pulseAnimation}
+                className={`${poppins.className} bg-lavender w-56 md:min-w-28 text-xl p-2 rounded-md text-white shadow-md text-center block`}
+              >
+                Cursos y Talleres
+              </motion.a>
             </Link>
           </div>
         </div>

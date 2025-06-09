@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 import { poppins } from "@/app/fonts/fonts";
 import testimonials from "@/data/testimonials.json"
-
+import { motion } from "framer-motion";
 
 function Opinions() {
   const settings = {
@@ -57,7 +57,13 @@ function Opinions() {
   };
 
   return (
-    <div className="slider-container bg-coral w-full min-h-[550px] pt-12 ">
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      viewport={{ once: true, amount: 0.2 }}
+      className="slider-container bg-coral w-full min-h-[550px] pt-12"
+    >
       <h2 className="text-6xl text-light-coral text-center mb-20">
         Testimonios
       </h2>
@@ -86,7 +92,7 @@ function Opinions() {
           );
         })}
       </Slider>
-    </div>
+    </motion.div>
   );
 }
 export default Opinions;

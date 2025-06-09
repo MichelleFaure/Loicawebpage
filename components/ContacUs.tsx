@@ -2,6 +2,20 @@ import { FaWhatsapp, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { poppins } from "@/app/fonts/fonts";
 import Image from "next/image";
+import { motion } from "framer-motion";
+const containerVariants = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 30 },
+  show: { opacity: 1, y: 0, transition: { duration: 1, ease: "easeOut" } },
+};
 function ContacUs() {
 
   const phoneNumber = "56957729169"; 
@@ -49,10 +63,16 @@ function ContacUs() {
         </p>
       </div>
       <div>
-        <div className="flex flex-col gap-8 py-16">
+        <motion.div   
+        className="flex flex-col gap-8 py-16"
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.3 }}>
           {rrssData.map((item) => {
             return (
-              <a
+              <motion.a
+                variants={itemVariants}
                 key={item.name}
                 className="flex items-center gap-4 z-10 rounded-lg bg-lavender shadow-md px-8 py-2 hover:scale-105"
                 href={item.link}
@@ -70,10 +90,10 @@ function ContacUs() {
                   </div>
                   <div className="text-white"> {item.text}</div>
                 </div>
-              </a>
+              </motion.a>
             );
           })}
-        </div>
+        </motion.div>
       </div>
       <div className="absolute bottom-0 left-0 opacity-40 ">
         <Image

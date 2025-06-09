@@ -10,7 +10,7 @@ import Link from "next/link";
 import { poppins } from "@/app/fonts/fonts";
 import Typewriter from "typewriter-effect";
 import Isapres from "@/components/Isapres";
-
+import { motion } from "framer-motion";
 
 function HomePage() {
   return (
@@ -22,14 +22,31 @@ function HomePage() {
           <div
             className={`${poppins.className} px-8 z-10 max-w-screen-lg text-white text-xl font-light text-center md:text-left `}
           >
-            <p className="text-2xl py-4 font-medium z-10">
+            <motion.p
+              className="text-2xl py-4 font-medium z-10"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+            >
               Un refugio para sanar, sin juicios ni prisa.
-            </p>
+            </motion.p>
 
             <div className="flex flex-col justify-center z-10">
               <div className="flex flex-col my-4 ">
-                <h2 className="text-6xl font-light mb-8 md:mb-2">Loica es</h2>
-                <div className="text-4xl md:text-6xl font-bold min-w-[340px] min-h-[100px]">
+                <motion.h2
+                  className="text-6xl font-light mb-8 md:mb-2"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 1, delay: 0.3 }}
+                >
+                  Loica es
+                </motion.h2>
+                <motion.div
+                  className="text-4xl md:text-6xl font-bold min-w-[340px] min-h-[100px]"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1, delay: 0.6 }}
+                >
                   <Typewriter
                     options={{
                       strings: [
@@ -52,12 +69,17 @@ function HomePage() {
                       deleteSpeed: "natural",
                     }}
                   />
-                </div>
+                </motion.div>
               </div>
             </div>
-            <p className="py-4 z-10">
+            <motion.p
+              className="py-4 z-10"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.9 }}
+            >
               Aquí el cuidado es forma de lucha; y sanar, un acto de dignidad.
-            </p>
+            </motion.p>
             <div>
               <div className="flex items-center  mx-auto md:mx-0 md:justify-between flex-col gap-4 md:flex-row max-w-md text-center">
                 <Link
@@ -69,7 +91,6 @@ function HomePage() {
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
