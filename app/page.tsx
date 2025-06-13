@@ -28,7 +28,7 @@ function HomePage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              Un refugio para sanar, sin juicios ni prisa.
+              Un refugio para sanar, sin juicios ni prisa
             </motion.p>
 
             <div className="flex flex-col justify-center z-10">
@@ -78,7 +78,7 @@ function HomePage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.9 }}
             >
-              Aquí el cuidado es forma de lucha; y sanar, un acto de dignidad.
+              Aquí el cuidado es forma de lucha; y sanar, un acto de dignidad
             </motion.p>
             <div>
               <div className="flex items-center  mx-auto md:mx-0 md:justify-between flex-col gap-4 md:flex-row max-w-md text-center">
