@@ -1,24 +1,23 @@
 import Image from "next/image";
-
 import { poppins } from "@/app/fonts/fonts";
 import Link from "next/link";
 import abaoutUs from "@/data/aboutUs.json";
 import { motion } from "framer-motion";
+
 function Profiles() {
   return (
     <section
-      className={`flex gap-10 flex-wrap justify-center relative items-center mb-24 ${poppins.className} `}
+      className={`flex gap-10 flex-wrap justify-center relative items-center mb-24 transition-all duration-500 ease-in-out ${poppins.className}`}
     >
       {abaoutUs.map((profile, index) => {
-         const isLeft = index % 2 === 0;
         return (
           <motion.div
             key={profile.name}
-            initial={{ opacity: 0, x: isLeft ? -100 : 100 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: index * 0.2 }}
             viewport={{ once: true, amount: 0.5 }}
-            className="w-[310px] sm:w-[400px] overflow-hidden bg-white shadow-lg rounded-lg"
+            className="w-[310px] sm:w-[400px] overflow-hidden bg-white shadow-lg rounded-lg min-h-[620px]"
           >
             <div className="relative h-[150px]">
               <div className="relative h-full">
@@ -61,6 +60,7 @@ function Profiles() {
           </motion.div>
         );
       })}
+
       <div className="absolute top-[600px] md:top-[300px] right-0 opacity-30 -z-10">
         <Image
           src="/layout/bg-img.png"
@@ -70,7 +70,8 @@ function Profiles() {
           quality={100}
         />
       </div>
-            <div className="absolute -top-[150px] -left-[250px] opacity-30 -z-10">
+
+      <div className="absolute -top-[150px] -left-[250px] opacity-30 -z-10">
         <Image
           src="/layout/bg-img-2.png"
           alt=""

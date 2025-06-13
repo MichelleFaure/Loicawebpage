@@ -4,7 +4,7 @@ import SubTitle from "@/components/SubTitle";
 import Image from "next/image";
 import { poppins } from "../fonts/fonts";
 import History from "@/components/History";
-
+import { motion } from "framer-motion";
 function NosotrasPage() {
   return (
     <section>
@@ -31,9 +31,19 @@ function NosotrasPage() {
       <div className="bg-lavender-light w-full py-20 px-10">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-screen-lg mx-auto">
           <div>
-            <h2 className="text-grey-font text-5xl mb-8">Nuestra Visión</h2>
-            <p
+            <motion.h2
+              className="text-grey-font text-5xl mb-8"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+            >
+              Nuestra Visión
+            </motion.h2>
+            <motion.p
               className={`text-grey-font text-center text-base/8 md:text-left  ${poppins.className}`}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
             >
               Entregar un espacio con perspectiva de derechos, de género,
               feminista y humanista. Un lugar seguro, cálido y libre de juicios
@@ -42,7 +52,7 @@ function NosotrasPage() {
               patologizar, mirar sin estigmas, comprender la salud mental como
               un proceso integral, que atraviesa tanto lo individual como lo
               colectivo.
-            </p>
+            </motion.p>
           </div>
           <div className="flex justify-center items-center">
             <Image
@@ -54,20 +64,40 @@ function NosotrasPage() {
             />
           </div>
           <div>
-            <h2 className="text-grey-font text-5xl mb-8">Nuestra Misión</h2>
-            <p className={`text-grey-font text-base/8 ${poppins.className}`}>
+            <motion.h2
+              className="text-grey-font text-5xl mb-8"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+            >
+              Nuestra Misión
+            </motion.h2>
+            <motion.p
+              className={`text-grey-font text-base/8 ${poppins.className}`}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
+            >
               Nos mueve una psicoterapia consciente y con responsabilidad
               social, que ponga en el centro la singularidad de cada persona y
               la complejidad de sus vivencias. Ofrecemos un espacio amable,
               seguro y colaborativo para transitar procesos de crecimiento
               personal, desde un enfoque integrativo que dialoga con distintas
               disciplinas y formas de comprender el bienestar.
-            </p>
+            </motion.p>
           </div>
         </div>
       </div>
-      <h3 className={`text-grey-font text-3xl md:text-5xl text-center mt-10 md:mt-24 ${poppins.className}`}>NUESTRA HISTORIA</h3>
-      <h4 className={`text-grey-font text-xl md:text-3xl font-light text-center mt-4 md:mb-20 ${poppins.className}`}>COMO NACE LOICA</h4>
+      <h3
+        className={`text-grey-font text-3xl md:text-5xl text-center mt-10 md:mt-24 ${poppins.className}`}
+      >
+        NUESTRA HISTORIA
+      </h3>
+      <h4
+        className={`text-grey-font text-xl md:text-3xl font-light text-center mt-4 md:mb-20 ${poppins.className}`}
+      >
+        COMO NACE LOICA
+      </h4>
       <History></History>
       <div className="bg-coral w-full py-12 px-8 my-24 ">
         <div
@@ -79,17 +109,32 @@ function NosotrasPage() {
             Un espacio que imagina otras formas de habitar la salud mental y la
             sexualidad:
           </div>
-          <div className="text-4xl font-medium">
+          <motion.div
+            className="text-4xl font-medium"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.5 }}
+          >
             más libres, más humanas, más nuestras.
-          </div>
-          <Image
-            src="/us/underline.png"
-            alt="imagen de nosotras locia"
-            width={300}
-            height={32}
-            quality={100}
-            className="md:w-[500px] flex justify-center items-center p-4 max-w-screen-lg mx-auto"
-          />
+          </motion.div>
+
+          <motion.div
+            initial={{ scaleX: 0 }}
+            whileInView={{ scaleX: 1 }}
+            transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
+            viewport={{ once: true, amount: 0.5 }}
+            className="origin-left flex justify-center items-center"
+          >
+            <Image
+              src="/us/underline.png"
+              alt="subrayado"
+              width={300}
+              height={32}
+              quality={100}
+              className="md:w-[500px] p-4"
+            />
+          </motion.div>
           <div></div>
         </div>
       </div>
