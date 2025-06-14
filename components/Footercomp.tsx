@@ -3,6 +3,7 @@ import { Footer } from "flowbite-react";
 import { FaLinkedin ,FaInstagram } from "react-icons/fa";
 import Image from "next/image";
 import {poppins} from "@/app/fonts/fonts";
+import { motion } from "framer-motion";
 function Footercomp() {
   return (
     <div className="bg-lavender-light  ">
@@ -28,24 +29,29 @@ function Footercomp() {
                   className="text-[#374151]"
                 />
                 <Footer.LinkGroup col className="text-[#374151]">
-                  <a
+                <motion.a
                     href="https://www.linkedin.com/company/centro-loica-psicologia-y-sexologia"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center space-x-1 "
+                    className="flex items-center space-x-1"
+                    whileHover={{ scale: 1.05, color: "#9C9CE6" }}
+                    transition={{ type: "spring", stiffness: 300 }}
                   >
                     <FaLinkedin />
                     <span>Linkedin</span>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/centro.loica/ "
+                  </motion.a>
+
+                  <motion.a
+                    href="https://www.instagram.com/centro.loica/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center space-x-1 "
+                    className="flex items-center space-x-1"
+                    whileHover={{ scale: 1.05, color: "#9C9CE6" }}
+                    transition={{ type: "spring", stiffness: 300 }}
                   >
                     <FaInstagram />
                     <span>Instagram</span>
-                  </a>
+                  </motion.a>
                 </Footer.LinkGroup>
               </div>
               <div>

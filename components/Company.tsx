@@ -45,7 +45,7 @@ const Company = () => {
         <Slider {...settings}>
           <div className="p-2">
             <Image
-              src="/isaplogo/isap1.png"
+              src="/companias/comp1.png"
               alt="logo loica"
               width={133}
               height={32}
@@ -53,7 +53,7 @@ const Company = () => {
           </div>
           <div className="p-2">
             <Image
-              src="/isaplogo/isap2.png"
+              src="/companias/comp2.png"
               alt="logo loica"
               width={133}
               height={32}
@@ -61,7 +61,7 @@ const Company = () => {
           </div>
           <div className="p-2">
             <Image
-              src="/isaplogo/isap3.png"
+              src="/companias/comp3.png"
               alt="logo loica"
               width={133}
               height={32}
@@ -69,31 +69,7 @@ const Company = () => {
           </div>
           <div className="p-2">
             <Image
-              src="/isaplogo/isap4.png"
-              alt="logo loica"
-              width={133}
-              height={32}
-            />
-          </div>
-          <div className="p-2">
-            <Image
-              src="/isaplogo/isap5.png"
-              alt="logo loica"
-              width={133}
-              height={32}
-            />
-          </div>
-          <div className="p-2">
-            <Image
-              src="/isaplogo/isap6.png"
-              alt="logo loica"
-              width={133}
-              height={32}
-            />
-          </div>
-          <div className="p-2">
-            <Image
-              src="/isaplogo/isap7.png"
+              src="/companias/comp4.png"
               alt="logo loica"
               width={133}
               height={32}

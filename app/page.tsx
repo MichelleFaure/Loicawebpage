@@ -11,6 +11,7 @@ import { poppins } from "@/app/fonts/fonts";
 import Typewriter from "typewriter-effect";
 import Isapres from "@/components/Isapres";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 function HomePage() {
   return (
@@ -93,8 +94,26 @@ function HomePage() {
           </div>
         </div>
       </section>
-
-      <SubTitle text="Caminemos a tu ritmo, hacia una vida con sentido y goce"></SubTitle>
+      <h3
+        className={`text-grey-font font-light text-xl md:text-4xl mt-10 md:mt-32 text-center ${poppins.className}`}
+      >
+        Caminemos a tu ritmo
+      </h3>
+      <div
+        className={`text-grey-font flex justify-center gap-2  text-xl md:text-4xl mb-10 md:mb-32 text-center ${poppins.className}`}
+      >
+        <div> hacia una vida con</div>
+        <div className="relative">          
+          <Image
+              src="/home/undelineHome.png"
+              alt="Imagen explora nuestros servicios"
+              width={500}
+              height={320}
+              className="absolute left-0 top-6 md:top-8"
+              quality={100}
+            />
+                  sentido y goce</div>
+      </div>
       <SeccionsHome></SeccionsHome>
 
       <SubTitle text="Nosotras"></SubTitle>
