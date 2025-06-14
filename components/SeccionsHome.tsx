@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const imgCards = [
   {
     src: "/home/terapy.png",
-    title: "Terapia",
+    title: "Terapias",
     link: "/servicios",
   },
   {
