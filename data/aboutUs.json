@@ -95,7 +95,7 @@
     "services": [
       {
         "id": "1",
-        "title": "Psicoterapia Individual - Online",
+        "title": "Psicoterapia Individual",
         "description": "Cada persona es única y, por eso, tu terapia también lo será. Trabajaremos juntos para identificar tus fortalezas y superar los obstáculos que te impiden alcanzar tu máximo potencial. Creemos firmemente en tu capacidad de crecimiento y te acompañaremos en este camino hacia una vida más plena y auténtica.",
         "modalidad": {
           "icon": "TbFlower",
@@ -103,7 +103,7 @@
         },
         "price": {
           "icon": "HiCurrencyDollar",
-          "text": ["$30.000 (CLP)", "$35 (USD)", "35€ (EUR)"]
+          "text": ["$33.000 (CLP)", "$40 (USD)", "40€ (EUR)"]
         },
         "time": {
           "icon": "IoTimeOutline",
@@ -134,7 +134,7 @@
       },
       {
         "id": "3",
-        "title": "Psicoterapia de Parejas o Vínculos No Monógamos - Plan Mensual",
+        "title": "Terapia Sexual",
         "description": "Tratamiento especializado de problemas y dificultades que impiden una vivencia satisfactoria de la sexualidad propia y de la relación sexual. Abordamos las disfunciones sexuales que no se deban a una afección médica. Va dirigida a todas las personas o parejas, que quieran mejorar la vivencia de su sexualidad o de sus relaciones sexuales.",
         "modalidad": {
           "icon": "TbFlower",

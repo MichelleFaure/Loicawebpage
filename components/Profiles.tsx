@@ -27,7 +27,7 @@ function Profiles() {
               </div>
               <Image
                 src={profile.imgSrc}
-                alt="Perfil de usuario"
+                alt="imagen perfil integrande de centro de psicologia loica"
                 width={150}
                 height={150}
                 quality={100}

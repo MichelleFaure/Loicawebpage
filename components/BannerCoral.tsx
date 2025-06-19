@@ -18,7 +18,7 @@ function BannerCoral({ title, text }: BannerCoralProps) {
           <div className="absolute top-10 md:top-10 right-0 z-0 md:w-1/2 flex justify-end ">
             <Image
               src="/layout/loicaImg.png"
-              alt="Imagen de una flor"
+              alt="Imagen de loica sobre rama"
               width={610}
               height={333}
               quality={100}

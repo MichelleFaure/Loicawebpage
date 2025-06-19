@@ -36,7 +36,7 @@ const Help = () => {
           <div
             className={`${poppins.className} font-medium text-xl text-black`}
           >
-            ¡Contactanos!
+            ¡Contáctanos!
           </div>
           <div className="w-[200px] h-[2px] bg-coral my-1"></div>
           <div className={`${poppins.className} text-sm  text-black`}>

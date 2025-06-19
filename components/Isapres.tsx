@@ -46,7 +46,7 @@ const Isapres = () => {
             <div className="p-2">
               <Image
                 src="/isaplogo/isap1.png"
-                alt="logo loica"
+                alt="logo isapre"
                 width={133}
                 height={32}
               />
@@ -54,7 +54,7 @@ const Isapres = () => {
             <div className="p-2">
               <Image
                 src="/isaplogo/isap2.png"
-                alt="logo loica"
+                alt="logo isapre"
                 width={133}
                 height={32}
               />
@@ -62,7 +62,7 @@ const Isapres = () => {
             <div className="p-2">
               <Image
                 src="/isaplogo/isap3.png"
-                alt="logo loica"
+                alt="logo isapre"
                 width={133}
                 height={32}
               />
@@ -70,7 +70,7 @@ const Isapres = () => {
             <div className="p-2">
               <Image
                 src="/isaplogo/isap4.png"
-                alt="logo loica"
+                alt="logo isapre"
                 width={133}
                 height={32}
               />
@@ -78,7 +78,7 @@ const Isapres = () => {
             <div className="p-2">
               <Image
                 src="/isaplogo/isap5.png"
-                alt="logo loica"
+                alt="logo isapre"
                 width={133}
                 height={32}
               />
@@ -86,7 +86,7 @@ const Isapres = () => {
             <div className="p-2">
               <Image
                 src="/isaplogo/isap6.png"
-                alt="logo loica"
+                alt="logo isapre"
                 width={133}
                 height={32}
               />
@@ -94,7 +94,7 @@ const Isapres = () => {
             <div className="p-2">
               <Image
                 src="/isaplogo/isap7.png"
-                alt="logo loica"
+                alt="logo isapre"
                 width={133}
                 height={32}
               />

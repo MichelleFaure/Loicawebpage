@@ -53,7 +53,7 @@ function CardService({ service }: ServiceCardProps) {
       <div>
         <Image
           src={service.imgSrc}
-          alt=""
+          alt="imagen servicio ofrecido por centro de psicologia"
           width={310}
           height={200}
           quality={100}
@@ -98,7 +98,6 @@ function CardService({ service }: ServiceCardProps) {
       >
         Ver Más
       </Link>
-      
     </div>
   );
 };

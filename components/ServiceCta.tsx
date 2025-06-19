@@ -41,7 +41,7 @@ const ServiceCta = () => {
         <div className="absolute left-28 -top-28 right-16 w-[200px] sm:top-28 sm:left-auto md:w-auto md:top-0 lg:-top-20">
           <Image
             src="/services/servicectaImg.png"
-            alt=""
+            alt="imagen mujer"
             width={422}
             height={387}
             quality={100}

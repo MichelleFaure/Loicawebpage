@@ -33,11 +33,11 @@ function Page({ params }: { params: { id: string } }) {
       <div className="my-10">
         <Image
           src={article.image}
-          alt=""
+          alt="imagen del articulo"
           width={500}
           height={100}
           quality={100}
-          className="w-full h-[400px] object-cover"
+          className="w-full md:h-[800px] object-cover"
         />
       </div>
 

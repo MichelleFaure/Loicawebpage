@@ -106,10 +106,10 @@ function HomePage() {
         <div className="relative">          
           <Image
               src="/home/undelineHome.png"
-              alt="Imagen explora nuestros servicios"
+              alt="underline"
               width={500}
               height={320}
-              className="absolute left-0 top-6 md:top-8"
+              className="absolute left-0 top-6 md:top-8 -z-10"
               quality={100}
             />
                   sentido y goce</div>

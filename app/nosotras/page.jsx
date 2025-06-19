@@ -12,7 +12,7 @@ function NosotrasPage() {
         <div>
           <Image
             src="/us/usLogo.png"
-            alt="imagen de nosotras locia"
+            alt="loco centro Psicología loica"
             width={230}
             height={217}
             quality={100}
@@ -128,7 +128,7 @@ function NosotrasPage() {
           >
             <Image
               src="/us/underline.png"
-              alt="subrayado"
+              alt="underline"
               width={300}
               height={32}
               quality={100}
@@ -142,7 +142,7 @@ function NosotrasPage() {
         <div>
           <Image
             src="/us/usimg.png"
-            alt="imagen de nosotras locia"
+            alt="imagen del equipo de centro psicóloga loica"
             width={380}
             height={360}
             quality={100}

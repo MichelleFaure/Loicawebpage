@@ -21,7 +21,7 @@ function AgendaPage() {
           <div className="flex items-center gap-4  mx-auto mt-16 mb-4">
             <Image
               src="/profiles/profilephoto.png"
-              alt=""
+              alt="Psicóloga Laura Valdés Cruzatt"
               width={100}
               height={100}
               className="rounded-full w-[80px] h-[80px] object-cover"
@@ -44,7 +44,7 @@ function AgendaPage() {
           <div className="flex items-center gap-4  mx-auto mt-16 mb-4">
             <Image
               src="/profiles/profilephoto2.png"
-              alt=""
+              alt="Psicóloga Daniela Bustos Páez"
               width={100}
               height={100}
               className="rounded-full w-[80px] h-[80px] object-cover"

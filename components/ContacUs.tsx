@@ -58,17 +58,18 @@ function ContacUs() {
       <div className="w-56 z-10">
         <h2 className="text-6xl pt-8 md:p-0 ">Contacto</h2>
         <p className="pl-2 text-center md:text-start font-semibold">
-          Si tienes alguna duda comunicate con nosotras a través de estos
+          Si tienes alguna duda comunícate con nosotras a través de estos
           canales.
         </p>
       </div>
       <div>
-        <motion.div   
-        className="flex flex-col gap-8 py-16"
-        variants={containerVariants}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, amount: 0.3 }}>
+        <motion.div
+          className="flex flex-col gap-8 py-16"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.3 }}
+        >
           {rrssData.map((item) => {
             return (
               <motion.a

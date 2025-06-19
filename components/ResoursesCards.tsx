@@ -27,7 +27,7 @@ function ResoursesCards() {
                   <div className="flex items-center mt-4">
                     <Image
                       src={resource.autorImage}
-                      alt=""
+                      alt="imagen autor de recurso centro psicologia loica"
                       width={48}
                       height={48}
                       quality={100}

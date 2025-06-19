@@ -46,7 +46,7 @@ const Company = () => {
           <div className="p-2">
             <Image
               src="/companias/comp1.png"
-              alt="logo loica"
+              alt="logo"
               width={133}
               height={32}
             />
@@ -54,7 +54,7 @@ const Company = () => {
           <div className="p-2">
             <Image
               src="/companias/comp2.png"
-              alt="logo loica"
+              alt="logo"
               width={133}
               height={32}
             />
@@ -62,7 +62,7 @@ const Company = () => {
           <div className="p-2">
             <Image
               src="/companias/comp3.png"
-              alt="logo loica"
+              alt="logo"
               width={133}
               height={32}
             />
@@ -70,7 +70,7 @@ const Company = () => {
           <div className="p-2">
             <Image
               src="/companias/comp4.png"
-              alt="logo loica"
+              alt="logo"
               width={133}
               height={32}
             />

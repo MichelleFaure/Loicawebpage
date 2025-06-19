@@ -29,7 +29,7 @@ function BannerService({ title, description, imgSrc }: BannerServiceProps) {
         <div className="px-8">
           <Image
             src={imgSrc}
-            alt=""
+            alt="imagen servicio ofrecido por centro de psicologia"
             width={500}
             height={500}
             className="md:ml-8 object-cover rounded-md h-full md:h-[380px] "

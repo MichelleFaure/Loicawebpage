@@ -20,7 +20,7 @@ const CursosCards = () => {
           </div>
           <Image
             src="/cursosytalleres/cursoimg1.png"
-            alt="underline"
+            alt="imagen del equipo de centro de psicologia loica realizando talleres y cursos a publico"
             width={250}
             height={187}
             quality={100}
@@ -28,7 +28,7 @@ const CursosCards = () => {
           />
           <Image
             src="/cursosytalleres/cornerbg2.png"
-            alt="underline"
+            alt=""
             width={147}
             height={213}
             quality={100}
@@ -38,7 +38,7 @@ const CursosCards = () => {
         <div className="relative flex flex-col gap-10 justify-around md:flex-row shadow-xl p-8 rounded-xl items-center  bg-lavender text-white text-base">
           <Image
             src="/cursosytalleres/cursoimg2.png"
-            alt="underline"
+            alt="imagen del equipo de centro de psicologia loica realizando talleres y cursos a publico"
             width={250}
             height={187}
             quality={100}
@@ -54,7 +54,7 @@ const CursosCards = () => {
 
           <Image
             src="/cursosytalleres/cornerbg.png"
-            alt="underline"
+            alt=""
             width={147}
             height={213}
             quality={100}
@@ -69,7 +69,7 @@ const CursosCards = () => {
           </div>
           <Image
             src="/cursosytalleres/cursoimg3.png"
-            alt="underline"
+            alt="imagen del equipo de centro de psicologia loica realizando talleres y cursos a publico"
             width={250}
             height={187}
             quality={100}
@@ -77,7 +77,7 @@ const CursosCards = () => {
           />
           <Image
             src="/cursosytalleres/cornerbg2.png"
-            alt="underline"
+            alt=""
             width={147}
             height={213}
             quality={100}
@@ -87,7 +87,7 @@ const CursosCards = () => {
         <div className="relative flex flex-col gap-10 justify-around md:flex-row shadow-xl p-8 rounded-xl items-center  bg-lavender text-white text-base">
           <Image
             src="/cursosytalleres/cursoimg4.png"
-            alt="underline"
+            alt="imagen del equipo de centro de psicologia loica realizando talleres y cursos a publico"
             width={250}
             height={187}
             quality={100}

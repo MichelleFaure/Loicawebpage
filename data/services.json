@@ -132,7 +132,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": ["$30.000 (CLP)","$35 (USD)" ,"35€ (EUR)"]
+      "text": ["$33.000 (CLP)", "$40 (USD)", "40€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
