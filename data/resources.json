@@ -134,113 +134,116 @@
       ]
     }
   ]
-},
-{
+},{
   "id": "2",
   "titulo": "Abuso sexual infantil en mujeres: No estás rota",
-  "autor": "Por Daniela Bustos Páez ",
+  "autor": "Por Daniela Bustos Páez",
   "image": "/resourses/art2.png",
   "autorImage": "/profiles/profilephoto2.png",
   "contenido": [
     {
       "tipo": "parrafo",
       "contenido": [
-        "El abuso sexual infantil es una herida profunda, una injusticia que nunca debió ocurrir. Muchas mujeres que lo vivieron han crecido con la sensación de que algo en ellas está roto, de que su dolor es un peso que deben llevar en silencio. Pero aquí está la verdad: ",
-        {
-          "negrita": " no estás rota. "
-        }
+        "Hay experiencias que marcan la vida de una forma difícil de nombrar. No porque falten palabras, sino porque muchas veces se nos enseñó a callarlas. El abuso sexual infantil es una de ellas. Una herida que nunca debió existir. Un daño que no tiene justificación."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "La violencia que sufriste no te define. Lo que te hicieron no borra tu valor ni tu derecho a una vida plena. Y aunque las cicatrices emocionales pueden estar ahí, también está la posibilidad de sanar, reconstruirte y vivir con libertad."
+        "Muchas mujeres que acompañamos, o que somos, crecieron con la sensación de estar rotas. Como si lo vivido las hubiese dejado incompletas, como si su historia se hubiese torcido para siempre. Y sin embargo, aquí estamos. Mirándonos con ternura, con rabia, con fuerza. Nombrándonos entre nosotras algo que la sociedad insiste en negar:",
+        { "negrita": " no estás rota." }
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Sanar del abuso sexual infantil no es solo un proceso personal, sino un acto de resistencia. Es desafiar el silencio, el estigma y la culpa impuesta por una sociedad que muchas veces ha preferido mirar hacia otro lado. Es reclamar el derecho a vivir sin miedo, a confiar, a sentir placer, a ser feliz."
+        "Lo que te hicieron no borra tu valor. La violencia que sufriste no define quién eres. Las cicatrices existen, sí, pero también existe la posibilidad de volver a ti. De sanar a tu ritmo, con tus tiempos, desde tu propia voz. Sanar no es un mandato individual, es una respuesta colectiva frente a una violencia estructural. Es un acto político, una forma de resistencia cotidiana."
       ]
     },
     {
       "tipo": "subtitulo",
-      "contenido": "Las cicatrices invisibles: Cómo el abuso deja huellas en la adultez"
+      "contenido": "Las cicatrices invisibles: cómo el abuso deja huellas en la adultez"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "El abuso puede quedar en el pasado, pero sus efectos suelen manifestarse en la vida adulta de muchas maneras. Y no siempre es fácil identificar la conexión entre lo que ocurrió en la infancia y lo que sentimos hoy. Algunas mujeres lo recuerdan con claridad, mientras que otras tienen memorias fragmentadas o bloqueadas. En ambos casos, el impacto puede aparecer en forma de:"
+        "Sabemos que muchas veces el abuso queda como un recuerdo vago, o como una certeza sin imágenes. Otras veces se recuerda con dolor agudo, como si hubiese pasado ayer. Lo cierto es que, aunque haya quedado atrás en el calendario, sus efectos persisten en el cuerpo, en los vínculos, en las emociones."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Y se manifiestan de muchas formas:"
       ]
     },
     {
       "tipo": "lista",
       "contenido": [
-        "💜 Dificultades en la intimidad y la sexualidad: Algunas mujeres sienten miedo al contacto físico o al placer, mientras que otras pueden involucrarse en relaciones impulsivas, buscando inconscientemente reparar lo que les fue arrebatado.",
-        "💜 Relaciones poco saludables: La baja autoestima y la falta de confianza pueden llevar a la dependencia emocional o a la repetición de dinámicas de abuso.",
-        "💜 Ansiedad, depresión y ataques de pánico: Emociones como el miedo, la angustia y la tristeza pueden aparecer sin una causa aparente, cuando en realidad son el eco de un trauma no procesado.",
-        "💜 Autodesprecio y culpa: Muchas sobrevivientes se culpan por lo que vivieron, cuando en realidad la responsabilidad es únicamente del agresor. Esta culpa impuesta puede llevar a la autoexigencia extrema, la autolesión o el abuso de sustancias.",
-        "💜 Sensación de vacío o desconexión con una misma: Algunas mujeres sienten que no pueden confiar en sus emociones, que no tienen un sentido de identidad sólido o que están “desconectadas”."
+        "💜 En la dificultad para habitar la intimidad o la sexualidad con confianza. A veces desde el rechazo, otras desde el miedo o la desconexión.",
+        "💜 En relaciones donde el afecto se confunde con dependencia, donde el amor se parece al daño.",
+        "💜 En el cuerpo que se sobresalta, que se angustia, que entra en pánico sin motivo aparente.",
+        "💜 En esa voz interna que culpa, que castiga, que exige. Como si lo vivido fuera responsabilidad propia.",
+        "💜 En la sensación de estar separada de una misma, como si el centro propio se hubiera apagado."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Lo que es importante recordar es que ",
-        {
-          "negrita": " nada de esto es un defecto personal"
-        },
-        " . Son respuestas emocionales naturales a un trauma que nunca debió ocurrir. Y, lo más importante,",
-        {
-          "negrita": " se pueden transformar"
-        },
-        "."
+        "Nada de esto es un defecto. Son respuestas humanas ante una violencia que nos fue impuesta. Y lo más importante: no son destinos."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Podemos comprender, resignificar, transformar. Podemos volver a ser dueñas de nuestros cuerpos, nuestras decisiones, nuestros afectos."
       ]
     },
     {
       "tipo": "subtitulo",
-      "contenido": "El peso de la vergüenza y la culpa: Devolver la responsabilidad a quien corresponde"
+      "contenido": "El peso de la vergüenza y la culpa: devolver la responsabilidad a quien corresponde"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Uno de los efectos más dañinos del abuso sexual es la vergüenza. Desde niñas, muchas mujeres han sido enseñadas a creer que la culpa es suya: “¿Por qué no dijiste nada?”, “¿Por qué estabas ahí?”, “Seguro algo hiciste”."
+        "Una de las trampas más crueles del abuso es el lugar donde deja la culpa: en la víctima."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Pero ",
-        {
-          "negrita": " el abuso nunca es culpa de la sobreviviente"
-        },
-        "."
+        "Desde niñas se nos repitieron frases que cargaban sobre nuestros hombros lo que otros decidieron hacer: “¿por qué no gritaste?”, “¿por qué estabas ahí?”, “¿por qué no dijiste nada?”."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "No importa si eras una niña confiada. No importa si el agresor era un familiar, un maestro, un vecino o alguien en quien confiabas. No importa si nadie te creyó o si te enseñaron a callar. El abuso es un crimen que ocurre porque alguien con más poder decide aprovecharse de la vulnerabilidad de otra persona."
+        "Y así, muchas mujeres crecieron creyendo que algo hicieron mal. Que fueron cómplices de su propio dolor."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": ["Pero el abuso nunca es culpa de quien lo sufre. Nunca."]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "- No importa si era alguien en quien confiabas.",
+        "- No importa si eras una niña que solo quería cariño.",
+        "- No importa si nadie te creyó."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Bass y Davis, en El coraje de sanar, explican que muchas sobrevivientes han sido condicionadas para ver el abuso como algo que deben ocultar, ignorar o minimizar. Pero reconocer lo que pasó y ponerle nombre a la experiencia es el primer paso hacia la sanación. Una de las estrategias más efectivas es cambiar la narrativa interna: en lugar de preguntarnos ",
-        {
-          "negrita": "“¿por qué me pasó esto?”"
-        },
-        ", podemos preguntarnos ",
-        {
-          "negrita": "“¿qué puedo hacer para sanar y vivir en plenitud?”"
-        },
-        "​."
+        "El abuso es una traición. Una violencia ejercida desde el poder. Y la responsabilidad es siempre del agresor."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Sanar no significa olvidar. Significa entender que lo que pasó no nos define y que podemos escribir nuestra propia historia"
+        "Nombrar esto es parte del camino. Como proponen Bass y Davis en ",
+        { "negrita": "El coraje de sanar" },
+        ", cambiar la narrativa interna no es fácil, pero es esencial. Pasar del “¿por qué me pasó esto?” al “¿cómo puedo acompañarme hoy con amor y verdad?” No para olvidar. Sino para mirar de frente y decir: esto no me define."
       ]
     },
     {
@@ -250,360 +253,393 @@
     {
       "tipo": "parrafo",
       "contenido": [
-        "Las mujeres hemos sido educadas para callar, para complacer, para minimizar nuestro dolor. Pero sanar es un acto de rebeldía. Es desafiar la vergüenza impuesta y recuperar el poder sobre nuestra vida. Es elegir, cada día, un camino de amor propio y libertad."
+        "En una cultura que educa en la obediencia, que normaliza el abuso, que desconfía de las víctimas, sanar es profundamente político:",
+        { "negrita": " Sanar es desobedecer." }
       ]
     },
     {
       "tipo": "lista",
       "contenido": [
-        "🔥 El derecho a existir sin miedo.",
-        "🔥 El derecho a confiar y ser respetadas.",
-        "🔥 El derecho a habitar nuestro cuerpo con orgullo y placer.",
-        "🔥 El derecho a construir relaciones sanas, sin repetir patrones de abuso."
+        "💜 Es no aceptar el silencio como única opción.",
+        "💜 Es elegir cada día una forma distinta de vivir.",
+        "💜 Elegir vivir sin miedo.",
+        "💜 Elegir confiar y construir relaciones desde el respeto.",
+        "💜 Elegir habitar el cuerpo sin culpa, con dignidad y deseo.",
+        "💜 Elegir vínculos donde el amor no duela, donde la historia no se repita."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "El proceso de sanación no es lineal ni inmediato. Habrá días de avance y días que se sientan de retroceso. Pero cada paso cuenta. Y algo fundamental es recordar que no estás sola. Hay una comunidad de mujeres que han transitado este camino, que han aprendido a sanar y que hoy viven con más paz, amor propio y fuerza."
+        "Sabemos que no es un camino fácil. Que hay días donde todo pesa más. Pero también sabemos que no estamos solas, hay una red, hay mujeres que también han recorrido este camino, que sostienen, que abrazan, que luchan."
       ]
     },
     {
       "tipo": "subtitulo",
-      "contenido": "Mujeres que sanan: Recuperando la voz y el cuerpo"
+      "contenido": "Recuperar la voz y el cuerpo"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Si algo de lo que has leído resuena contigo, este es tu recordatorio: ",
-        {
-          "negrita": "tienes derecho a sanar."
-        }
+        "Si algo de esto te resuena, si te toca, si te despierta, esta es tu señal:"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "💜 Tienes derecho a sanar.",
+        "💜 Tienes derecho a enojarte, a llorar, a dudar, a empezar.",
+        "💜 Tienes derecho a reconstruirte en tus propios términos.",
+        "💜 Y sobre todo, tienes derecho a no hacerlo sola."
       ]
     },
     {
       "tipo": "parrafo",
-      "contenido": [
-        "Tienes derecho a pedir ayuda. Tienes derecho a enojarte. Tienes derecho a sentir, a llorar, a cuestionar. Tienes derecho a reconstruirte en tus propios términos."
-      ]
+      "contenido": ["Porque no estás rota. Porque lo que viviste no borra tu derecho a una vida libre."]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Porque ",
-        {
-          "negrita": "no estás rota."
-        },
-        "Porque",
-        {
-          "negrita": "el abuso no define quién eres"
-        },". Porque",{
-          "negrita": "puedes sanar y vivir libre."
-        }
+        "Porque hay otras formas de estar en el mundo. Más suaves. Más nuestras."
       ]
     },
     {
       "tipo": "parrafo",
+      "contenido": ["Y si hoy quieres dar ese primer paso, aquí estamos."]
+    },
+    {
+      "tipo": "parrafo",
       "contenido": [
-        "Si sientes que necesitas acompañamiento en este proceso, aquí estamos para caminar contigo. ",
-        {
-          "negrita": "Agenda una sesión y da el primer paso hacia tu recuperación."
-        },
-        " No porque necesites ser “arreglada”, sino porque mereces vivir sin las cadenas que otras personas intentaron imponerte."
+        "Para caminar contigo. Con respeto. Con cuidado. Con convicción."
       ]
     },
     {
       "tipo": "bibliografia",
       "contenido": [
-        "Bass, E., & Davis, L. (1988). El coraje de sanar: una guía para mujeres sobrevivientes de abuso sexual infantil. Harper & Row.","Canales, J. (2015). El cristal roto: Sobreviviendo al abuso sexual en la infancia. México: Ediciones Urano.","Herman, J. L. (1992). Trauma and Recovery: The Aftermath of Violence—From Domestic Abuse to Political Terror. Nueva York: Basic Books."
+        "Bass, E., & Davis, L. (1988). El coraje de sanar: una guía para mujeres sobrevivientes de abuso sexual infantil. Harper & Row.",
+        "Canales, J. (2015). El cristal roto: Sobreviviendo al abuso sexual en la infancia. México: Ediciones Urano.",
+        "Herman, J. L. (1992). Trauma and Recovery: The Aftermath of Violence—From Domestic Abuse to Political Terror. Nueva York: Basic Books."
       ]
     }
   ]
-},
-{
-  "id": "4",
+},{
+  "id": "3",
   "titulo": "Ansiedad: no te define, pero sí te habla",
-  "autor": "Por Daniela Bustos Páez ",
+  "autor": "Por Daniela Bustos Páez",
   "image": "/resourses/art4.png",
   "autorImage": "/profiles/profilephoto2.png",
   "contenido": [
     {
       "tipo": "parrafo",
       "contenido": [
-        "Vivimos en una sociedad que nos exige estar siempre alerta, productivos, resolutivos. Nos dicen que hay que ser fuertes, rápidos, eficientes. Pero ¿a qué costo? La ansiedad no surge en el vacío. Es el resultado de un mundo que nos bombardea con información, presión y expectativas inalcanzables. Si sientes que la ansiedad te domina, no es porque haya algo mal en ti, sino porque estás reaccionando de manera natural a un entorno que nos sobrecarga. Pero aquí viene la parte clave: no es tu culpa, pero sí puedes decidir qué hacer con ello."
+        "Vivimos en un mundo que exige más de lo que podemos sostener. Un entorno que impulsa a estar siempre disponibles, resolutives, eficientes. Nos enseñaron que el valor está en la productividad, no en el bienestar. Y es ahí donde la ansiedad aparece. No como un error, sino como una respuesta legítima a un sistema que desborda."
       ]
-    },
-    {
-      "tipo": "subtitulo",
-      "contenido": "1. No eres tus pensamientos, eres quien los observa"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Una de las trampas más grandes de la ansiedad es creer que todo lo que pasa por tu mente es real. La mayoría de los pensamientos ansiosos son predicciones catastróficas que rara vez se cumplen. Cuando sientas que la ansiedad te atrapa, hazte estas preguntas:"
+        "La ansiedad no surge de la nada. No es una falla individual. Es una alerta. Es el cuerpo y la mente diciendo: así no se puede continuar."
       ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "No es culpa tuya. Pero sí es posible empezar a escucharte desde un lugar más amable, más presente."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Porque aunque la ansiedad incomoda, también comunica. Y merece ser atendida sin juicio, con respeto."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "No sos tus pensamientos: sos quien los observa"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "La mente ansiosa suele llenarse de predicciones catastróficas. Invita a creer que todo lo que pasa por ella es real, urgente, inminente."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Pero no todo pensamiento es verdad. A veces, solo es ruido. Y ese ruido no sos vos: sos quien lo escucha."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": ["Cuando la ansiedad abrume, podrías preguntarte:"]
     },
     {
       "tipo": "lista",
       "contenido": [
         "🔹 ¿Esto es un hecho o una suposición?",
-        "🔹 ¿Cuántas veces pensé que algo terrible iba a pasar y al final no ocurrió?",
-        "🔹 ¿Qué es lo peor que puede pasar realmente? ¿Podría manejarlo?"
+        "🔹 ¿Cuántas veces temí lo peor… y al final no ocurrió?",
+        "🔹 ¿Qué es lo peor que podría pasar? ¿Podría atravesarlo?"
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "No podemos controlar lo que pensamos, pero sí podemos aprender a no tomarlo todo como una verdad absoluta​."
+        "Observar sin asumir que todo pensamiento define la realidad, es un acto de cuidado. Una forma de recuperar aire en medio del ruido."
       ]
     },
     {
       "tipo": "subtitulo",
-      "contenido": "2. Respira profundo, porque sí, el sistema está diseñado para agotarte"
+      "contenido": "Respirar también es resistencia"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "El ritmo que nos imponen es inhumano: jornadas interminables, redes sociales que nos comparan con vidas \"perfectas\", la expectativa de \"poder con todo\". ",
-        {
-          "negrita": "Es normal que estés ansioso en un sistema que no te permite detenerte"
-        },
-        " . Pero aquí está el truco: ",
-        {
-          "negrita": "tú puedes parar."
-        }
+        "Nos hicieron creer que frenar es fracasar. Que descansar es signo de debilidad."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Cuando sientas ansiedad, respira. No como un consejo vacío, sino como un acto de resistencia:"
+        "Vivimos midiendo tiempos, comparando logros, exigiendo más de lo posible."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Y sin embargo, la ansiedad no aparece porque sí. Aparece porque este ritmo no es humano."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Por eso, detenerse a respirar es más que un consejo: es una forma de decir hasta aquí."
       ]
     },
     {
       "tipo": "lista",
       "contenido": [
-        "1. Inhala profundamente en 4 segundos.",
-        "2. Retén el aire 4 segundos.",
-        "3. Exhala lentamente en 6 u 8 segundos."
+        "🔹 Inhalar en 4 tiempos.",
+        "🔹 Retener el aire 4 segundos.",
+        "🔹 Exhalar lento, en 6 u 8 tiempos."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Hacerlo activa tu sistema de calma​. Es tu forma de decirle a la ansiedad (y al sistema): “No me vas a vencer”."
+        "Este gesto activa el sistema de calma. Es una manera de recordarte que también merecés paz."
       ]
     },
     {
       "tipo": "subtitulo",
-      "contenido": "3. La evasión te mantiene atrapado: Enfréntalo a tu ritmo"
+      "contenido": "La evasión alimenta la ansiedad: acercarse, de a poco, es transformación"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "La ansiedad se alimenta de la evitación. Cada vez que postergas, cada vez que esquivas lo que temes, le das más poder. ",
-        {
-          "negrita": "No porque seas débil, sino porque así nos enseñaron a reaccionar: huir en lugar de enfrentar."
-        }
+        "Evitar lo que asusta parece natural. Postergar, escapar, distraerse. No porque se sea débil, sino porque así se aprendió a sobrevivir."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Empieza poco a poco. ",
-        {
-          "negrita": "No tienes que hacerlo todo hoy, pero sí puedes dar un paso:"
-        }
+        "Pero dar pasos pequeños —a tu ritmo— puede cambiar esa relación:"
       ]
     },
     {
       "tipo": "lista",
       "contenido": [
-        "🔹 Si temes salir de casa, intenta caminar hasta la esquina",
-        "🔹 Si te angustia hablar en público, practica frente al espejo.",
-        "🔹 Si el futuro te aterra, planifica solo el día de mañana."
+        "🔹 Salir hasta la esquina si estar afuera genera angustia.",
+        "🔹 Ensayar frente al espejo si hablar frente a otras personas cuesta.",
+        "🔹 Planificar el día siguiente si pensar en el futuro entero abruma."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "La acción, por mínima que sea, es tu herramienta para demostrarle a tu ansiedad que tú tienes el control​."
+        "Cada pequeño acto es una forma de recuperar presencia. De decir: estoy acá, y sigo."
       ]
     },
-
     {
       "tipo": "subtitulo",
-      "contenido": "4. Tu cuerpo también necesita que lo cuides"
+      "contenido": "El cuerpo también habla: sostenerlo con cuidado"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "No es casualidad que la ansiedad esté disparada cuando dormimos poco, comemos cualquier cosa y vivimos pegados a pantallas. ",
-        {
-          "negrita": "El sistema nos quiere agotados, distraídos, sin energía para cuestionarlo. Pero puedes desafiarlo cuidándote."
-        }
+        "La ansiedad no es solo mental. Vive en el cuerpo. Lo agita, lo cansa, lo alarma."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Dormir mal, alimentarse sin atención, pasar horas frente a una pantalla… todo eso impacta. El sistema quiere cuerpxs desconectadxs, distraídxs, sin energía para cuestionar."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": ["Cuidarse no es autoayuda vacía: es resistencia cotidiana."]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔹 Mover el cuerpo, aunque sea unos minutos.",
+        "🔹 Dormir sin interrupciones digitales.",
+        "🔹 Comer sin culpa, con presencia."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": ["No para encajar. Para sostenerse."]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "Cambiar el diálogo interior: no es fragilidad, es humanidad"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Nos enseñaron a ocultar lo que duele. A seguir como si nada. Pero la ansiedad no es debilidad: es una señal. Un llamado a revisar, a pausar, a escuchar(se)."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": ["Podés empezar a hablarte distinto:"]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔹 “No puedo con esto” → “Estoy aprendiendo a atravesarlo”.",
+        "🔹 “Soy un desastre” → “Estoy haciendo lo que puedo”.",
+        "🔹 “Siempre me pasa lo mismo” → “Cada vez entiendo un poco más”."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "No se trata de frases positivas vacías. Se trata de no violentarte también desde adentro."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "Descansar no se negocia: es un derecho"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "El éxito nos fue vendido como estar ocupados todo el tiempo. Pero… ¿de qué sirve alcanzar metas si no hay descanso?"
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "El descanso no se gana. Se necesita y es posible ejercerlo así:"
       ]
     },
     {
       "tipo": "lista",
       "contenido": [
-        "🔹 Muévete: No hace falta un entrenamiento extremo, solo camina, estira, sal a tomar aire.",
-        "🔹 Descansa: Deja el celular lejos antes de dormir. El mundo seguirá ahí mañana",
-        "🔹 Aliméntate bien: No porque \"tengas que\", sino porque mereces sentirte bien."
+        "🔹 Tomarse un café sin prisa.",
+        "🔹 Escuchar música sin multitareas.",
+        "🔹 Sentarse en silencio solo para registrar cómo se está."
       ]
     },
     {
       "tipo": "parrafo",
-      "contenido": [
-        "Cuidarte es un acto revolucionario. No para encajar en estándares, sino para tener la fuerza de sostenerte."
-      ]
+      "contenido": ["A veces, parar es el mayor acto de dignidad."]
     },
     {
       "tipo": "subtitulo",
-      "contenido": "5. Cambia el discurso interno: No eres frágil, eres humano"
+      "contenido": "Aceptar no es rendirse: es cambiar el vínculo"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Nos han metido en la cabeza que sentir ansiedad es ser débil. Nos piden que la ocultemos, que sigamos adelante como si nada. Pero ",
-        {
-          "negrita": "la ansiedad no es un fallo, es una señal"
-        },
-        " . Es tu cuerpo pidiéndote que frenes, que revises, que te escuches."
-      ]
-    },
-    {
-      "tipo": "parrafo",
-      "contenido": ["Cuando te hables, hazlo con respeto​:"]
-    },
-    {
-      "tipo": "lista",
-      "contenido": [
-        "🔹 En lugar de \"No puedo con esto\" , prueba con \"Estoy aprendiendo a manejarlo\".",
-        "🔹 En lugar de \"Soy un desastre\" , prueba con \"Estoy haciendo lo mejor que puedo\".",
-        "🔹 En lugar de \"Siempre me pasa lo mismo\" , prueba con \"Cada vez lo manejo mejor\"."
+        "Intentar controlar o eliminar la ansiedad muchas veces la intensifica. En cambio, reconocerla, nombrarla, dejar de pelear, puede cambiar la forma de estar con ella."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        {
-          "negrita": "La ansiedad no te define. No eres el miedo que sientes, eres la persona que sigue adelante a pesar de él."
-        }
-      ]
-    },
-    {
-      "tipo": "subtitulo",
-      "contenido": "6. Tómate el derecho de frenar"
-    },
-    {
-      "tipo": "parrafo",
-      "contenido": [
-        "Nos enseñaron que estar ocupados es sinónimo de éxito. Pero ¿de qué sirve el éxito si no puedes disfrutarlo? Descansar no es un lujo, es una necesidad. Haz espacio en tu día para lo que te haga bien:"
+        "No se trata de que desaparezca, se trata de que no gobierne cada decisión."
       ]
     },
     {
       "tipo": "lista",
       "contenido": [
-        "🔹 Un café sin prisas.",
-        "🔹 Un rato de música sin distracciones.",
-        "🔹 Un momento de silencio para escucharte."
+        "“Sé que estás, pero no decides por mí”.",
+        "“No me defines, aunque aparezcas”.",
+        "“Voy a seguir, incluso si estás presente”."
       ]
     },
     {
       "tipo": "parrafo",
-      "contenido": ["No necesitas ganarte el descanso. Es tu derecho​."]
+      "contenido": ["Aceptar no es resignarse. Es recuperar agencia."]
     },
     {
       "tipo": "subtitulo",
-      "contenido": "7. Aceptar la ansiedad no es rendirse, es transformarla"
+      "contenido": "No tenés que poder solx"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "En lugar de pelear contra la ansiedad, ",
-        {
-          "negrita": "acéptala como una emoción más"
-        },
-        " . No significa rendirse, sino ",
-        {
-          "negrita": "dejar de huir y empezar a vivir con ella sin miedo"
-        }
-      ]
-    },
-    {
-      "tipo": "parrafo",
-      "contenido": ["Cuando la sientas, dile:"]
-    },
-    {
-      "tipo": "lista",
-      "contenido": [
-        "🔹 \"Sé que estás aquí, pero no me defines\".",
-        "🔹 \"No voy a dejar que me paralices\". ",
-        "🔹 \"Voy a seguir adelante, con miedo si hace falta, pero voy a seguir\"."
+        "El sistema no va a detenerse. Las exigencias no van a desaparecer. Pero eso no significa que tengamos que enfrentarlo sin redes, sin compañía, sin pausas."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "La ansiedad solo pierde poder cuando dejas de verla como un enemigo."
-      ]
-    },
-    {
-      "tipo": "subtitulo",
-      "contenido": "La decisión está en ti"
-    },
-    {
-      "tipo": "parrafo",
-      "contenido": [
-        "El mundo no va a detenerse, el sistema no va a darte un respiro.",
-        {
-          "negrita": " Pero tú sí puedes decidir cómo reaccionar"
-        },
-        " . No tienes que esperar a que la ansiedad desaparezca para vivir. ",
-        {
-          "negrita": " Empieza a vivir, y la ansiedad, poco a poco, se hará más pequeña"
-        },
-        "."
+        "La ansiedad no es un problema individual. Es también un síntoma colectivo."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Si sientes que no puedes solo, no significa que seas débil, significa que eres humano. Pedir ayuda, buscar herramientas y hacer cambios no es rendirse.",
-        {
-          "negrita": " Es decidir que mereces estar bien"
-        },
-        "."
+        "Y acompañarse —entre amigxs, en terapia, en comunidad— puede hacer la diferencia."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "El primer paso está en tus manos. ¿Qué vas a hacer hoy para recuperar tu calma? "
+        "No se necesita estar bien para empezar a vivir. Podés empezar con lo que haya hoy: miedo, cansancio, dudas. Eso también es parte del proceso."
       ]
     },
-
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "La pregunta no es “¿por qué me pasa esto?”, sino: ¿cómo puedo sostenerme con más cuidado hoy?"
+      ]
+    },
     {
       "tipo": "bibliografia",
       "contenido": [
-        "Burns, D. (2003). Adiós, ansiedad. Paidós​",
-        "Nardone, G. (1995). Miedo, pánico, fobias: La terapia breve. Herder​"
+        "Burns, D. (2003). Adiós, ansiedad. Paidós.",
+        "Nardone, G. (1995). Miedo, pánico, fobias: La terapia breve. Herder."
       ]
     }
   ]
-},
-{
-  "id": "3",
-  "titulo": "Duelo Migratorio: cuando las raíces están en el aire",
-  "autor": "Por Daniela Bustos Páez ",
+},{
+  "id": "4",
+  "titulo": "Duelo migratorio: cuando las raíces están en el aire",
+  "autor": "Por Daniela Bustos Páez",
   "image": "/resourses/art3.png",
   "autorImage": "/profiles/profilephoto2.png",
   "contenido": [
     {
       "tipo": "parrafo",
       "contenido": [
-        "Migrar no es solo un cambio de dirección en el mapa. Es dejar atrás un pedazo de vida, decir adiós a los abrazos familiares y empezar desde cero en un lugar donde todo -desde la comida hasta la forma de hablar- puede sentirse ajeno. Y con ello, inevitablemente, llega el duelo migratorio, un proceso emocional que puede ser tan desafiante como emocionante."
+        "Migrar no fue simplemente cambiar de país. Fue dejar una parte del cuerpo flotando en el aire, como si el alma quedara estirada entre dos tierras. Porque sí, se hace una maleta, se despide, se preparan documentos, pero no hay forma de anticipar del todo ese momento en que el aire huele distinto y los abrazos familiares se convierten en recuerdo."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Al principio, todo parece brillar con esa luz extraña de lo nuevo: la emoción de descubrir, los sabores distintos, los sonidos, las calles que aún no sabes hacia dónde te llevan. Pero con el tiempo, el duelo se va colando sin anunciarse: en las tardes largas de silencio, en las conversaciones que no fluyen, en el aroma del pan que ya no está, en el idioma que tropieza en la boca."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Entonces entiendes que no es solo nostalgia. Es una tristeza más compleja, hecha de pérdidas invisibles: la rutina, las personas de siempre, las formas familiares de decir \"te quiero\". Y ahí, en esa mezcla entre el amor por lo que se busca y la pena por lo que se deja, nace el duelo migratorio."
       ]
     },
     {
@@ -613,90 +649,95 @@
     {
       "tipo": "parrafo",
       "contenido": [
-        "Cuando nos vamos a otro país, no solo nos alejamos esencialmente, sino que también enfrentamos pérdidas simbólicas: la cercanía de la familia y amigos, la cultura, la rutina, hasta pequeños detalles como el aroma del pan en la panadería de la esquina. Como dicen los expertos (González Calvo, 2005; Achotegui, 2008), es un ",
-        {
-          "negrita": "duelo parcial y recurrente"
-        },
-        " , porque el país de origen sigue ahí, pero nuestra relación con él cambia."
+        "Migrar es también perder. No se trata solo de cambiar de dirección, sino de dejar atrás certezas, costumbres, vínculos y formas de habitar el mundo. Algunas pérdidas son visibles —una casa, un trabajo, una rutina—, pero muchas son simbólicas: la lengua que nos nombra, los afectos, los ritos cotidianos."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Dependiendo de las circunstancias, el duelo puede vivirse de distintas maneras:"
-      ]
-    },
-    {
-      "tipo": "lista",
-      "contenido": [
-        "🔹 Duelo leve: cuando la migración es planificada, con apoyo y buenas condiciones.",
-        "🔹 Duelo complicado: cuando la integración no es fácil y la nostalgia pesa más que la ilusión.",
-        "🔹 Duelo extremo o Síndrome de Ulises: cuando la persona se enfrenta a tanto estrés y soledad que su salud mental se ve afectada."
+        "Como señalan Achotegui (2008) y González Calvo (2005), el duelo migratorio es parcial y recurrente: el país de origen sigue existiendo, pero ya no se vive de la misma forma. Cambia la relación, cambia el cuerpo que habita, cambiamos nosotras."
       ]
     },
     {
       "tipo": "subtitulo",
-      "contenido": "Las etapas del duelo migratorio"
+      "contenido": "Tipos de duelo migratorio"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Aunque cada historia es única, el proceso suele pasar por distintas fases:"
+        "Cada persona vive este proceso desde su singularidad, pero puede manifestarse de distintas formas:"
       ]
     },
     {
       "tipo": "lista",
       "contenido": [
-        "1. Euforia inicial: todo es nuevo, hay emoción y adrenalina. ",
-        "2. Choque cultural: aparecen dificultades, barreras y la sensación de no encajar",
-        "3. Adaptación: poco a poco, se encuentran rutinas y espacios propios.",
-        "4. Integración: la persona se siente parte del nuevo lugar sin perder su identidad. "
-      ]
-    },
-    {
-      "tipo": "parrafo",
-      "contenido": [
-        "Es importante entender que estas etapas no son lineales, a veces damos pasos adelante y luego pareciera que retrocedemos. Y está bien, es parte del proceso"
+        "🔹 Duelo leve: cuando la migración es elegida, planificada y sostenida con redes afectivas.",
+        "🔹 Duelo complicado: cuando la adaptación se vuelve difícil y la nostalgia pesa más que el entusiasmo.",
+        "🔹 Duelo extremo o Síndrome de Ulises: cuando el nivel de estrés, soledad o inseguridad es tan alto que afecta seriamente la salud mental."
       ]
     },
     {
       "tipo": "subtitulo",
-      "contenido": "¿Qué hace que el duelo migratorio sea más difícil?"
+      "contenido": "Etapas del duelo migratorio"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "No todos lo viven iguales, y algunos factores pueden hacerlo más complicado:"
+        "Aunque cada experiencia es única, muchas personas atraviesan fases similares:"
       ]
     },
     {
       "tipo": "lista",
       "contenido": [
-        "🔹 El motivo de la migración: no es lo mismo mudarse por elección que hacerlo por necesidad o urgencia.",
-        "🔹 Las condiciones del nuevo país: la discriminación, la burocracia o la inestabilidad pueden afectar mucho.",
-        "🔹 La red de apoyo: tener a alguien que nos escuche y nos entienda hace toda la diferencia.",
-        "🔹 Nuestra propia historia personal: la resiliencia, las experiencias pasadas y la salud emocional influyen en cómo nos adaptamos."
+        "🔹 Euforia inicial: entusiasmo por lo nuevo, sensación de aventura.",
+        "🔹 Choque cultural: aparecen obstáculos, diferencias, sentimientos de no encajar.",
+        "🔹 Adaptación: se construyen rutinas y espacios propios.",
+        "🔹 Integración: se logra un sentido de pertenencia sin renunciar a la identidad previa."
       ]
     },
-
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Pero estas etapas no son lineales. A veces se retrocede, otras se superponen. El proceso es más parecido a una espiral que a una escalera."
+      ]
+    },
     {
       "tipo": "subtitulo",
-      "contenido": "Cómo enfrentar el duelo migratorio sin perderse en el camino"
+      "contenido": "¿Qué factores dificultan el duelo?"
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Migrar es un cambio gigante, pero hay formas de hacer que duela menos y se transforma en una experiencia enriquecedora:"
+        "Migrar no significa lo mismo para todas las personas. Algunos factores lo pueden volver más difícil:"
       ]
     },
     {
       "tipo": "lista",
       "contenido": [
-        "✅Dale espacio a tus emociones. Está bien extrañar, sentir nostalgia o incluso dudar de la decisión. No minimices lo que sientes.",
-        "✅ Busca comunidad. Ya sea con otros migrantes o con gente local, rodearte de personas con quienes comparten es clave.",
-        "✅ Mantén vivo tu vínculo con tu origen. Escuchar música, cocinar platos típicos o hablar con los tuyos te ayudará a sentirte más cerca.",
-        "✅Cuida tu salud mental. Si el duelo se vuelve muy pesado, buscar apoyo profesional es una gran herramienta.",
-        "✅ Construye una identidad híbrida. No tienes que elegir entre tu país de origen y el nuevo, puedes ser de ambos."
+        "🔹 Motivo de la migración: no es igual migrar por deseo que por necesidad o urgencia.",
+        "🔹 Condiciones del país de destino: la discriminación, la burocracia o la precariedad pueden afectar profundamente.",
+        "🔹 Red de apoyo: contar con vínculos seguros y afectivos cambia la experiencia.",
+        "🔹 Historia personal: las experiencias previas, el estado emocional y la resiliencia influyen en la forma en que se vive el cambio."
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "contenido": "¿Cómo acompañar el duelo migratorio sin perdernos?"
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Con el tiempo se aprende que migrar no significa desaparecer. Que no hay que exigirse encajar ni apresurar el proceso. Que hay gestos que sostienen:"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "contenido": [
+        "🔹 Darse permiso para sentir: extrañar, enojarse, llorar, todo es parte del proceso.",
+        "🔹 Buscar comunidad: conectar con otras personas migrantes o locales dispuestas a compartir.",
+        "🔹 Mantener el vínculo con el origen: cocinar, hablar, cantar, nombrar las raíces.",
+        "🔹 Cuidar la salud mental: acudir a un espacio terapéutico puede ser fundamental.",
+        "🔹 Construir una identidad híbrida: no hay que elegir entre un país y otro. Se puede pertenecer a ambos, a ninguno, o crear un nuevo lugar desde dentro."
       ]
     },
     {
@@ -706,21 +747,19 @@
     {
       "tipo": "parrafo",
       "contenido": [
-        "El duelo migratorio es real y desafiante, pero no significa que estemos condenados a sufrir. Con el tiempo, muchos descubren que no han perdido un hogar, sino que han ganado otro. La clave está en permitirse sentir, en crear nuevas raíces y, sobre todo, en buscar apoyo cuando el proceso se vuelve difícil. "
+        "El duelo migratorio no es señal de fracaso. Es la huella de una historia que duele, pero también pulsa. Es una forma de amor por lo vivido, por quienes fuimos y por lo que aún estamos construyendo."
       ]
     },
     {
       "tipo": "parrafo",
       "contenido": [
-        "Si sientes que el duelo migratorio te está afectando más de lo esperado, recuerda que no tienes que enfrentarlo solo. En nuestro centro ofrecemos ",
-        {
-          "negrita": "psicoterapia para migrantes"
-        },
-        " , donde te acompañamos en este proceso con comprensión y herramientas para hacerlo más llevadero. ",
-        {
-          "negrita": "Agenda una sesión y date la oportunidad de construir tu bienestar en este nuevo capítulo de tu vida."
-        },
-        ""
+        "Y sí, migrar duele. Pero también abre caminos. Nos invita a reencontrarnos con nosotras mismas, a inventar nuevas formas de hogar, a sostenernos aun cuando las raíces parezcan estar en el aire."
+      ]
+    },
+    {
+      "tipo": "parrafo",
+      "contenido": [
+        "Si estás atravesando este proceso, no tienes que hacerlo sola. En Loica, nuestro centro psicoterapéutico, acompañamos a personas migrantes desde una escucha empática, consciente y comprometida. Porque migrar no es solo partir: es también renacer."
       ]
     },
     {
@@ -732,4 +771,7 @@
     }
   ]
 }
+
+
+
 ]
