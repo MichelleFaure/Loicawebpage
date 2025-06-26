@@ -47,6 +47,7 @@ export default function RootLayout({
     <html lang="es">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://www.centroloica.com/" />
         <meta
           name="description"
           content="Psicoterapia y terapia sexológica desde una mirada humanista, feminista, con perspectiva de derechos y de género. Presencia en Chile y España"
