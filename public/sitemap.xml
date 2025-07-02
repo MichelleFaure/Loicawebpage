@@ -3,37 +3,37 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 >
   <url>
-    <loc>https://www.centroloica.com/</loc>
+    <loc>https://centroloica.com/</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/nosotras</loc>
+    <loc>https://centroloica.com/nosotras</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/servicios</loc>
+    <loc>https://centroloica.com/servicios</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/cursosytalleres</loc>
+    <loc>https://centroloica.com/cursosytalleres</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/recursos</loc>
+    <loc>https://centroloica.com/recursos</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/agenda</loc>
+    <loc>https://centroloica.com/agenda</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -41,55 +41,57 @@
 
   <!-- URLs de servicios -->
   <url>
-    <loc>https://www.centroloica.com/servicios/1</loc>
+    <loc>https://centroloica.com/servicios/1</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/servicios/2</loc>
+    <loc>https://centroloica.com/servicios/2</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/servicios/3</loc>
+    <loc>https://centroloica.com/servicios/3</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/servicios/4</loc>
+    <loc>https://centroloica.com/servicios/4</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/servicios/5</loc>
+    <loc>https://centroloica.com/servicios/5</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <!-- Recursos -->
   <url>
-    <loc>https://www.centroloica.com/recursos/1</loc>
+    <loc>https://centroloica.com/recursos/1</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/recursos/2</loc>
+    <loc>https://centroloica.com/recursos/2</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/recursos/3</loc>
+    <loc>https://centroloica.com/recursos/3</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.centroloica.com/recursos/4</loc>
+    <loc>https://centroloica.com/recursos/4</loc>
     <lastmod>2025-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
