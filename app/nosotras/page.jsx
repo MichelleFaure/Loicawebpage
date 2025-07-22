@@ -88,17 +88,8 @@ function NosotrasPage() {
           </div>
         </div>
       </div>
-      <h3
-        className={`text-grey-font text-3xl md:text-5xl text-center mt-10 md:mt-24 ${poppins.className}`}
-      >
-        NUESTRA HISTORIA
-      </h3>
-      <h4
-        className={`text-grey-font text-xl md:text-3xl font-light text-center mt-4 md:mb-20 ${poppins.className}`}
-      >
-        COMO NACE LOICA
-      </h4>
-      <History></History>
+      <SubTitle text="Nuestro Equipo"></SubTitle>
+      <Profiles></Profiles>
       <div className="bg-coral w-full py-12 px-8 my-24 ">
         <div
           className={`text-xl text-light-coral text-center max-w-screen-lg mx-auto ${poppins.className}`}
@@ -138,32 +129,17 @@ function NosotrasPage() {
           <div></div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-10 max-w-screen-lg my-10 mx-auto">
-        <div>
-          <Image
-            src="/us/usimg.png"
-            alt="imagen del equipo de centro psicóloga loica"
-            width={380}
-            height={360}
-            quality={100}
-            className="flex justify-center items-center px-4 max-w-screen-lg mx-auto"
-          />
-        </div>
-        <div
-          className={`font-light px-4 text-center md:text-start text-base/7 ${poppins.className}`}
-        >
-          Somos un equipo de psicólogas con formación en sexología, feminismo y
-          perspectiva de género, trauma relacional, neurodivergencias y salud
-          mental comunitaria. Trabajamos desde una psicología situada, que
-          reconoce los contextos, las historias y las múltiples formas de vivir
-          el cuerpo, el deseo, el dolor y el vínculo. Nuestro enfoque integra
-          saberes clínicos con prácticas afectivas, y se nutre tanto de la
-          escucha profesional como del contacto humano real.
-        </div>
-      </div>
-
-      <SubTitle text="Nuestro Equipo"></SubTitle>
-      <Profiles></Profiles>
+      <h3
+        className={`text-grey-font text-3xl md:text-5xl text-center mt-10 md:mt-24 ${poppins.className}`}
+      >
+        NUESTRA HISTORIA
+      </h3>
+      <h4
+        className={`text-grey-font text-xl md:text-3xl font-light text-center mt-4 md:mb-20 ${poppins.className}`}
+      >
+        COMO NACE LOICA
+      </h4>
+      <History></History>
     </section>
   );
 }

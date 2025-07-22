@@ -117,6 +117,27 @@ function HomePage() {
       <SeccionsHome></SeccionsHome>
 
       <SubTitle text="Nosotras"></SubTitle>
+            <div className="flex flex-col md:flex-row justify-center items-center gap-10 max-w-screen-lg my-10 mx-auto">
+              <div>
+                <Image
+                  src="/us/usimg.png"
+                  alt="imagen del equipo de centro psicóloga loica"
+                  width={380}
+                  height={360}
+                  quality={100}
+                  className="flex justify-center items-center px-4 max-w-screen-lg mx-auto"
+                />
+              </div>
+              <div
+                className={`font-light px-4 text-center md:text-start text-base/7 ${poppins.className}`}
+              >
+                Somos un equipo de psicólogas con formación en sexología, feminismo y
+                perspectiva de género, trauma, neurodivergencias y salud mental
+                comunitaria. Trabajamos reconociendo los diversos contextos, historias
+                y formas de vivir el cuerpo, el deseo, el dolor y los vínculos;
+                integrando el saber con el afecto.
+              </div>
+            </div>
       <Profiles></Profiles>
       <Isapres></Isapres>
       <Opinions></Opinions>

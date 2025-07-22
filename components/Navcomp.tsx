@@ -49,7 +49,7 @@ const [isDropdownOpen, setIsDropdownOpen] = useState(false);
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               className="border-none text-[#374151] hover:text-cyan-700 ml-3 py-2 md:py-0 focus:outline-none flex items-center space-x-1"
             >
-              <span>Servicios</span>
+              <span>Terapias</span>
               <FaChevronDown />
             </button>
             {isDropdownOpen && (

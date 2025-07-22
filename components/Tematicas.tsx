@@ -36,8 +36,9 @@ const Tematicas = () => {
         width={300}
         height={15}
         quality={100}
-        className="mt-4 mb-10"
+        className="mt-4 mb-8"
       />
+      <div className="text-xl mb-4 text-grey-font">Nos han invitado en Chile y España a hablar de:</div>
 
       <div className="flex flex-col gap-4 text-base text-grey-font">
         {tematicas.map((texto, index) => (

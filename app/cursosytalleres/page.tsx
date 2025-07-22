@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { poppins } from "@/app/fonts/fonts";
-import Pilares from "@/components/Pilares";
 import Tematicas from "@/components/Tematicas";
 import CursosCards from "@/components/CursosCards";
 import Company from "@/components/Company";
@@ -8,7 +7,7 @@ import Company from "@/components/Company";
 const Page = () => {
   return (
     <section>
-      <Pilares></Pilares>
+      <h2 className={`${poppins.className} text-4xl text-center mt-32 text-grey-font`}>Cursos y Talleres Personalizados</h2>
       <Tematicas></Tematicas>
       <div className="flex flex-wrap justify-center gap-4 my-10 md:my-24">
         <div
@@ -46,7 +45,6 @@ const Page = () => {
         </div>
       </div>
       <Company></Company>
-      <CursosCards></CursosCards>
     </section>
   );
 }

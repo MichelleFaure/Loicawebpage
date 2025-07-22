@@ -42,7 +42,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": ["$45.000 (CLP)", "$50 (USD)", "50€ (EUR)"]
+      "text": ["$48.000 (CLP)", "$55 (USD)", "55€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
@@ -102,7 +102,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": ["$45.000 (CLP)","$50 (USD)" ,"50€ (EUR)"]
+      "text": ["$40.000 (CLP)","$47 (USD)" ,"47€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
@@ -132,7 +132,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": ["$33.000 (CLP)", "$40 (USD)", "40€ (EUR)"]
+      "text": ["$35.000 (CLP)", "$42 (USD)", "42€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
