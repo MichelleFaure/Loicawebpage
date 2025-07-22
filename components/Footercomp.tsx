@@ -99,7 +99,7 @@ function Footercomp() {
         <div className="flex flex-col gap-2 text-center md:text-start">
           <div className="font-semibold ">Contacto</div>
           <ul className="text-sm flex flex-col gap-2">
-            <li> loica.contactos@gmail.com</li>
+            <li> loica.consultas@gmail.com</li>
             <motion.li
               className="cursor-pointer"
               whileHover={{ scale: 1.05, color: "#9C9CE6" }}
@@ -111,7 +111,6 @@ function Footercomp() {
         </div>
       </div>
     </section>
-
   );
 
 }
