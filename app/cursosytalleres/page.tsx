@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { poppins } from "@/app/fonts/fonts";
 import Tematicas from "@/components/Tematicas";
-import CursosCards from "@/components/CursosCards";
 import Company from "@/components/Company";
 
 const Page = () => {
