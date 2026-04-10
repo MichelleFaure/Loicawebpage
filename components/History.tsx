@@ -30,10 +30,25 @@ const History = () => {
       icon: "/history/icon5.png",
       classes: "col-start-1 sm:col-start-2 col-end-3 row-start-5",
     },
+    {
+      text: "En 2024, durante el Máster en Ciencias de la Sexología de la Universidad de Almería, se dio un nuevo encuentro significativo con la llegada de Juliana, colega con quien compartimos formación, sensibilidad clínica, mirada crítica y compromiso ético.",
+      icon: "/history/icon6.png",
+      classes: "col-start-1 col-end-3 sm:col-end-2 row-start-6 md:pe-16 pe-4",
+    },
+    {
+      text: "Su incorporación amplía los horizontes del equipo, permitiendo conectar distintas geografías, lenguajes y realidades culturales. Invita a desarrollar una práctica que se construye desde múltiples territorios, historias y experiencias.",
+      icon: "/history/icon7.png",
+      classes: "col-start-1 sm:col-start-2 col-end-3 row-start-7",
+    },
+    {
+      text: "Así se consolida el equipo de Centro Loica, con una identidad en crecimiento, abierta a expandirse más allá de las fronteras y a integrar nuevas perspectivas en su desarrollo profesional y humano.",
+      icon: "/history/icon8.png",
+      classes: "col-start-1 col-end-3 sm:col-end-2 row-start-8 md:pe-16 pe-4",
+    },
   ];
   
   return (
-    <div className="max-w-[1000px] text-sm/6  mx-auto grid gap-y-6 gap grid-cols-2 grid-rows-5 text-grey-font my-10 ps-10 pe-2">
+    <div className="max-w-[1000px] text-sm/6  mx-auto grid gap-y-6 gap grid-cols-2 grid-rows-8 text-grey-font my-10 ps-10 pe-2">
       {historyData.map((item, index) => (
         <div
           key={index}
@@ -47,24 +62,26 @@ const History = () => {
           >
             {item.text}
           </motion.p>
-            <Image
-              src={item.icon}
-              alt="icono"
-              width={100}
-              height={100}
-              quality={100}
-              className={`w-[60px] absolute md:w-[100px] ${
-                index % 2 === 0
-                  ? "-left-8 md:-left-14 top-16 md:top-8"
-                  : "md:-right-12 top-16 md:top-8 md:left-auto -left-8"
-              } z-20`}
-            />
+          <Image
+            src={item.icon}
+            alt="icono"
+            width={100}
+            height={100}
+            quality={100}
+            className={`w-[60px] absolute md:w-[100px] ${
+              index % 2 === 0
+                ? "-left-8 md:-left-14 top-16 md:top-8"
+                : "md:-right-12 top-16 md:top-8 md:left-auto -left-8"
+            } z-20`}
+          />
 
           {index === 0 && (
-            <div className="h-[930px] w-full absolute z-10 -left-1 top-20 border-l-4 border-l-coral" />
+            <div className="h-[1100px] w-full absolute z-10 -left-1 top-20 border-l-4 border-l-coral" />
           )}
-          {index === 4 && (
-            <div className="h-[500px] w-full absolute z-10 -left-1 bottom-32 border-l-4 border-l-coral" />
+          {index === 7 && (
+            <div
+              className="h-[1100px] w-full absolute z-10 bottom-32 -left-1 border-l-4 border-l-coral md:left-auto md:right-0 md:border-l-0 md:border-r-4 md:border-r-coral"
+            />
           )}
         </div>
       ))}
