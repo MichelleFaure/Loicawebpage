@@ -13,7 +13,6 @@ function AgendaPage() {
   const julianaServices = aboutUs[2].services;
   const [openModal, setOpenModal] = useState(false);
   const [calendarLink, setCalendarLink] = useState("");
-
   return (
     <div>
       <h3
@@ -41,7 +40,6 @@ function AgendaPage() {
                 setCalendarLink(
                   "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2PnxVtN4l82IqeOn-zCIoWDfybh4cVFOsli1wU4wwjRNYSXqfBaQ9xl8DxoFVcf_XUx1BK5vF-?gv=true",
                 );
-                setSelectedName("Laura Valdés Cruzatt");
                 setOpenModal(true);
               }}
               className={`${poppins.className} bg-lavender font-normal shadow-lg text-sm text-center  md:min-w-28 text-md p-2 my-8 text-white transform transition-transform duration-300 hover:scale-105  rounded-md`}
@@ -80,7 +78,6 @@ function AgendaPage() {
                 setCalendarLink(
                   "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0OI_N7qua613H0wZcnbg9ybTaGVcOc1UVY-_csvy02kh18OCAr5l6UHPr3iUx5zDhCKpxdaza3?gv=true",
                 );
-                setSelectedName("Daniela Belén Bustos Páez");
                 setOpenModal(true);
               }}
               className={`${poppins.className} bg-lavender font-normal shadow-lg text-sm text-center  md:min-w-28 text-md p-2 my-8 text-white transform transition-transform duration-300 hover:scale-105  rounded-md`}
@@ -118,7 +115,6 @@ function AgendaPage() {
                 setCalendarLink(
                   "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1s-RjzM5LkpKYDJ_e-NRrNO7RM_IiyT-QnfW3K2cvO2vQBtOeQA4X6YobqcaNwVpV7NUhKIFME?gv=true",
                 );
-                setSelectedName("Juliana Quevedo Cruz");
                 setOpenModal(true);
               }}
               className={`${poppins.className} bg-lavender font-normal shadow-lg text-sm text-center  md:min-w-28 text-md p-2 my-8 text-white transform transition-transform duration-300 hover:scale-105  rounded-md`}
