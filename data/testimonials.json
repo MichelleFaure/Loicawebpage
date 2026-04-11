@@ -7,9 +7,15 @@
   },
   {
     "name": "D.T.",
-    "age": "09 octubre 2024",
+    "age": "-",
     "terapeuta": "Laura",
     "opinion": "Me ha brindado herramientas prácticas para organizar mi día a día sintiéndome más segura y tranquila por la certeza que eso significa. Además, me ha ayudado a resignificar lo que es el disfrute y la importancia de este en nuestra vida. Mi experiencia ha sido reconfortante debido al espacio seguro que construye con una."
+  },
+  {
+    "name": "Consultante",
+    "age": "19 años",
+    "terapeuta": "Juliana",
+    "opinion": "Gracias al apoyo brindado logré sentirme más tranquila conforme pasaba el tiempo, logré escucharme más y obedecerme, logré enfrentar mis miedos, logré entender que debo ponerme como mi mayor prioridad y reconocer que merezco mucho más de lo que creo merecer."
   },
   {
     "name": "Camila M.",
@@ -24,6 +30,12 @@
     "opinion": "Excelente profesional, me ha apoyado en momentos cruciales. Estoy muy agradecido por la terapia que hemos llevado adelante, he crecido muchísimo gracias a ella. 10/10 muy recomendada."
   },
   {
+    "name": "Consultante",
+    "age": "23 años",
+    "terapeuta": "Juliana",
+    "opinion": "Me sentí escuchada, siempre me brindó apoyo para todo, me dió el espacio para tratar en terapia todos mis temas y mi semana y me siento muy contenta de que ella haya llevado mi proceso."
+  },
+  {
     "name": "Javiera Navarro",
     "age": "25 noviembre 2024",
     "terapeuta": " Daniela ",
@@ -36,6 +48,12 @@
     "opinion": "Me ayudó bastante, fue mi primera vez en terapia y fue muy loco por qué fue online pero a pesar de eso resulto súper."
   },
   {
+    "name": "Consultante",
+    "age": "25 años",
+    "terapeuta": "Juliana",
+    "opinion": "Pude tener seguridad y sentirme en confianza para poder comunicar mis problemas. La profesional nunca me juzgó y valoró cada progreso que existió, además de atenderme con ternura y empatía, lo que brinda más motivación para seguir con el proceso. Además, el tiempo dedicado para las sesiones es el adecuado para poder tratar todos los temas que se deseen con tranquilidad y sin apuros"
+  },
+  {
     "name": "Luna A. ",
     "age": "23 octubre 2024",
     "terapeuta": " Daniela ",
@@ -46,6 +64,12 @@
     "age": "02 febrero 2021",
     "terapeuta": " Laura",
     "opinion": "Me atendía con Laura, y quiero decir que estuvo en un momento crucial de mi vida. Agradezco lo profesional que fue, pero también y pese a las circunstancias lo cálida que fue en cada una de nuestras terapias. GRACIAS POR ENSEÑARME TANTO LAURA"
+  },
+  {
+    "name": "Consultante",
+    "age": "22 años",
+    "terapeuta": "Juliana",
+    "opinion": "Reconocer la pérdida de mi hermano desde una perspectiva más cercana y amable en la que pude hablar con él y decirle lo que sentía, soltar el control, aceptar las emociones y en el proceso, logré sentir tranquilidad y bienestar"
   },
   {
     "name": "Ricardo Vásquez",
@@ -66,16 +90,34 @@
     "opinion": "Soy actual paciente de Laura. La busque rogando que me ayudara, le dije que sola no podía, ella me respondió al instante y estuvo 100% dispuesta a recibirme como su paciente. Desde el primer minuto se preocupó de coordinar y flexibilizar los horarios (teniendo en cuenta que mi trabajo me demanda mucho tiempo) al mismo tiempo fue muy considerada con el valor de las consultas. estoy realmente agradecida por caer en manos de una profesional como Laura."
   },
   {
+    "name": "Consultante",
+    "age": "30 años",
+    "terapeuta": "Juliana",
+    "opinion": "Gracias por permitirme reencontrarme, liberarme y sobre todo, por hacerme ver que vale la pena quedarse en este mundo. Fue el mejor acompañamiento que pude haber tenido"
+  },
+  {
     "name": "DHU",
     "age": "01 febrero 2021",
     "terapeuta": " Laura",
     "opinion": "Preocupada y atenta al paciente. Genera un ambiente de confianza que facilita las sesiones. Muy responsable en cuanto al horario y fechas agendadas. En la personas la terapia me sirvió mucho."
   },
   {
+    "name": "Consultante",
+    "age": "28 años",
+    "terapeuta": "Juliana",
+    "opinion": "Juliana es una excelente profesional, al principio y como todo, estuve un poco a la defensiva, pero me mostró que en ella se puede confiar y más que eso, me brindó las herramientas necesarias para ser una mejor persona desde adentro, de mi parte solo puedo agradecer el tiempo que estuvo conmigo en mi proceso y la recomiendo 100%"
+  },
+  {
     "name": "G.A.",
     "age": "01 febrero 2021",
     "terapeuta": " Laura",
     "opinion": "Estoy muy contento por el avance y evolución que he tenido gracias a la terapia con Laura, puntual, eficiente, empática. En un comienzo donde todo parecía cuesta arriba fue muy difícil aceptar y dar el paso a la terapia, pero con el paso de las primeras sesiones todo comenzó a ser más claro, pudiendo entregar habilidades y herramientas para avanzar en mi propósito, mucho poder de adaptación y hasta hoy, ha sido muy precisa en cuanto al plan de trabajo y la duración del tratamiento."
+  },
+  {
+    "name": "Consultante",
+    "age": "40 años",
+    "terapeuta": "Juliana",
+    "opinion": "Encontré un espacio seguro para dialogar y encontrar una persona profesional y objetiva que desde la empatía me ayudara a solventar el momento incómodo que vivía. Felicidades por el profesionalismo, la disposición y la entrega con cada persona que busca una herramienta para seguir intentando vivir"
   },
   {
     "name": "Rocío Mella",

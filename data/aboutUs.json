@@ -209,5 +209,72 @@
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/cbe7163c-0aaf-4ea6-ae39-02ef4bf42def"
       }
     ]
+  },
+   {
+    "name": "Juliana Quevedo Cruz",
+    "degree": "Psicóloga y sexóloga adultas y parejas",
+    "imgSrc": "/profiles/profilephoto3.png",
+    "description": "Psicóloga de la Universidad Santo Tomás de Colombia, Maestranda en Ciencias de la Sexología en la Universidad de Almería. Diplomado en curso de Terapia Feminista. Diplomado en Terapia sistémica. Diplomado en Arteterapia. 4 años de experiencia en Terapia Sistémica Narrativa con perspectiva de género. Espacio seguro para disidencias y diversidades sexuales.",
+    "registration_number": "N° Tarjeta profesional: 236572",
+    "linkedin": "https://www.linkedin.com/in/psicjulianaquevedoc/",
+    "services": [
+      {
+        "id": "1",
+        "title": " Psicoterapia Online Individual",
+        "description":"Trauma relacional, violencias, ansiedad, depresión, duelos, crisis vitales y resignificación de la historia personal",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": ["$33.000 (CLP)", "$40 (USD)", "40€ (EUR)"]
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg6.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/8933b2c1-5b90-4f99-b21e-e9b3b3a2f6c6"
+      },
+      {
+        "id": "2",
+        "title": " Psicoterapia Online de Pareja",
+        "description": "Conflictos vinculares, procesos de ruptura, comunicación, reconfiguración de la relación, impacto de violencias y mandatos de género.",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Presencial"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": ["$33.000 (CLP)", "$40 (USD)", "40€ (EUR)"]
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg7.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/7c44ab17-8835-40d9-947a-e8f5ab5cbef0"
+      },
+      {
+        "id": "3",
+        "title": "Acompañamiento en procesos sexoafectivos",
+        "description": "conflicto con el deseo, vergüenza, culpa, historia sexual atravesada por violencia, construcción de identidad sexoafectiva",
+        "modalidad": {
+          "icon": "TbFlower",
+          "text": "Online"
+        },
+        "price": {
+          "icon": "HiCurrencyDollar",
+          "text": ["$35.000 (CLP)", "$42 (USD)", "42€ (EUR)"]
+        },
+        "time": {
+          "icon": "IoTimeOutline",
+          "text": "60 minutos"
+        },
+        "imgSrc": "/services/serviceImg5.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/35a010a3-b17d-40a7-914f-99259ba9169a"
+      }
+    ]
   }
 ]
