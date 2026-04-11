@@ -18,7 +18,7 @@ const itemVariants = {
 };
 function ContacUs() {
 
-  const phoneNumber = "56957729169"; 
+  const phoneNumber = "56965840242"; 
   const message = "¡Hola! Me gustaría obtener más información."; 
   const recipient = "loica.consultas@gmail.com";
   const subject = "Consulta de información";
@@ -27,7 +27,7 @@ function ContacUs() {
     {
       name: "WhatsApp",
       link: `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
-      text: "+56 9 57729169",
+      text: "+56965840242",
       icon: <FaWhatsapp />,
     },
     {
@@ -45,7 +45,7 @@ function ContacUs() {
     {
       name: "Gmail",
       link: `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${encodeURIComponent(
-        subject
+        subject,
       )}&body=${encodeURIComponent(body)}`,
       text: "loica.consultas@gmail.com",
       icon: <BiLogoGmail />,
