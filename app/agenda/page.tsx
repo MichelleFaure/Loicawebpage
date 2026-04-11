@@ -12,6 +12,8 @@ function AgendaPage() {
   const danielaServices = aboutUs[1].services;
   const julianaServices = aboutUs[2].services;
   const [openModal, setOpenModal] = useState(false);
+  const [calendarLink, setCalendarLink] = useState("");
+  const [selectedName, setSelectedName] = useState("");
   return (
     <div>
       <h3
@@ -35,35 +37,17 @@ function AgendaPage() {
               Psicóloga adolescentes y adultos
             </h3>
             <button
-              onClick={() => setOpenModal(true)}
+              onClick={() => {
+                setCalendarLink(
+                  "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2PnxVtN4l82IqeOn-zCIoWDfybh4cVFOsli1wU4wwjRNYSXqfBaQ9xl8DxoFVcf_XUx1BK5vF-?gv=true",
+                );
+                setSelectedName("Laura Valdés Cruzatt");
+                setOpenModal(true);
+              }}
               className={`${poppins.className} bg-lavender font-normal shadow-lg text-sm text-center  md:min-w-28 text-md p-2 my-8 text-white transform transition-transform duration-300 hover:scale-105  rounded-md`}
             >
               Agendar hora
             </button>
-
-            <Modal
-              show={openModal}
-              onClose={() => setOpenModal(false)}
-              size="4xl"
-            >
-              <Modal.Header>
-                <Image
-                  src="/layout/navbar-logo-loica.png"
-                  alt="Psicóloga Laura Valdés Cruzatt"
-                  width={100}
-                  height={100}
-                />
-              </Modal.Header>
-
-              <Modal.Body>
-                <iframe
-                  src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2PnxVtN4l82IqeOn-zCIoWDfybh4cVFOsli1wU4wwjRNYSXqfBaQ9xl8DxoFVcf_XUx1BK5vF-?gv=true"
-                  width="100%"
-                  height="500"
-                  className="rounded"
-                />
-              </Modal.Body>
-            </Modal>
           </div>
 
           <AgendaCards services={lauraServices} />
@@ -92,37 +76,18 @@ function AgendaPage() {
               Psicóloga y Sexóloga adultos
             </h3>
             <button
-              onClick={() => setOpenModal(true)}
+              onClick={() => {
+                setCalendarLink(
+                  "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0OI_N7qua613H0wZcnbg9ybTaGVcOc1UVY-_csvy02kh18OCAr5l6UHPr3iUx5zDhCKpxdaza3?gv=true",
+                );
+                setSelectedName("Daniela Belén Bustos Páez");
+                setOpenModal(true);
+              }}
               className={`${poppins.className} bg-lavender font-normal shadow-lg text-sm text-center  md:min-w-28 text-md p-2 my-8 text-white transform transition-transform duration-300 hover:scale-105  rounded-md`}
             >
               Agendar hora
             </button>
-
-            <Modal
-              show={openModal}
-              onClose={() => setOpenModal(false)}
-              size="4xl"
-            >
-              <Modal.Header>
-                <Image
-                  src="/layout/navbar-logo-loica.png"
-                  alt="Psicóloga Laura Valdés Cruzatt"
-                  width={100}
-                  height={100}
-                />
-              </Modal.Header>
-
-              <Modal.Body>
-                <iframe
-                  src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0OI_N7qua613H0wZcnbg9ybTaGVcOc1UVY-_csvy02kh18OCAr5l6UHPr3iUx5zDhCKpxdaza3?gv=true"
-                  width="100%"
-                  height="500"
-                  className="rounded"
-                />
-              </Modal.Body>
-            </Modal>
           </div>
-
           <AgendaCards services={danielaServices} />
           <div className=" absolute top-[50px] -left-[250px] opacity-10 -z-10">
             <Image
@@ -149,35 +114,17 @@ function AgendaPage() {
               Psicóloga y sexóloga adultas y parejas
             </h3>
             <button
-              onClick={() => setOpenModal(true)}
+              onClick={() => {
+                setCalendarLink(
+                  "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1s-RjzM5LkpKYDJ_e-NRrNO7RM_IiyT-QnfW3K2cvO2vQBtOeQA4X6YobqcaNwVpV7NUhKIFME?gv=true",
+                );
+                setSelectedName("Juliana Quevedo Cruz");
+                setOpenModal(true);
+              }}
               className={`${poppins.className} bg-lavender font-normal shadow-lg text-sm text-center  md:min-w-28 text-md p-2 my-8 text-white transform transition-transform duration-300 hover:scale-105  rounded-md`}
             >
               Agendar hora
             </button>
-
-            <Modal
-              show={openModal}
-              onClose={() => setOpenModal(false)}
-              size="4xl"
-            >
-              <Modal.Header>
-                <Image
-                  src="/layout/navbar-logo-loica.png"
-                  alt="Juliana Quevedo Cruz"
-                  width={100}
-                  height={100}
-                />
-              </Modal.Header>
-
-              <Modal.Body>
-                <iframe
-                  src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1s-RjzM5LkpKYDJ_e-NRrNO7RM_IiyT-QnfW3K2cvO2vQBtOeQA4X6YobqcaNwVpV7NUhKIFME?gv=true"
-                  width="100%"
-                  height="500"
-                  className="rounded"
-                />
-              </Modal.Body>
-            </Modal>
           </div>
 
           <AgendaCards services={julianaServices} />
@@ -193,6 +140,18 @@ function AgendaPage() {
         </div>
       </div>
       <Help></Help>
+      <Modal show={openModal} onClose={() => setOpenModal(false)} size="4xl">
+        <Modal.Header><Image src="/layout/navbar-logo-loica.png" alt="Juliana Quevedo Cruz" width={100} height={100} /></Modal.Header>
+
+        <Modal.Body>
+          <iframe
+            src={calendarLink}
+            width="100%"
+            height="500"
+            className="rounded"
+          />
+        </Modal.Body>
+      </Modal>
     </div>
   );
 }
