@@ -13,7 +13,7 @@ function AgendaPage() {
   const julianaServices = aboutUs[2].services;
   const [openModal, setOpenModal] = useState(false);
   const [calendarLink, setCalendarLink] = useState("");
-  const [selectedName, setSelectedName] = useState("");
+
   return (
     <div>
       <h3
