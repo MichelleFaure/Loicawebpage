@@ -15,6 +15,20 @@ function AgendaPage() {
       >
         AGENDA LOICA
       </h3>
+      <Image
+        src="/layout/agendadivider.png"
+        alt="Psicóloga Laura Valdés Cruzatt"
+        width={300}
+        height={184}
+        quality={100}
+        className="mx-auto my-6"
+      />
+      <h2
+        className={`${poppins.className} text-center text-grey-font max-w-[600px] mx-auto mb-10`}
+      >
+        Conoce a nuestro equipo de psicólogas y agenda tu hora con la
+        profesional que mejor se adapte a tus necesidades.
+      </h2>
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 px-2">
         <div className="w-full">
           <div className="flex flex-row sm:flex-col items-center gap-2 bg-neutral-50 shadow-xl border border-slate-300  mx-auto mt-4 rounded-md md:text-center">
@@ -170,6 +184,13 @@ function AgendaPage() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="max-w-screen-xl mx-auto flex items-center gap-4 bg-[#ECE9FB] border my-10 p-8 text-[#7B79DA] rounded-lg  ">
+        <IoCalendarOutline className="text-7xl" />
+        <p className={`${poppins.className}  max-w-[600px]`}>
+          Haz click en "Agendar hora" para ver los servicios que ofrece cada
+          profesional, sus horarios disponibles y reservar tu sesión.
+        </p>
       </div>
       <Help></Help>
       <Modal show={openModal} onClose={() => setOpenModal(false)} size="4xl">
