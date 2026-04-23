@@ -1,16 +1,11 @@
 "use client";
-import AgendaCards from "@/components/AgendaCards";
-import aboutUs from "@/data/aboutUs.json";
 import Image from "next/image";
 import { poppins } from "@/app/fonts/fonts";
 import Help from "@/components/Help";
 import { Modal } from "flowbite-react";
 import { useState } from "react";
-
+import { IoCalendarOutline } from "react-icons/io5";
 function AgendaPage() {
-  const lauraServices = aboutUs[0].services;
-  const danielaServices = aboutUs[1].services;
-  const julianaServices = aboutUs[2].services;
   const [openModal, setOpenModal] = useState(false);
   const [calendarLink, setCalendarLink] = useState("");
   return (
@@ -20,35 +15,43 @@ function AgendaPage() {
       >
         AGENDA LOICA
       </h3>
-      <div className=" max-w-screen-lg mx-auto flex flex-wrap ">
-        <div className=" mx-auto max-w-[290px] ">
-          <div className="flex flex-col  items-center gap-2  mx-auto mt-16 border-2 border-lavender rounded-md">
+      <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 px-2">
+        <div className="w-full">
+          <div className="flex flex-row sm:flex-col items-center gap-2 bg-neutral-50 shadow-xl border border-slate-300  mx-auto mt-4 rounded-md md:text-center">
             <Image
               src="/profiles/profilephotoagenda.png"
               alt="Psicóloga Laura Valdés Cruzatt"
-              width={184.64}
-              height={112}
+              width={184}
+              height={184}
               quality={100}
-              className="mt-4"
+              className="my-2 w-[120px] md:w-[184px] h-auto"
             />
-            <h2 className="text-xl mt-2 ">Laura Valdés Cruzatt</h2>
-            <h3 className={`${poppins.className} text-xs `}>
-              Psicóloga adolescentes y adultos
-            </h3>
-            <button
-              onClick={() => {
-                setCalendarLink(
-                  "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2PnxVtN4l82IqeOn-zCIoWDfybh4cVFOsli1wU4wwjRNYSXqfBaQ9xl8DxoFVcf_XUx1BK5vF-?gv=true",
-                );
-                setOpenModal(true);
-              }}
-              className={`${poppins.className} bg-lavender font-normal shadow-lg text-sm text-center  md:min-w-28 text-md p-2 my-8 text-white transform transition-transform duration-300 hover:scale-105  rounded-md`}
-            >
-              Agendar hora
-            </button>
+            <div>
+              <h2 className="text-xl mt-2 text-violet-700 font-bold ">
+                Laura Valdés Cruzatt
+              </h2>
+              <h3 className={`${poppins.className} text-xs md:mt-2 `}>
+                Psicóloga adolescentes y adultos
+              </h3>
+              <button
+                onClick={() => {
+                  setCalendarLink(
+                    "https://calendar.google.com/calendar/u/0/appointments/AcZssZ0mBBGXL7PzKVCAW8jf8GBnWf_AwksuuOpqZ3c=",
+                  );
+                  setOpenModal(true);
+                }}
+                className={`${poppins.className} flex gap-2 items-center bg-[#7B79DA] font-normal shadow-lg text-xs md:text-sm py-2.5 px-4 sm:px-6 my-4 sm:mt-6 md:mx-auto text-white transform transition-transform duration-300 hover:scale-105 rounded-md`}
+              >
+                <IoCalendarOutline className="text-xl" /> Agendar hora
+              </button>
+              <h3
+                className={`${poppins.className} hidden md:block text-xs mt-2 mb-6 `}
+              >
+                Atención presencial y online
+              </h3>
+            </div>
           </div>
 
-          <AgendaCards services={lauraServices} />
           <div className=" absolute top-[50px] -left-[250px] opacity-10 -z-10">
             <Image
               src="/layout/bg-img-2.png"
@@ -59,85 +62,125 @@ function AgendaPage() {
             />
           </div>
         </div>
-        <div className=" mx-auto max-w-[290px] ">
-          <div className="flex flex-col  items-center gap-2  mx-auto mt-16 border-2 border-lavender rounded-md">
+        <div className="w-full">
+          <div className="flex flex-row sm:flex-col items-center gap-2 bg-neutral-50 shadow-xl border border-slate-300  mx-auto mt-4 rounded-md md:text-center">
             <Image
               src="/profiles/profilephotoagenda2.png"
-              alt="Daniela Belén Bustos Páez"
+              alt="Psicóloga Daniela Belén Bustos Páez"
               width={184.64}
               height={112}
               quality={100}
-              className="mt-4"
+              className="my-2 w-[120px] md:w-[184px] h-auto"
             />
-            <h2 className="text-xl mt-2 ">Daniela Belén Bustos Páez</h2>
-            <h3 className={`${poppins.className} text-xs `}>
-              Psicóloga y Sexóloga adultos
-            </h3>
-            <button
-              onClick={() => {
-                setCalendarLink(
-                  "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0OI_N7qua613H0wZcnbg9ybTaGVcOc1UVY-_csvy02kh18OCAr5l6UHPr3iUx5zDhCKpxdaza3?gv=true",
-                );
-                setOpenModal(true);
-              }}
-              className={`${poppins.className} bg-lavender font-normal shadow-lg text-sm text-center  md:min-w-28 text-md p-2 my-8 text-white transform transition-transform duration-300 hover:scale-105  rounded-md`}
-            >
-              Agendar hora
-            </button>
-          </div>
-          <AgendaCards services={danielaServices} />
-          <div className=" absolute top-[50px] -left-[250px] opacity-10 -z-10">
-            <Image
-              src="/layout/bg-img-2.png"
-              alt=""
-              width={600}
-              height={630}
-              quality={100}
-            />
+            <div>
+              <h2 className="text-xl mt-2 text-violet-700 font-bold ">
+                Daniela Belén Bustos Páez
+              </h2>
+              <h3 className={`${poppins.className} text-xs md:mt-2 `}>
+                Psicóloga y Sexóloga adultos
+              </h3>
+              <button
+                onClick={() => {
+                  setCalendarLink(
+                    "https://calendar.google.com/calendar/u/0/appointments/AcZssZ3BuRwOxP_SOCj5Vdm2xmSGtGaIgqGnNJkSU_A=",
+                  );
+                  setOpenModal(true);
+                }}
+                className={`${poppins.className} flex gap-2 items-center bg-[#7B79DA] font-normal shadow-lg text-xs md:text-sm py-2.5 px-4 sm:px-6 my-4 sm:mt-6 md:mx-auto text-white transform transition-transform duration-300 hover:scale-105 rounded-md`}
+              >
+                <IoCalendarOutline className="text-xl" /> Agendar hora
+              </button>
+              <h3
+                className={`${poppins.className} hidden md:block text-xs mt-2 mb-6 `}
+              >
+                Atención online
+              </h3>
+            </div>
           </div>
         </div>
-        <div className=" mx-auto max-w-[290px] ">
-          <div className="flex flex-col  items-center gap-2  mx-auto mt-16 border-2 border-lavender rounded-md">
+        <div className="w-full">
+          <div className="flex flex-row sm:flex-col items-center gap-2 bg-neutral-50 shadow-xl border border-slate-300  mx-auto mt-4 rounded-md md:text-center">
             <Image
               src="/profiles/profilephotoagenda3.png"
-              alt="Juliana Quevedo Cruz"
+              alt="Psicóloga Juliana Quevedo Cruz"
               width={184.64}
               height={112}
               quality={100}
-              className="mt-4"
+              className="my-2 w-[120px] md:w-[184px] h-auto"
             />
-            <h2 className="text-xl mt-2 ">Juliana Quevedo Cruz</h2>
-            <h3 className={`${poppins.className} text-xs `}>
-              Psicóloga y sexóloga adultas y parejas
-            </h3>
-            <button
-              onClick={() => {
-                setCalendarLink(
-                  "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1s-RjzM5LkpKYDJ_e-NRrNO7RM_IiyT-QnfW3K2cvO2vQBtOeQA4X6YobqcaNwVpV7NUhKIFME?gv=true",
-                );
-                setOpenModal(true);
-              }}
-              className={`${poppins.className} bg-lavender font-normal shadow-lg text-sm text-center  md:min-w-28 text-md p-2 my-8 text-white transform transition-transform duration-300 hover:scale-105  rounded-md`}
-            >
-              Agendar hora
-            </button>
+            <div>
+              <h2 className="text-xl mt-2 text-violet-700 font-bold ">
+                Juliana Quevedo Cruz
+              </h2>
+              <h3 className={`${poppins.className} text-xs md:mt-2 `}>
+                Psicóloga y sexóloga adultas y parejas
+              </h3>
+              <button
+                onClick={() => {
+                  setCalendarLink(
+                    "https://calendar.google.com/calendar/u/0/appointments/AcZssZ0P6ZikbsNyP25KyaHUAD8LuuHXjH9Dct4ow2U=",
+                  );
+                  setOpenModal(true);
+                }}
+                className={`${poppins.className} flex gap-2 items-center bg-[#7B79DA] font-normal shadow-lg text-xs md:text-sm py-2.5 px-4 sm:px-6 my-4 sm:mt-6 md:mx-auto text-white transform transition-transform duration-300 hover:scale-105 rounded-md`}
+              >
+                <IoCalendarOutline className="text-xl" /> Agendar hora
+              </button>
+              <h3
+                className={`${poppins.className} hidden md:block text-xs mt-2 mb-6 `}
+              >
+                Atención online
+              </h3>
+            </div>
           </div>
-
-          <AgendaCards services={julianaServices} />
-          <div className=" absolute top-[50px] -left-[250px] opacity-10 -z-10">
+        </div>
+        <div className="w-full">
+          <div className="flex flex-row sm:flex-col items-center gap-2 bg-neutral-50 shadow-xl border border-slate-300  mx-auto mt-4 rounded-md md:text-center">
             <Image
-              src="/layout/bg-img-2.png"
-              alt=""
-              width={600}
-              height={630}
+              src="/profiles/profilephotoagenda4.png"
+              alt="Psicóloga Constanza Fernández"
+              width={184.64}
+              height={112}
               quality={100}
+              className="my-2 w-[120px] md:w-[184px] h-auto"
             />
+            <div>
+              <h2 className="text-xl mt-2 text-violet-700 font-bold ">
+                Constanza Fernández
+              </h2>
+              <h3 className={`${poppins.className} text-xs md:mt-2 `}>
+                Psicóloga adultos y adultos mayores
+              </h3>
+              <button
+                onClick={() => {
+                  setCalendarLink(
+                    "https://calendar.google.com/calendar/u/0/appointments/AcZssZ2nhwN0CCh--TW563GcnaQq1KpIGPbq7ySSz5s=",
+                  );
+                  setOpenModal(true);
+                }}
+                className={`${poppins.className} flex gap-2 items-center bg-[#7B79DA] font-normal shadow-lg text-xs md:text-sm py-2.5 px-4 sm:px-6 my-4 sm:mt-6 md:mx-auto text-white transform transition-transform duration-300 hover:scale-105 rounded-md`}
+              >
+                <IoCalendarOutline className="text-xl" /> Agendar hora
+              </button>
+              <h3
+                className={`${poppins.className} hidden md:block text-xs mt-2 mb-6 `}
+              >
+                Atención online
+              </h3>
+            </div>
           </div>
         </div>
       </div>
       <Help></Help>
       <Modal show={openModal} onClose={() => setOpenModal(false)} size="4xl">
-        <Modal.Header><Image src="/layout/navbar-logo-loica.png" alt="Juliana Quevedo Cruz" width={100} height={100} /></Modal.Header>
+        <Modal.Header>
+          <Image
+            src="/layout/navbar-logo-loica.png"
+            alt="Juliana Quevedo Cruz"
+            width={100}
+            height={100}
+          />
+        </Modal.Header>
 
         <Modal.Body>
           <iframe

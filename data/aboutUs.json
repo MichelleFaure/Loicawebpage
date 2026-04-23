@@ -9,8 +9,8 @@
     "services": [
       {
         "id": "1",
-        "title": " Psicoterapia Individual Online",
-        "description":"Se realizan a través de la plataforma Google Meet. Se te enviará un enlace para conectarte a la sesión minutos antes.",
+        "title": " Psicoterapia - Presencial",
+        "description": "Se realizan a través de la plataforma Google Meet. Se te enviará un enlace para conectarte a la sesión minutos antes.",
         "modalidad": {
           "icon": "TbFlower",
           "text": "Online"
@@ -28,7 +28,7 @@
       },
       {
         "id": "2",
-        "title": " Psicoterapia Individual Presencial",
+        "title": " Psicoterapia - Online",
         "description": "Se realizan a través de la plataforma Google Meet. Se te enviará un enlace para conectarte a la sesión minutos antes.",
         "modalidad": {
           "icon": "TbFlower",
@@ -47,7 +47,7 @@
       },
       {
         "id": "3",
-        "title": "Consejería Sexual (online)",
+        "title": "Consejería Sexual - Online",
         "description": "En la consejería se entrega información, herramientas y sugerencias específicas ante alguna temática ligada a la sexualidad. Es de carácter breve, de 4 a 5 sesiones y en caso de ser necesario, puede ser la puerta de entrada a una terapia sexológica o derivaciones a diversos especialistas de la salud (matroneria, ginecología, urología, etc)",
         "modalidad": {
           "icon": "TbFlower",
@@ -66,7 +66,7 @@
       },
       {
         "id": "4",
-        "title": "Consejería Sexual (Presencial)",
+        "title": "Consejería Sexual - Presencial",
         "description": "En la consejería se entrega información, herramientas y sugerencias específicas ante alguna temática ligada a la sexualidad. Es de carácter breve, de 4 a 5 sesiones y en caso de ser necesario, puede ser la puerta de entrada a una terapia sexológica o derivaciones a diversos especialistas de la salud (matroneria, ginecología, urología, etc)",
         "modalidad": {
           "icon": "TbFlower",
@@ -95,7 +95,7 @@
     "services": [
       {
         "id": "1",
-        "title": "Psicoterapia Individual",
+        "title": "Psicoterapia Individual - Online",
         "description": "Cada persona es única y, por eso, tu terapia también lo será. Trabajaremos juntos para identificar tus fortalezas y superar los obstáculos que te impiden alcanzar tu máximo potencial. Creemos firmemente en tu capacidad de crecimiento y te acompañaremos en este camino hacia una vida más plena y auténtica.",
         "modalidad": {
           "icon": "TbFlower",
@@ -134,7 +134,7 @@
       },
       {
         "id": "3",
-        "title": "Terapia Sexual",
+        "title": "Terapia Sexual - Online",
         "description": "Tratamiento especializado de problemas y dificultades que impiden una vivencia satisfactoria de la sexualidad propia y de la relación sexual. Abordamos las disfunciones sexuales que no se deban a una afección médica. Va dirigida a todas las personas o parejas, que quieran mejorar la vivencia de su sexualidad o de sus relaciones sexuales.",
         "modalidad": {
           "icon": "TbFlower",
@@ -150,67 +150,10 @@
         },
         "imgSrc": "/services/serviceImg4.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/b9227e35-c59f-4f90-82ed-86e69745d38f"
-      },
-      {
-        "id": "4",
-        "title": "Psicoterapia Grupal Post-aborto",
-        "description": "Este espacio está dirigido a quienes hayan experimentado un aborto, sin importar la causa ni el tiempo transcurrido. El objetivo principal es brindar un entorno de apoyo y contención, donde compartir experiencias y emociones resultan seguros y respetuosos. El grupo requiere un mínimo de 5 participantes y admite hasta un máximo de 10, con dos posibles horarios de asistencia. Sin embargo, si no se alcanza el número mínimo en uno de los turnos, es posible que se ofrezca únicamente el horario que cumpla con el cupo necesario.",
-        "modalidad": {
-          "icon": "TbFlower",
-          "text": "Online"
-        },
-        "price": {
-          "icon": "HiCurrencyDollar",
-          "text": ["$60.000 (CLP)", "$70 (USD)", "70€ (EUR)"]
-        },
-        "time": {
-          "icon": "IoTimeOutline",
-          "text": "60 minutos"
-        },
-        "imgSrc": "/services/serviceImg3.png",
-        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/9c800add-9dff-47d0-98a4-62a3620b7ffd"
-      },
-      {
-        "id": "5",
-        "title": "Psicoterapia Grupal Duelo Migratorio",
-        "description": "Próximamente",
-        "modalidad": {
-          "icon": "TbFlower",
-          "text": "Online"
-        },
-        "price": {
-          "icon": "HiCurrencyDollar",
-          "text": ["$60.000 (CLP)", "$70 (USD)", "70€ (EUR)"]
-        },
-        "time": {
-          "icon": "IoTimeOutline",
-          "text": "60 minutos"
-        },
-        "imgSrc": "/services/serviceImg3.png",
-        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/1e390907-9d6c-4a40-b3b4-21dde8554da9"
-      },
-      {
-        "id": "6",
-        "title": "Psicoterapia Grupal Trauma Sexual Infantil",
-        "description": "Próximamente",
-        "modalidad": {
-          "icon": "TbFlower",
-          "text": "Online"
-        },
-        "price": {
-          "icon": "HiCurrencyDollar",
-          "text": ["$60.000 (CLP)", "$70 (USD)", "70€ (EUR)"]
-        },
-        "time": {
-          "icon": "IoTimeOutline",
-          "text": "60 minutos"
-        },
-        "imgSrc": "/services/serviceImg3.png",
-        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/cbe7163c-0aaf-4ea6-ae39-02ef4bf42def"
       }
     ]
   },
-   {
+  {
     "name": "Juliana Quevedo Cruz",
     "degree": "Psicóloga y sexóloga adultas y parejas",
     "imgSrc": "/profiles/profilephoto3.png",
@@ -220,8 +163,8 @@
     "services": [
       {
         "id": "1",
-        "title": " Psicoterapia Online Individual",
-        "description":"Trauma relacional, violencias, ansiedad, depresión, duelos, crisis vitales y resignificación de la historia personal",
+        "title": "Terapia de Pareja - Online",
+        "description": "Trauma relacional, violencias, ansiedad, depresión, duelos, crisis vitales y resignificación de la historia personal",
         "modalidad": {
           "icon": "TbFlower",
           "text": "Online"
@@ -239,7 +182,7 @@
       },
       {
         "id": "2",
-        "title": " Psicoterapia Online de Pareja",
+        "title": "Terapia individual - Online",
         "description": "Conflictos vinculares, procesos de ruptura, comunicación, reconfiguración de la relación, impacto de violencias y mandatos de género.",
         "modalidad": {
           "icon": "TbFlower",
@@ -255,25 +198,35 @@
         },
         "imgSrc": "/services/serviceImg7.png",
         "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/7c44ab17-8835-40d9-947a-e8f5ab5cbef0"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Constanza Fernández",
+    "degree": "Psicóloga adultos y adultos mayores",
+    "imgSrc": "/profiles/profilephoto4.png",
+    "description": "Psicóloga de la Universidad de Buenos Aires, con formación en perspectiva de género y abordaje de relaciones no convencionales. Enfoque clínico feminista e integral. Diplomada en Trastornos de la Conducta Alimentaria (TCA) y consumo de sustancias. Posgrado en clínica de adultos. 3 años de experiencia en trabajo interdisciplinario en salud mental. Espacio seguro para diversidades sexuales y disidencias / Abordaje de situaciones de violencia de género. ",
+    "registration_number": "Matrícula nacional argentina: 89012",
+    "linkedin": "https://www.linkedin.com/in/psicjulianaquevedoc/",
+    "services": [
       {
-        "id": "3",
-        "title": "Acompañamiento en procesos sexoafectivos",
-        "description": "conflicto con el deseo, vergüenza, culpa, historia sexual atravesada por violencia, construcción de identidad sexoafectiva",
+        "id": "1",
+        "title": "Psicoterapia Individual  - Online",
+        "description": "Trauma relacional, violencias, ansiedad, depresión, duelos, crisis vitales y resignificación de la historia personal",
         "modalidad": {
           "icon": "TbFlower",
           "text": "Online"
         },
         "price": {
           "icon": "HiCurrencyDollar",
-          "text": ["$35.000 (CLP)", "$42 (USD)", "42€ (EUR)"]
+          "text": ["$33.000 (CLP)", "$40 (USD)", "40€ (EUR)"]
         },
         "time": {
           "icon": "IoTimeOutline",
           "text": "60 minutos"
         },
-        "imgSrc": "/services/serviceImg5.png",
-        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/35a010a3-b17d-40a7-914f-99259ba9169a"
+        "imgSrc": "/services/serviceImg6.png",
+        "link": "https://loicapsicologia.getskedu.com/loicapsicologia/s/8933b2c1-5b90-4f99-b21e-e9b3b3a2f6c6"
       }
     ]
   }
