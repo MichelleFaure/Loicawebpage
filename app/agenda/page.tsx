@@ -188,8 +188,9 @@ function AgendaPage() {
       <div className="max-w-screen-xl mx-auto flex items-center gap-4 bg-[#ECE9FB] border my-10 p-8 text-[#7B79DA] rounded-lg  ">
         <IoCalendarOutline className="text-7xl" />
         <p className={`${poppins.className}  max-w-[600px]`}>
-          Haz click en "Agendar hora" para ver los servicios que ofrece cada
-          profesional, sus horarios disponibles y reservar tu sesión.
+          Haz click en &ldquo;Agendar hora&rdquo; para ver los servicios que
+          ofrece cada profesional, sus horarios disponibles y reservar tu
+          sesión.
         </p>
       </div>
       <Help></Help>
