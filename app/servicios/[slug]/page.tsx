@@ -20,6 +20,7 @@ const iconMap: Record<string, JSX.Element> = {
 
 type Service = {
   id: string;
+  slug: string;
   imgSrc: string;
   title: string;
   modalidad: {
@@ -46,11 +47,29 @@ type Service = {
   };
 };
 
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const service = serviceData.find((item) => item.slug === params.slug);
 
-function page({ params }: { params: { id: string } }) {
-  
+  if (!service) {
+    return {
+      title: "Servicio no encontrado | Centro Loica",
+    };
+  }
+
+  return {
+    title: `${service.title} | Centro Loica`,
+    description: service.description,
+  };
+}
+
+
+function page({ params }: { params: { slug: string } }) {
   const service: Service | undefined = serviceData.find(
-    (item) => item.id === params.id
+    (item) => item.slug === params.slug,
   );
 
   if (!service) {
@@ -66,7 +85,7 @@ function page({ params }: { params: { id: string } }) {
       </div>
     );
   }
-  
+
   return (
     <>
       <BannerService

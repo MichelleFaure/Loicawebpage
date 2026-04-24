@@ -16,6 +16,7 @@ const iconMap: Record<string, JSX.Element> = {
 
 type Service = {
   id: string;
+  slug: string;
   imgSrc: string;
   title: string;
   modalidad: {
@@ -93,7 +94,7 @@ function CardService({ service }: ServiceCardProps) {
         </div>
       </div>
       <Link
-        href={`/servicios/${service.id}`}
+        href={`/servicios/${service.slug}`}
         className={`${poppins.className} flex justify-center mx-6 mb-4  bg-lavender text-white text-sm p-4 transform transition-transform duration-300 hover:scale-105 hover:shadow-md rounded-lg`}
       >
         Ver Más

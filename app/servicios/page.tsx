@@ -5,6 +5,7 @@ import Image from "next/image";
 
 type Service = {
   id: string;
+  slug: string;
   imgSrc: string;
   title: string;
   modalidad: {
@@ -29,6 +30,12 @@ type Service = {
     icon: string;
     text: string;
   };
+};
+
+export const metadata = {
+  title: "Servicios de psicoterapia y acompañamiento | Centro Loica",
+  description:
+    "Conoce los servicios terapéuticos, talleres y espacios de acompañamiento que ofrece Centro Loica.",
 };
 
 function ServiciosPage() {

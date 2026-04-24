@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "slug": "psicoterapia-individual",
     "title": "Psicoterapia Individual",
     "modalidad": {
       "icon": "TbFlower",
@@ -8,7 +9,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": ["$33.000 (CLP)","$40 (USD)" ,"40€ (EUR)"]
+      "text": ["$33.000 (CLP)", "$40 (USD)", "40€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
@@ -31,10 +32,11 @@
       "Autoconocimiento"
     ],
     "description": "Un espacio confidencial y seguro donde explorar tu mundo interno con cuidado. Te acompañamos a mirar tus emociones, deseos, heridas y fortalezas desde una escucha activa, sin juicio y con herramientas terapéuticas ajustadas a tu historia.",
-    "imgSrc":"/services/serviceImg1.png"
+    "imgSrc": "/services/serviceImg1.png"
   },
   {
     "id": "2",
+    "slug": "psicoterapia-pareja-vinculos-no-monogamos",
     "title": "Psicoterapia de Pareja o Vínculos No Monógamos",
     "modalidad": {
       "icon": "TbFlower",
@@ -68,6 +70,7 @@
   },
   {
     "id": "3",
+    "slug": "psicoterapia-grupal",
     "title": " Psicoterapia Grupal",
     "modalidad": {
       "icon": "TbFlower",
@@ -75,7 +78,7 @@
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": ["$60.000 (CLP)","$65 (USD)" ,"65€ (EUR)"]
+      "text": ["$60.000 (CLP)", "$65 (USD)", "65€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
@@ -85,24 +88,21 @@
       "icon": "IoPeopleCircleOutline",
       "text": "5-10 personas"
     },
-    "themes": [
-      "Duelo Migratorio",
-      "Trauma Sexual Infantil",
-      "Post aborto"
-    ],
+    "themes": ["Duelo Migratorio", "Trauma Sexual Infantil", "Post aborto"],
     "description": "Contamos con grupos terapéuticos guiados por profesionales, pensados como espacios seguros para compartir experiencias, nombrar lo que duele, encontrar sostén colectivo y descubrir otras formas de habitarnos.",
     "imgSrc": "/services/serviceImg3.png"
   },
   {
     "id": "4",
-    "title":"Terapia Sexual",
+    "slug": "terapia-sexual",
+    "title": "Terapia Sexual",
     "modalidad": {
       "icon": "TbFlower",
       "text": "Online"
     },
     "price": {
       "icon": "HiCurrencyDollar",
-      "text": ["$40.000 (CLP)","$47 (USD)" ,"47€ (EUR)"]
+      "text": ["$40.000 (CLP)", "$47 (USD)", "47€ (EUR)"]
     },
     "time": {
       "icon": "IoTimeOutline",
@@ -125,6 +125,7 @@
   },
   {
     "id": "5",
+    "slug": "consejeria-sexual",
     "title": "Consejería Sexual",
     "modalidad": {
       "icon": "TbFlower",

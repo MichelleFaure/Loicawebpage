@@ -63,7 +63,7 @@ const [isDropdownOpen, setIsDropdownOpen] = useState(false);
                 {servicesData.map((service) => (
                   <Link
                     key={service.id}
-                    href={`/servicios/${service.id}`}
+                    href={`/servicios/${service.slug}`}
                     className="border-b mb-2 py-2"
                   >
                     {service.title}
