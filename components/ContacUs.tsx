@@ -18,7 +18,7 @@ const itemVariants = {
 };
 function ContacUs() {
 
-  const phoneNumber = "56965840242"; 
+  const phoneNumber = "56987061591"; 
   const message = "¡Hola! Me gustaría obtener más información."; 
   const recipient = "loica.consultas@gmail.com";
   const subject = "Consulta de información";
@@ -27,7 +27,7 @@ function ContacUs() {
     {
       name: "WhatsApp",
       link: `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
-      text: "+56965840242",
+      text: "+56987061591",
       icon: <FaWhatsapp />,
     },
     {
