@@ -10,7 +10,7 @@ function ResoursesCards() {
         return (
           <Link
             key={resource.id}
-            href={`/recursos/${resource.id}`}
+            href={`/recursos/${resource.slug}`}
             className="transform transition-transform duration-300 hover:scale-105 hover:translate-y-2"
           >
             <div className={`shadow-lg max-w-80 ${poppins.className}`}>

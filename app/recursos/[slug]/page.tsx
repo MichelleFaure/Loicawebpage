@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { poppins } from "@/app/fonts/fonts";
 interface Articulo {
   id: string;
+  slug:string;
   titulo: string;
   autor: string;
   image:string;
@@ -18,16 +19,37 @@ type Contenido =
 
 const articles: Articulo[] = resources; 
 
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const article = articles.find((art) => art.slug === params.slug);
 
-function Page({ params }: { params: { id: string } }) {
-  const article = articles.find((art) => art.id === params.id);
+  if (!article) {
+    return {
+      title: "Artículo no encontrado | Centro Loica",
+    };
+  }
+
+  return {
+    title: `${article.titulo} | Centro Loica`,
+    description: `Lee sobre ${article.titulo} en Centro Loica.`,
+  };
+}
+
+
+function Page({ params }: { params: { slug: string } }) {
+  const article = articles.find((art) => art.slug === params.slug);
 
   if (!article) {
     return <div className="text-red-500">Artículo no encontrado</div>;
   }
 
   return (
-    <div className={`max-w-screen-lg mx-auto my-10 md:my-24 p-6 ${poppins.className}`}>
+    <div
+      className={`max-w-screen-lg mx-auto my-10 md:my-24 p-6 ${poppins.className}`}
+    >
       <h1 className="text-4xl font-bold mb-4">{article.titulo}</h1>
       <h2 className="text-lg text-gray-600 mb-6">{article.autor}</h2>
       <div className="my-10">
@@ -52,7 +74,7 @@ function Page({ params }: { params: { id: string } }) {
                         text
                       ) : (
                         <strong key={i}>{text.negrita}</strong>
-                      )
+                      ),
                     )
                   : item.contenido}
               </p>

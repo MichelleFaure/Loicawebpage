@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "slug":"terapia-con-enfoque-humanista",
     "titulo": "Terapia con enfoque humanista ¿qué significa?",
     "autor": "Por Laura Valdés Cruzatt",
     "image": "/resourses/art6.png",
@@ -137,6 +138,7 @@
   },
   {
     "id": "2",
+    "slug": "abuso-sexual-infantil-en-mujeres",
     "titulo": "Abuso sexual infantil en mujeres: No estás rota",
     "autor": "Por Daniela Bustos Páez",
     "image": "/resourses/art2.png",
@@ -326,6 +328,7 @@
   },
   {
     "id": "3",
+    "slug": "ansiedad-no-te-define",
     "titulo": "Ansiedad: no te define, pero sí te habla",
     "autor": "Por Daniela Bustos Páez",
     "image": "/resourses/art4.png",
@@ -573,7 +576,9 @@
       },
       {
         "tipo": "parrafo",
-        "contenido": ["Aceptar no es resignarse, sino que es recuperar agencia."]
+        "contenido": [
+          "Aceptar no es resignarse, sino que es recuperar agencia."
+        ]
       },
       {
         "tipo": "subtitulo",
@@ -615,6 +620,7 @@
 
   {
     "id": "4",
+    "slug": "Duelo-migratorio",
     "titulo": "Duelo migratorio: cuando las raíces están en el aire",
     "autor": "Por Daniela Bustos Páez",
     "image": "/resourses/art3.png",
@@ -769,6 +775,7 @@
   },
   {
     "id": "5",
+    "slug": "feminismo-y-enfoque-de-genero",
     "titulo": "El feminismo y el enfoque de género ¿es sólo para mujeres?",
     "autor": "Por Laura Valdés Cruzatt",
     "image": "/resourses/art7.png",
