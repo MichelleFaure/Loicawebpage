@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Centro Loica",
     description:
       "Psicoterapia y terapia sexológica desde una mirada humanista, feminista, con perspectiva de derechos y de género. Presencia en Chile y España",
-    url: "https://centroloica.com",
+    url: "https://www.centroloica.com",
     siteName: "Centro Loica",
     images: [
       {
@@ -52,7 +52,7 @@ export default function RootLayout({
           name="description"
           content="Espacio de atención psicológica y sexológica, con presencia en Chile y España. Atención online a todo el mundo hispanohablante."
         />
-        <link rel="canonical" href="https://centroloica.com/" />
+        <link rel="canonical" href="https://www.centroloica.com/" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <script
           type="application/ld+json"
