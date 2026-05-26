@@ -160,7 +160,7 @@ function AgendaPage() {
             />
             <div>
               <h2 className="text-xl mt-2 text-violet-700 font-bold ">
-                Constanza Fernández
+                Constanza Fernández Mordoj
               </h2>
               <h3 className={`${poppins.className} text-xs md:mt-2 `}>
                 Psicóloga adultos y adultos mayores
