@@ -152,7 +152,7 @@ function AgendaPage() {
           <div className="flex flex-row sm:flex-col items-center gap-2 bg-neutral-50 shadow-xl border border-slate-300  mx-auto mt-4 rounded-md md:text-center">
             <Image
               src="/profiles/profilephotoagenda4.png"
-              alt="Psicóloga Constanza Fernández"
+              alt="Psicóloga Constanza Fernández Mordoj"
               width={184.64}
               height={112}
               quality={100}
