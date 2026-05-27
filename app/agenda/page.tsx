@@ -5,6 +5,7 @@ import Help from "@/components/Help";
 import { Modal } from "flowbite-react";
 import { useState } from "react";
 import { IoCalendarOutline } from "react-icons/io5";
+import { FaArrowRight } from "react-icons/fa6";
 function AgendaPage() {
   const [openModal, setOpenModal] = useState(false);
   const [calendarLink, setCalendarLink] = useState("");
@@ -194,11 +195,48 @@ function AgendaPage() {
         </p>
       </div>
       <Help></Help>
+      <div className="bg-[#f6f5fc] max-w-[850px] md:mx-auto mb-24 pt-14 p-6 shadow-xl rounded-lg flex flex-col md:flex-row items-center md:items-start md:justify-around mx-2 text-center md:text-start  ">
+        <div>
+          <Image
+            src="/layout/chatlogo.png"
+            alt="bgchat"
+            width={100}
+            height={100}
+            className="mb-4"
+          />
+        </div>
+        <div className="max-w-[300px]">
+          <p className="text-2xl font-bold text-[#6a4982] ">
+            Tu experiencia también puede acompañar a otras personas
+          </p>
+          <div className="border-t-4 mx-auto md:mx-0  rounded-xl border-t-[#9a79bd] w-[50px] mt-4 mb-10"></div>
+          <p className={`${poppins.className} text-sm text-[#81808a] mb-10 `}>
+            Si quieres, puedes dejarnos un comentario sobre tu proceso en Centro
+            Loica.
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/1U-tnNXfpg_9jP678EXyykCXXQXSTCwNlK7treYku64w/edit?usp=drivesdk&ouid=114178487092835470455&chromeless=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${poppins.className} mx-auto md:mx-0 flex flex-row items justify-center py-4 items-center w-[210px] gap-2  bg-[#9a79bd] text-sm text-white rounded-xl mb-8`}
+          >
+            Compartir experiencia <FaArrowRight />
+          </a>
+        </div>
+        <div>
+          <Image
+            src="/layout/chatlogoplant.png"
+            alt="bgchat"
+            width={300}
+            height={100}
+          />
+        </div>
+      </div>
       <Modal show={openModal} onClose={() => setOpenModal(false)} size="4xl">
         <Modal.Header>
           <Image
             src="/layout/navbar-logo-loica.png"
-            alt="Juliana Quevedo Cruz"
+            alt="logo loica"
             width={100}
             height={100}
           />
