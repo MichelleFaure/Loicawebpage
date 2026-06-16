@@ -105,7 +105,9 @@ function Footercomp() {
               whileHover={{ scale: 1.05, color: "#9C9CE6" }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              Cuentanos tu experiencia
+              <a href="https://docs.google.com/forms/d/1U-tnNXfpg_9jP678EXyykCXXQXSTCwNlK7treYku64w/edit?usp=drivesdk&ouid=114178487092835470455&chromeless=1">
+                Cuéntanos tu experiencia
+              </a>
             </motion.li>
           </ul>
         </div>
