@@ -93,7 +93,6 @@ function Footercomp() {
           <div className="font-semibold ">Ubicación</div>
           <ul className="text-sm flex flex-col gap-2">
             <li> Santiago, Chile</li>
-            <li> Almería, España</li>
           </ul>
         </div>
         <div className="flex flex-col gap-2 text-center md:text-start">
