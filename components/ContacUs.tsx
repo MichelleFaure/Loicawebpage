@@ -38,7 +38,7 @@ function ContacUs() {
     },
     {
       name: "Linkedin",
-      link: "https://www.linkedin.com/company/centro-loica-psicologia-y-sexologia",
+      link: "https://www.linkedin.com/company/centro-loica/",
       text: "Centro Loica - Psicología y Sexología",
       icon: <FaLinkedin />,
     },
